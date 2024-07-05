@@ -1,16 +1,19 @@
-## Hi there 👋
+## Hello GitHub Fans 👋
+[![Mail Badge](https://img.shields.io/badge/-br1an67.me@gmail.com-c14438?style=flat&logo=Gmail&logoColor=white&link=mailto:br1an67.me@gmail.com)](mailto:br1an67.me@gmail.com)
+---
+<img align="right" alt="GIF" src="https://raw.githubusercontent.com/JoeyBling/JoeyBling/master/pic/pusheencode.gif" />
 
-<!--
-**Br1an67/Br1an67** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+### I'm Br1an Shuai
 
-Here are some ideas to get you started:
+- A Software Engineering Undergraduate Student. & Open Source enthusiast.
+- 🌱 Currently working in Anhui, China.
+- 💬 Ask me about Java and my projects on [br1an67.me@gmail.com](mailto:br1an67.me@gmail.com)
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+
+
+### About me
+- [MyBlog](https://shiziblog.cn)
+
+> ***I love to make friends. so if you want to say hi, I'll be happy to meet you more!😊***
+
+⭐️ From [Br1an67](https://github.com/Br1an67)
