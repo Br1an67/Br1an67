@@ -5,7 +5,7 @@
 
 ### I'm Br1an Shuai
 
-- A Software Engineering Undergraduate Student. & Open Source enthusiast.
+- A Software Engineering Postgraduate Student.
 - 🌱 Currently working in Anhui, China.
 - 💬 Ask me about Java and my projects on [br1an67.me@gmail.com](mailto:br1an67.me@gmail.com)
 
