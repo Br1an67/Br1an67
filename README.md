@@ -1,7 +1,7 @@
 ## Hello GitHub Fans 👋
 [![Mail Badge](https://img.shields.io/badge/-br1an67.me@gmail.com-c14438?style=flat&logo=Gmail&logoColor=white&link=mailto:br1an67.me@gmail.com)](mailto:br1an67.me@gmail.com)
 ---
-<img align="right" alt="GIF" src="https://raw.githubusercontent.com/JoeyBling/JoeyBling/master/pic/pusheencode.gif" />
+<img align="right" alt="GIF" src="https://raw.githubusercontent.com/Br1an67/Br1an67/main/pic/pusheencode.gif" />
 
 ### I'm Br1an Shuai
 
