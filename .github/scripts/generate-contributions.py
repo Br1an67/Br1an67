@@ -29,10 +29,11 @@ THEME = {
 }
 
 GRAPHQL_QUERY = """
-query($login: String!) {
+query($login: String!, $after: String) {
   user(login: $login) {
     repositoriesContributedTo(
       first: 100
+      after: $after
       contributionTypes: [COMMIT, PULL_REQUEST, PULL_REQUEST_REVIEW]
       includeUserRepositories: false
       orderBy: { field: STARGAZERS, direction: DESC }
@@ -43,6 +44,7 @@ query($login: String!) {
         description
         primaryLanguage { name color }
       }
+      pageInfo { hasNextPage endCursor }
     }
   }
 }
@@ -53,22 +55,34 @@ FONT = "'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif"
 
 
 def query_github(token, login):
-    payload = json.dumps({"query": GRAPHQL_QUERY, "variables": {"login": login}}).encode()
-    req = urllib.request.Request(
-        "https://api.github.com/graphql",
-        data=payload,
-        headers={
-            "Authorization": f"bearer {token}",
-            "Content-Type": "application/json",
-            "User-Agent": "contributions-generator",
-        },
-    )
-    with urllib.request.urlopen(req, timeout=30) as resp:
-        data = json.loads(resp.read())
-    if "errors" in data:
-        print(f"GraphQL errors: {data['errors']}", file=sys.stderr)
-        sys.exit(1)
-    return data["data"]["user"]["repositoriesContributedTo"]["nodes"]
+    all_repos = []
+    cursor = None
+    while True:
+        variables = {"login": login}
+        if cursor:
+            variables["after"] = cursor
+        payload = json.dumps({"query": GRAPHQL_QUERY, "variables": variables}).encode()
+        req = urllib.request.Request(
+            "https://api.github.com/graphql",
+            data=payload,
+            headers={
+                "Authorization": f"bearer {token}",
+                "Content-Type": "application/json",
+                "User-Agent": "contributions-generator",
+            },
+        )
+        with urllib.request.urlopen(req, timeout=30) as resp:
+            data = json.loads(resp.read())
+        if "errors" in data:
+            print(f"GraphQL errors: {data['errors']}", file=sys.stderr)
+            sys.exit(1)
+        contrib = data["data"]["user"]["repositoriesContributedTo"]
+        all_repos.extend(contrib["nodes"])
+        page_info = contrib["pageInfo"]
+        if not page_info["hasNextPage"]:
+            break
+        cursor = page_info["endCursor"]
+    return all_repos
 
 
 def format_stars(count):
@@ -124,16 +138,26 @@ def generate_svg(repos):
         # Repo name (left)
         L.append(f'  <text x="25" y="{y}" fill="{THEME["link"]}" font-family="{FONT}" font-size="13.5" font-weight="600">{escape_xml(name)}</text>')
 
-        # Language dot + name (right side)
+        # Dynamically position stars + language from right edge
+        right_margin = 20
+        star_icon_w = 12
+        gap = 6  # gap between star text and icon
+        star_text_w = len(stars) * 7.2  # ~7.2px per char at font-size 12
+        # Layout from right: [icon 12px] [gap 6px] [star_text] [gap 18px] [lang_text] [gap 9px] [dot 9px]
+        icon_x = card_width - right_margin - star_icon_w
+        star_text_x = icon_x - gap  # text-anchor="end" here
+
+        # Star icon + count (right-aligned)
+        L.append(f'  <g transform="translate({icon_x}, {y - 10})"><svg width="12" height="12" viewBox="0 0 16 16" fill="{THEME["star"]}"><path d="{STAR_ICON}"/></svg></g>')
+        L.append(f'  <text x="{star_text_x}" y="{y}" fill="{THEME["star"]}" font-family="{FONT}" font-size="12" text-anchor="end">{stars}</text>')
+
+        # Language dot + name (positioned left of stars)
         if lang_name:
-            lx = 680
+            lang_text_w = len(lang_name) * 6.5  # ~6.5px per char at font-size 11
+            lang_right = star_text_x - star_text_w - 18  # 18px gap between language and stars
+            lx = lang_right - lang_text_w - 9  # 9px for dot+gap
             L.append(f'  <circle cx="{lx}" cy="{y - 4}" r="4.5" fill="{lang_color}"/>')
             L.append(f'  <text x="{lx + 9}" y="{y}" fill="{THEME["muted"]}" font-family="{FONT}" font-size="11">{escape_xml(lang_name)}</text>')
-
-        # Star icon + count (far right)
-        sx = 770
-        L.append(f'  <g transform="translate({sx}, {y - 10})"><svg width="12" height="12" viewBox="0 0 16 16" fill="{THEME["star"]}"><path d="{STAR_ICON}"/></svg></g>')
-        L.append(f'  <text x="{sx - 5}" y="{y}" fill="{THEME["star"]}" font-family="{FONT}" font-size="12" text-anchor="end">{stars}</text>')
 
         # Description (second line, full width)
         if desc:
