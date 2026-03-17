@@ -98,7 +98,7 @@ def generate_svg(repos, limit):
     card_height = padding_top + len(repos) * row_height + padding_bottom
 
     lines = []
-    lines.append(f'<svg xmlns="http://www.w3.org/2000/svg" width="{card_width}" height="{card_height}" viewBox="0 0 {card_width} {card_height}">')
+    lines.append(f'<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="{card_width}" height="{card_height}" viewBox="0 0 {card_width} {card_height}">')
     lines.append(f'  <rect x="0.5" y="0.5" rx="4.5" width="{card_width - 1}" height="{card_height - 1}" fill="{THEME["bg"]}" stroke="{THEME["border"]}"/>')
 
     # Title
@@ -128,31 +128,37 @@ def generate_svg(repos, limit):
         if i % 2 == 1:
             lines.append(f'  <rect x="1" y="{y_base - 16}" width="{card_width - 2}" height="{row_height}" fill="rgba(255,255,255,0.02)"/>')
 
+        # Clickable link wrapping the entire row
+        repo_url = f"https://github.com/{name}"
+        lines.append(f'  <a xlink:href="{repo_url}" target="_blank">')
+
         # Rank badge
-        lines.append(f'  <g transform="translate(20, {y_base - 10})">')
-        lines.append(f'    <rect rx="3" width="22" height="18" fill="{rank_color}" opacity="0.2"/>')
-        lines.append(f'    <text x="11" y="13" fill="{rank_color}" font-family="\'Segoe UI\', Sans-Serif" font-size="11" font-weight="600" text-anchor="middle">{rank}</text>')
-        lines.append(f'  </g>')
+        lines.append(f'    <g transform="translate(20, {y_base - 10})">')
+        lines.append(f'      <rect rx="3" width="22" height="18" fill="{rank_color}" opacity="0.2"/>')
+        lines.append(f'      <text x="11" y="13" fill="{rank_color}" font-family="\'Segoe UI\', Sans-Serif" font-size="11" font-weight="600" text-anchor="middle">{rank}</text>')
+        lines.append(f'    </g>')
 
         # Repo name
-        lines.append(f'  <text x="52" y="{y_base}" fill="{THEME["link"]}" font-family="\'Segoe UI\', Sans-Serif" font-size="14" font-weight="600">{escape_xml(name)}</text>')
+        lines.append(f'    <text x="52" y="{y_base}" fill="{THEME["link"]}" font-family="\'Segoe UI\', Sans-Serif" font-size="14" font-weight="600">{escape_xml(name)}</text>')
 
         # Star count with icon
         star_x = 420
-        lines.append(f'  <g transform="translate({star_x}, {y_base - 11})">')
-        lines.append(f'    <svg width="14" height="14" viewBox="0 0 16 16" fill="{THEME["star"]}"><path d="{star_icon}"/></svg>')
-        lines.append(f'  </g>')
-        lines.append(f'  <text x="{star_x + 18}" y="{y_base}" fill="{THEME["star"]}" font-family="\'Segoe UI\', Sans-Serif" font-size="12" font-weight="500">{format_stars(stars)}</text>')
+        lines.append(f'    <g transform="translate({star_x}, {y_base - 11})">')
+        lines.append(f'      <svg width="14" height="14" viewBox="0 0 16 16" fill="{THEME["star"]}"><path d="{star_icon}"/></svg>')
+        lines.append(f'    </g>')
+        lines.append(f'    <text x="{star_x + 18}" y="{y_base}" fill="{THEME["star"]}" font-family="\'Segoe UI\', Sans-Serif" font-size="12" font-weight="500">{format_stars(stars)}</text>')
 
         # Language dot + name
         if lang_name:
             lang_x = 490
-            lines.append(f'  <circle cx="{lang_x}" cy="{y_base - 4}" r="5" fill="{lang_color}"/>')
-            lines.append(f'  <text x="{lang_x + 10}" y="{y_base}" fill="{THEME["icon"]}" font-family="\'Segoe UI\', Sans-Serif" font-size="11">{escape_xml(lang_name)}</text>')
+            lines.append(f'    <circle cx="{lang_x}" cy="{y_base - 4}" r="5" fill="{lang_color}"/>')
+            lines.append(f'    <text x="{lang_x + 10}" y="{y_base}" fill="{THEME["icon"]}" font-family="\'Segoe UI\', Sans-Serif" font-size="11">{escape_xml(lang_name)}</text>')
 
         # Description
         if desc:
-            lines.append(f'  <text x="52" y="{y_base + 16}" fill="{THEME["text"]}" font-family="\'Segoe UI\', Sans-Serif" font-size="11" opacity="0.7">{desc}</text>')
+            lines.append(f'    <text x="52" y="{y_base + 16}" fill="{THEME["text"]}" font-family="\'Segoe UI\', Sans-Serif" font-size="11" opacity="0.7">{desc}</text>')
+
+        lines.append(f'  </a>')
 
     lines.append("</svg>")
     return "\n".join(lines)

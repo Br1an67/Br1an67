@@ -7,31 +7,6 @@ on:
     branches: ["main"]
 
 jobs:
-  habits:
-    runs-on: ubuntu-latest
-    permissions:
-      contents: write
-    steps:
-      # 💡 编码习惯 - 按小时/星期统计 commit 活跃度
-      # 使用修复了 null author bug 的 fork 版本
-      - name: 💡 Habits
-        uses: Br1an67/metrics@fix/habits-null-commit-author
-        with:
-          filename: metrics.plugin.habits.svg
-          token: ${{ secrets.METRICS_TOKEN }}
-          user: Br1an67
-          template: classic
-          base: ""
-          config_timezone: Asia/Shanghai
-          retries: 3
-          retries_delay: 300
-          plugin_habits: yes
-          plugin_habits_charts: yes
-          plugin_habits_charts_type: classic
-          plugin_habits_facts: yes
-          plugin_habits_days: 365
-          plugin_habits_from: 1000
-
   contributions:
     runs-on: ubuntu-latest
     permissions:

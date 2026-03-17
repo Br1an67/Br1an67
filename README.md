@@ -73,12 +73,6 @@
   <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Br1an67&layout=compact&theme=onedark&hide_border=true&v=2" />
 </p>
 
-<p align="center">
-  <picture>
-    <img src="/metrics.plugin.habits.svg" alt="Coding Habits" width="400" />
-  </picture>
-</p>
-
 ### Top Contributed Repositories
 
 <p align="center">
