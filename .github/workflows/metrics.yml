@@ -14,46 +14,7 @@ jobs:
     steps:
 
       # ============================================================
-      # 1. 📅 等距日历 (Isocalendar)
-      #    3D 立体的半年 commit 热力图，比 GitHub 自带的贡献图更炫
-      # ============================================================
-      - name: 📅 Isocalendar - 3D commit 热力图
-        uses: lowlighter/metrics@latest
-        with:
-          filename: metrics.plugin.isocalendar.svg
-          token: ${{ secrets.METRICS_TOKEN }}
-          user: Br1an67
-          template: classic
-          base: ""
-          config_timezone: Asia/Shanghai
-          plugin_isocalendar: yes
-          plugin_isocalendar_duration: half-year
-
-      # ============================================================
-      # 2. 🈷️ 语言深度分析 (Languages Indepth)
-      #    clone 仓库逐 commit 分析你真正写了多少什么语言
-      #    比 github-readme-stats 的 top-langs 准得多
-      # ============================================================
-      - name: 🈷️ Languages - 语言深度分析
-        uses: lowlighter/metrics@latest
-        with:
-          filename: metrics.plugin.languages.svg
-          token: ${{ secrets.METRICS_TOKEN }}
-          user: Br1an67
-          template: classic
-          base: ""
-          config_timezone: Asia/Shanghai
-          plugin_languages: yes
-          plugin_languages_indepth: yes
-          plugin_languages_analysis_timeout: 15
-          plugin_languages_categories: markup, programming
-          plugin_languages_colors: github
-          plugin_languages_limit: 8
-          plugin_languages_sections: most-used
-          plugin_languages_details: percentage, lines
-
-      # ============================================================
-      # 3. 💡 编码习惯 (Habits)
+      # 1. 💡 编码习惯 (Habits)
       #    按小时/星期统计你的 commit 活跃度
       #    能看出你几点写代码最多、周几最肝
       # ============================================================
@@ -74,26 +35,9 @@ jobs:
           plugin_habits_from: 200
 
       # ============================================================
-      # 4. 🏆 成就徽章 (Achievements)
-      #    根据你的 GitHub 数据解锁的成就，如 PR 数、commit 数等
-      #    788 PRs 应该能解锁不少高级成就
-      # ============================================================
-      - name: 🏆 Achievements - GitHub 成就徽章
-        uses: lowlighter/metrics@latest
-        with:
-          filename: metrics.plugin.achievements.svg
-          token: ${{ secrets.METRICS_TOKEN }}
-          user: Br1an67
-          template: classic
-          base: ""
-          config_timezone: Asia/Shanghai
-          plugin_achievements: yes
-          plugin_achievements_display: compact
-
-      # ============================================================
-      # 5. 🎩 知名贡献 (Notable Contributions)
+      # 2. 🎩 知名贡献 (Notable Contributions)
       #    展示你 contribute 过的知名开源项目
-      #    你有 152 个 contributed repos，这个很能体现实力
+      #    你有 152 个 contributed repos，很能体现实力
       # ============================================================
       - name: 🎩 Notable - 知名项目贡献
         uses: lowlighter/metrics@latest
@@ -109,206 +53,38 @@ jobs:
           plugin_notable_repositories: yes
 
       # ============================================================
-      # 6. 🎟️ Issue/PR 跟进率 (Follow-up)
-      #    展示你创建的 Issue 和 PR 的关闭/合并率
-      #    能直观反映你的开源参与质量
+      # 3. 🏅 仓库贡献者 (Contributors)
+      #    展示仓库的贡献者分布（按贡献类型/数量）
       # ============================================================
-      - name: 🎟️ Follow-up - Issue/PR 关闭率
+      - name: 🏅 Contributors - 仓库贡献者
         uses: lowlighter/metrics@latest
         with:
-          filename: metrics.plugin.followup.svg
+          filename: metrics.plugin.contributors.svg
           token: ${{ secrets.METRICS_TOKEN }}
           user: Br1an67
           template: classic
           base: ""
           config_timezone: Asia/Shanghai
-          plugin_followup: yes
-          plugin_followup_indepth: yes
+          plugin_contributors: yes
+          plugin_contributors_categories: |
+            {
+              "📝 Commits": ["author"],
+              "🔀 Pull requests": ["coauthor"],
+              "📥 Issues": ["reporter"]
+            }
 
       # ============================================================
-      # 7. ✨ Star 趋势 (Stargazers)
-      #    你的仓库被 star 的数量变化趋势图
+      # 4. 🗳️ LeetCode
+      #    展示 LeetCode 刷题进度、技能分布、最近提交
       # ============================================================
-      - name: ✨ Stargazers - Star 趋势图
+      - name: 🗳️ LeetCode - 刷题统计
         uses: lowlighter/metrics@latest
         with:
-          filename: metrics.plugin.stargazers.svg
+          filename: metrics.plugin.leetcode.svg
           token: ${{ secrets.METRICS_TOKEN }}
           user: Br1an67
           template: classic
           base: ""
           config_timezone: Asia/Shanghai
-          plugin_stargazers: yes
-          plugin_stargazers_charts_type: classic
-
-      # ============================================================
-      # 8. 👨‍💻 代码增删行数 (Lines of Code)
-      #    统计你所有仓库的代码增删行数历史趋势
-      # ============================================================
-      - name: 👨‍💻 Lines - 代码增删行数
-        uses: lowlighter/metrics@latest
-        with:
-          filename: metrics.plugin.lines.svg
-          token: ${{ secrets.METRICS_TOKEN }}
-          user: Br1an67
-          template: classic
-          base: ""
-          config_timezone: Asia/Shanghai
-          plugin_lines: yes
-          plugin_lines_history_limit: 1
-          plugin_lines_sections: repositories
-
-      # ============================================================
-      # 9. 📰 最近动态 (Activity)
-      #    展示你最近的 GitHub 活动时间线
-      #    push / PR / issue / review 等事件
-      # ============================================================
-      - name: 📰 Activity - 最近动态时间线
-        uses: lowlighter/metrics@latest
-        with:
-          filename: metrics.plugin.activity.svg
-          token: ${{ secrets.METRICS_TOKEN }}
-          user: Br1an67
-          template: classic
-          base: ""
-          config_timezone: Asia/Shanghai
-          plugin_activity: yes
-          plugin_activity_limit: 5
-          plugin_activity_days: 14
-
-      # ============================================================
-      # 10. 📆 贡献日历 (Calendar)
-      #     传统的年度贡献日历热力图
-      # ============================================================
-      - name: 📆 Calendar - 年度贡献日历
-        uses: lowlighter/metrics@latest
-        with:
-          filename: metrics.plugin.calendar.svg
-          token: ${{ secrets.METRICS_TOKEN }}
-          user: Br1an67
-          template: classic
-          base: ""
-          config_timezone: Asia/Shanghai
-          plugin_calendar: yes
-          plugin_calendar_limit: 1
-
-      # ============================================================
-      # 11. 🎭 Emoji 反应统计 (Reactions)
-      #     统计你的 Issue/PR 评论收到的 emoji 反应
-      #     👍❤️🎉😄 等分布
-      # ============================================================
-      - name: 🎭 Reactions - Emoji 反应统计
-        uses: lowlighter/metrics@latest
-        with:
-          filename: metrics.plugin.reactions.svg
-          token: ${{ secrets.METRICS_TOKEN }}
-          user: Br1an67
-          template: classic
-          base: ""
-          config_timezone: Asia/Shanghai
-          plugin_reactions: yes
-          plugin_reactions_limit: 200
-          plugin_reactions_details: percentage
-
-      # ============================================================
-      # 12. 📌 话题标签 (Topics)
-      #     展示你 star/关注过的技术话题标签
-      #     带图标的版本更好看
-      # ============================================================
-      - name: 📌 Topics - 关注的技术话题
-        uses: lowlighter/metrics@latest
-        with:
-          filename: metrics.plugin.topics.svg
-          token: ${{ secrets.METRICS_TOKEN }}
-          user: Br1an67
-          template: classic
-          base: ""
-          config_timezone: Asia/Shanghai
-          plugin_topics: yes
-          plugin_topics_mode: icons
-          plugin_topics_limit: 0
-
-      # ============================================================
-      # 13. 🌟 最近 Star 的仓库 (Stars)
-      #     展示你最近 star 过的仓库列表
-      # ============================================================
-      - name: 🌟 Stars - 最近 Star 的仓库
-        uses: lowlighter/metrics@latest
-        with:
-          filename: metrics.plugin.stars.svg
-          token: ${{ secrets.METRICS_TOKEN }}
-          user: Br1an67
-          template: classic
-          base: ""
-          config_timezone: Asia/Shanghai
-          plugin_stars: yes
-          plugin_stars_limit: 4
-
-      # ============================================================
-      # 14. 🧑‍🤝‍🧑 Follower 头像墙 (People)
-      #     展示你的 followers 和你 follow 的人的头像
-      # ============================================================
-      - name: 🧑‍🤝‍🧑 People - Follower 头像墙
-        uses: lowlighter/metrics@latest
-        with:
-          filename: metrics.plugin.people.svg
-          token: ${{ secrets.METRICS_TOKEN }}
-          user: Br1an67
-          template: classic
-          base: ""
-          config_timezone: Asia/Shanghai
-          plugin_people: yes
-          plugin_people_types: followers, following
-          plugin_people_limit: 24
-          plugin_people_size: 28
-
-      # ============================================================
-      # 15. 🧮 仓库访问量 (Traffic)
-      #     展示你的仓库被访问和 clone 的次数
-      #     需要 PAT 有 repo 权限
-      # ============================================================
-      - name: 🧮 Traffic - 仓库访问量
-        uses: lowlighter/metrics@latest
-        with:
-          filename: metrics.plugin.traffic.svg
-          token: ${{ secrets.METRICS_TOKEN }}
-          user: Br1an67
-          template: classic
-          base: ""
-          config_timezone: Asia/Shanghai
-          plugin_traffic: yes
-
-      # ============================================================
-      # 16. 📓 置顶仓库卡片 (Repositories)
-      #     展示你 pin 的仓库的详细卡片
-      # ============================================================
-      - name: 📓 Repositories - 置顶仓库卡片
-        uses: lowlighter/metrics@latest
-        with:
-          filename: metrics.plugin.repositories.svg
-          token: ${{ secrets.METRICS_TOKEN }}
-          user: Br1an67
-          template: classic
-          base: ""
-          config_timezone: Asia/Shanghai
-          plugin_repositories: yes
-          plugin_repositories_pinned: 6
-
-      # ============================================================
-      # 17. 🌇 3D 城市天际线 (Skyline)
-      #     把你的贡献图渲染成 3D 城市建筑
-      #     非常酷炫但生成较慢
-      # ============================================================
-      - name: 🌇 Skyline - 3D 城市天际线
-        uses: lowlighter/metrics@latest
-        with:
-          filename: metrics.plugin.skyline.svg
-          token: ${{ secrets.METRICS_TOKEN }}
-          user: Br1an67
-          template: classic
-          base: ""
-          config_timezone: Asia/Shanghai
-          plugin_skyline: yes
-          plugin_skyline_year: 0
-          plugin_skyline_frames: 60
-          plugin_skyline_quality: 0.5
+          plugin_leetcode: yes
+          plugin_leetcode_sections: solved, skills, recent

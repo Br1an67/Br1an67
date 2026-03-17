@@ -75,79 +75,19 @@
 
 <p align="center">
   <picture>
-    <img src="/metrics.plugin.isocalendar.svg" alt="Isocalendar" width="400" />
+    <img src="/metrics.plugin.habits.svg" alt="Coding Habits" width="400" />
   </picture>
   <picture>
-    <img src="/metrics.plugin.languages.svg" alt="Languages" width="400" />
-  </picture>
-</p>
-
-<p align="center">
-  <picture>
-    <img src="/metrics.plugin.habits.svg" alt="Habits" width="400" />
-  </picture>
-  <picture>
-    <img src="/metrics.plugin.achievements.svg" alt="Achievements" width="400" />
+    <img src="/metrics.plugin.notable.svg" alt="Notable Contributions" width="400" />
   </picture>
 </p>
 
 <p align="center">
   <picture>
-    <img src="/metrics.plugin.notable.svg" alt="Notable" width="400" />
+    <img src="/metrics.plugin.contributors.svg" alt="Contributors" width="400" />
   </picture>
   <picture>
-    <img src="/metrics.plugin.followup.svg" alt="Follow-up" width="400" />
-  </picture>
-</p>
-
-<p align="center">
-  <picture>
-    <img src="/metrics.plugin.stargazers.svg" alt="Stargazers" width="400" />
-  </picture>
-  <picture>
-    <img src="/metrics.plugin.lines.svg" alt="Lines" width="400" />
-  </picture>
-</p>
-
-<p align="center">
-  <picture>
-    <img src="/metrics.plugin.activity.svg" alt="Activity" width="400" />
-  </picture>
-  <picture>
-    <img src="/metrics.plugin.calendar.svg" alt="Calendar" width="400" />
-  </picture>
-</p>
-
-<p align="center">
-  <picture>
-    <img src="/metrics.plugin.reactions.svg" alt="Reactions" width="400" />
-  </picture>
-  <picture>
-    <img src="/metrics.plugin.topics.svg" alt="Topics" width="400" />
-  </picture>
-</p>
-
-<p align="center">
-  <picture>
-    <img src="/metrics.plugin.stars.svg" alt="Stars" width="400" />
-  </picture>
-  <picture>
-    <img src="/metrics.plugin.people.svg" alt="People" width="400" />
-  </picture>
-</p>
-
-<p align="center">
-  <picture>
-    <img src="/metrics.plugin.traffic.svg" alt="Traffic" width="400" />
-  </picture>
-  <picture>
-    <img src="/metrics.plugin.repositories.svg" alt="Repositories" width="400" />
-  </picture>
-</p>
-
-<p align="center">
-  <picture>
-    <img src="/metrics.plugin.skyline.svg" alt="Skyline" width="400" />
+    <img src="/metrics.plugin.leetcode.svg" alt="LeetCode" width="400" />
   </picture>
 </p>
 
