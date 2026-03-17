@@ -54,6 +54,6 @@ jobs:
           config_timezone: Asia/Shanghai
           retries: 5
           retries_delay: 600
-          retries_output_miss: metrics.plugin.notable.svg
+          plugins_errors_fatal: yes
           plugin_notable: yes
           plugin_notable_repositories: yes
