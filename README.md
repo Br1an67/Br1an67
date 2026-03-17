@@ -82,7 +82,9 @@
 ### Top Contributed Repositories
 
 <p align="center">
-  <img src="https://github-contributor-stats.vercel.app/api?username=Br1an67&limit=10&theme=onedark&combine_all_yearly_contributions=true&hide_border=true" alt="Top Contributed Repos" />
+  <picture>
+    <img src="/metrics.plugin.contributions.svg" alt="Top Contributed Repos" />
+  </picture>
 </p>
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:2d539e,100:a94dbb&height=100&section=footer&fontSize=0" width="100%"/>
