@@ -29,8 +29,8 @@ jobs:
           plugin_habits_charts: yes
           plugin_habits_charts_type: classic
           plugin_habits_facts: yes
-          plugin_habits_days: 14
-          plugin_habits_from: 200
+          plugin_habits_days: 365
+          plugin_habits_from: 1000
 
   notable:
     runs-on: ubuntu-latest
