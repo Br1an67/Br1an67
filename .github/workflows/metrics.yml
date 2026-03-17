@@ -1,0 +1,90 @@
+name: Metrics
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+  push:
+    branches: ["main"]
+
+jobs:
+  github-metrics:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+
+      # ============================================================
+      # 1. 💡 编码习惯 (Habits)
+      #    按小时/星期统计你的 commit 活跃度
+      #    能看出你几点写代码最多、周几最肝
+      # ============================================================
+      - name: 💡 Habits - 编码习惯热力图
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.plugin.habits.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: Br1an67
+          template: classic
+          base: ""
+          config_timezone: Asia/Shanghai
+          plugin_habits: yes
+          plugin_habits_charts: yes
+          plugin_habits_charts_type: classic
+          plugin_habits_facts: yes
+          plugin_habits_days: 14
+          plugin_habits_from: 200
+
+      # ============================================================
+      # 2. 🎩 知名贡献 (Notable Contributions)
+      #    展示你 contribute 过的知名开源项目
+      #    你有 152 个 contributed repos，很能体现实力
+      # ============================================================
+      - name: 🎩 Notable - 知名项目贡献
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.plugin.notable.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: Br1an67
+          template: classic
+          base: ""
+          config_timezone: Asia/Shanghai
+          plugin_notable: yes
+          plugin_notable_indepth: yes
+          plugin_notable_repositories: yes
+
+      # ============================================================
+      # 3. 🏅 仓库贡献者 (Contributors)
+      #    展示仓库的贡献者分布（按贡献类型/数量）
+      # ============================================================
+      - name: 🏅 Contributors - 仓库贡献者
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.plugin.contributors.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: Br1an67
+          template: classic
+          base: ""
+          config_timezone: Asia/Shanghai
+          plugin_contributors: yes
+          plugin_contributors_categories: |
+            {
+              "📝 Commits": ["author"],
+              "🔀 Pull requests": ["coauthor"],
+              "📥 Issues": ["reporter"]
+            }
+
+      # ============================================================
+      # 4. 🗳️ LeetCode
+      #    展示 LeetCode 刷题进度、技能分布、最近提交
+      # ============================================================
+      - name: 🗳️ LeetCode - 刷题统计
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.plugin.leetcode.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: Br1an67
+          template: classic
+          base: ""
+          config_timezone: Asia/Shanghai
+          plugin_leetcode: yes
+          plugin_leetcode_sections: solved, skills, recent

@@ -73,6 +73,24 @@
   <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Br1an67&layout=compact&theme=onedark&hide_border=true&v=2" />
 </p>
 
+<p align="center">
+  <picture>
+    <img src="/metrics.plugin.habits.svg" alt="Coding Habits" width="400" />
+  </picture>
+  <picture>
+    <img src="/metrics.plugin.notable.svg" alt="Notable Contributions" width="400" />
+  </picture>
+</p>
+
+<p align="center">
+  <picture>
+    <img src="/metrics.plugin.contributors.svg" alt="Contributors" width="400" />
+  </picture>
+  <picture>
+    <img src="/metrics.plugin.leetcode.svg" alt="LeetCode" width="400" />
+  </picture>
+</p>
+
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:2d539e,100:a94dbb&height=100&section=footer&fontSize=0" width="100%"/>
 
 
