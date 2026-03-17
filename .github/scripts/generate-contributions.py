@@ -16,14 +16,15 @@ README = os.environ.get("README", "README.md")
 START_MARKER = "<!-- CONTRIBUTIONS:START -->"
 END_MARKER = "<!-- CONTRIBUTIONS:END -->"
 
-# onedark theme — exact colors from github-readme-stats/themes/index.js
+# GitHub Dark theme with golden stars
 THEME = {
     "bg": "#282c34",
-    "title": "#e4bf7a",       # title_color (warm gold)
-    "icon": "#8eb573",        # icon_color (green)
-    "text": "#df6d74",        # text_color (pinkish, used for descriptions/labels)
-    "border": "#e4e2e2",      # default border_color (hidden via stroke-opacity)
-    "hide_border": True,      # match hide_border=true on stats cards
+    "title": "#58a6ff",       # repo names & header (blue)
+    "icon": "#1f6feb",        # prefix icon (blue)
+    "text": "#adbac7",        # descriptions & language labels (gray)
+    "star": "#e3b341",        # star icon & count (GitHub gold)
+    "border": "#e4e2e2",
+    "hide_border": True,
 }
 
 GRAPHQL_QUERY = """
@@ -159,8 +160,10 @@ def generate_svg(repos):
       .repo-name {{ font: 600 13px {FONT}; fill: {THEME["title"]}; }}
       .description {{ font: 400 12px {FONT}; fill: {THEME["text"]}; }}
       .gray {{ font: 400 12px {FONT}; fill: {THEME["text"]}; }}
+      .star {{ fill: {THEME["star"]}; }}
+      .star-text {{ font: 400 12px {FONT}; fill: {THEME["star"]}; }}
       .icon {{ fill: {THEME["icon"]}; }}
-      .divider {{ stroke: {THEME["border"]}; stroke-width: 0.5; opacity: 0.3; }}
+      .divider {{ stroke: {THEME["border"]}; stroke-width: 0.5; opacity: 0.15; }}
     </style>"""
 
     L = []  # noqa: E741
@@ -206,16 +209,16 @@ def generate_svg(repos):
         # Build from right to left
         right_edge = card_width - padding_x
 
-        # Star icon (far right) — uses .icon class like github-readme-stats
+        # Star icon (far right) — golden star
         star_icon_x = right_edge - icon_size
         L.append(f'  <g transform="translate({star_icon_x}, {y_text - 12})">'
-                 f'<svg class="icon" viewBox="0 0 16 16" width="{icon_size}" height="{icon_size}">'
+                 f'<svg class="star" viewBox="0 0 16 16" width="{icon_size}" height="{icon_size}">'
                  f'<path d="{STAR_ICON}"/></svg></g>')
 
         # Star count (left of icon)
         star_text_w = measure_text(stars, 12)
         star_text_x = star_icon_x - 4  # 4px gap
-        L.append(f'  <text x="{star_text_x}" y="{y_text}" class="gray" text-anchor="end">{stars}</text>')
+        L.append(f'  <text x="{star_text_x}" y="{y_text}" class="star-text" text-anchor="end">{stars}</text>')
 
         # Language dot + name (left of stars)
         if lang_name:
