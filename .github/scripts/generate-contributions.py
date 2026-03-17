@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Generate an HTML table of top contributed repositories, injected into README.md."""
+"""Generate a markdown table of top contributed repositories, injected into README.md."""
 
 import json
 import os
@@ -70,41 +70,26 @@ def truncate(text, max_len=60):
     return text[: max_len - 1].rstrip() + "…"
 
 
-def generate_table(repos):
-    """Generate an HTML table for a batch of repos."""
+def generate_table_rows(repos):
+    """Generate markdown table rows."""
     lines = []
-    lines.append("<table>")
-    lines.append("  <thead>")
-    lines.append("    <tr>")
-    lines.append('      <th align="left">Repository</th>')
-    lines.append('      <th align="center">⭐ Stars</th>')
-    lines.append('      <th align="center">Language</th>')
-    lines.append('      <th align="left">Description</th>')
-    lines.append("    </tr>")
-    lines.append("  </thead>")
-    lines.append("  <tbody>")
-
     for repo in repos:
         name = repo["nameWithOwner"]
         stars = format_stars(repo["stargazerCount"])
         lang = (repo.get("primaryLanguage") or {}).get("name", "—")
         desc = truncate(repo.get("description") or "", 60)
         url = f"https://github.com/{name}"
-
-        lines.append("    <tr>")
-        lines.append(f'      <td><a href="{url}"><b>{name}</b></a></td>')
-        lines.append(f'      <td align="center">{stars}</td>')
-        lines.append(f'      <td align="center">{lang}</td>')
-        lines.append(f"      <td>{desc}</td>")
-        lines.append("    </tr>")
-
-    lines.append("  </tbody>")
-    lines.append("</table>")
+        lines.append(f"| [**{name}**]({url}) | {stars} | {lang} | {desc} |")
     return lines
 
 
-def generate_html(repos, page_size):
-    """Generate HTML with first page visible + remaining in collapsible sections."""
+TABLE_HEADER = """\
+| Repository | Stars | Language | Description |
+|:---|:---:|:---:|:---|"""
+
+
+def generate_markdown(repos, page_size):
+    """Generate markdown with first page visible + rest in one collapsible section."""
     if not repos:
         return ""
 
@@ -112,30 +97,25 @@ def generate_html(repos, page_size):
 
     # First page — always visible
     first_page = repos[:page_size]
-    lines.extend(generate_table(first_page))
+    lines.append(TABLE_HEADER)
+    lines.extend(generate_table_rows(first_page))
 
-    # Remaining pages — wrapped in <details>
+    # Remaining — single collapsible section
     remaining = repos[page_size:]
-    page_num = 2
-    while remaining:
-        page = remaining[:page_size]
-        remaining = remaining[page_size:]
-        start = (page_num - 1) * page_size + 1
-        end = start + len(page) - 1
-
+    if remaining:
         lines.append("")
         lines.append("<details>")
-        lines.append(f"  <summary>🔽 Show more ({start}–{end})</summary>")
+        lines.append(f"<summary>Show more ({len(remaining)} repositories)</summary>")
         lines.append("")
-        lines.extend(generate_table(page))
+        lines.append(TABLE_HEADER)
+        lines.extend(generate_table_rows(remaining))
         lines.append("")
         lines.append("</details>")
-        page_num += 1
 
     return "\n".join(lines)
 
 
-def inject_into_readme(html, readme_path):
+def inject_into_readme(content_str, readme_path):
     """Replace content between markers in README.md."""
     with open(readme_path, "r", encoding="utf-8") as f:
         content = f.read()
@@ -151,7 +131,7 @@ def inject_into_readme(html, readme_path):
     new_content = (
         content[: start + len(START_MARKER)]
         + "\n"
-        + html
+        + content_str
         + "\n"
         + content[end:]
     )
@@ -175,8 +155,8 @@ def main():
     if LIMIT > 0:
         repos = repos[:LIMIT]
 
-    html = generate_html(repos, PAGE_SIZE)
-    inject_into_readme(html, README)
+    md = generate_markdown(repos, PAGE_SIZE)
+    inject_into_readme(md, README)
     print(f"Injected {len(repos)} repos into {README} (page size: {PAGE_SIZE})")
 
 
