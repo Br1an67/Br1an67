@@ -112,7 +112,7 @@ def generate_svg(repos):
         y = padding_top + i * row_height + 18
         name = repo["nameWithOwner"]
         stars = format_stars(repo["stargazerCount"])
-        desc = truncate(escape_xml(repo.get("description") or ""), 75)
+        desc = truncate(escape_xml(repo.get("description") or ""), 115)
         lang = repo.get("primaryLanguage") or {}
         lang_name = lang.get("name", "")
         lang_color = lang.get("color", THEME["muted"])
@@ -121,21 +121,21 @@ def generate_svg(repos):
         if i % 2 == 1:
             L.append(f'  <rect x="1" y="{y - 15}" width="{card_width - 2}" height="{row_height}" fill="{THEME["stripe"]}"/>')
 
-        # Repo name
+        # Repo name (left)
         L.append(f'  <text x="25" y="{y}" fill="{THEME["link"]}" font-family="{FONT}" font-size="13.5" font-weight="600">{escape_xml(name)}</text>')
 
-        # Star icon + count
-        sx = 380
-        L.append(f'  <g transform="translate({sx}, {y - 10})"><svg width="12" height="12" viewBox="0 0 16 16" fill="{THEME["star"]}"><path d="{STAR_ICON}"/></svg></g>')
-        L.append(f'  <text x="{sx + 16}" y="{y}" fill="{THEME["star"]}" font-family="{FONT}" font-size="12">{stars}</text>')
-
-        # Language
+        # Language dot + name (right side)
         if lang_name:
-            lx = 450
+            lx = 680
             L.append(f'  <circle cx="{lx}" cy="{y - 4}" r="4.5" fill="{lang_color}"/>')
             L.append(f'  <text x="{lx + 9}" y="{y}" fill="{THEME["muted"]}" font-family="{FONT}" font-size="11">{escape_xml(lang_name)}</text>')
 
-        # Description (second line)
+        # Star icon + count (far right)
+        sx = 770
+        L.append(f'  <g transform="translate({sx}, {y - 10})"><svg width="12" height="12" viewBox="0 0 16 16" fill="{THEME["star"]}"><path d="{STAR_ICON}"/></svg></g>')
+        L.append(f'  <text x="{sx - 5}" y="{y}" fill="{THEME["star"]}" font-family="{FONT}" font-size="12" text-anchor="end">{stars}</text>')
+
+        # Description (second line, full width)
         if desc:
             L.append(f'  <text x="25" y="{y + 16}" fill="{THEME["text"]}" font-family="{FONT}" font-size="11" opacity="0.65">{desc}</text>')
 
