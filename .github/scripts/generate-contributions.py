@@ -35,7 +35,7 @@ query($login: String!, $after: String) {
     repositoriesContributedTo(
       first: 100
       after: $after
-      contributionTypes: [COMMIT, PULL_REQUEST, PULL_REQUEST_REVIEW]
+      contributionTypes: [COMMIT]
       includeUserRepositories: false
       orderBy: { field: STARGAZERS, direction: DESC }
     ) {
