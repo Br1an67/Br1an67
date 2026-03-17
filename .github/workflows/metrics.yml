@@ -22,11 +22,12 @@ jobs:
           USERNAME: Br1an67
           LIMIT: "0"
           PAGE_SIZE: "10"
+          SVG_OUTPUT: metrics.plugin.contributions.svg
           README: README.md
 
       - name: 📤 Commit & push
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add README.md
-          git diff --cached --quiet && echo "No changes" || (git commit -m "chore: update contributions table [skip ci]" && git push)
+          git add metrics.plugin.contributions.svg README.md
+          git diff --cached --quiet && echo "No changes" || (git commit -m "chore: update contributions [skip ci]" && git push)
