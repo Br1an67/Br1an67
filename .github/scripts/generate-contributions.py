@@ -29,10 +29,11 @@ THEME = {
 }
 
 GRAPHQL_QUERY = """
-query($login: String!) {
+query($login: String!, $after: String) {
   user(login: $login) {
     repositoriesContributedTo(
       first: 100
+      after: $after
       contributionTypes: [COMMIT, PULL_REQUEST, PULL_REQUEST_REVIEW]
       includeUserRepositories: false
       orderBy: { field: STARGAZERS, direction: DESC }
@@ -43,6 +44,7 @@ query($login: String!) {
         description
         primaryLanguage { name color }
       }
+      pageInfo { hasNextPage endCursor }
     }
   }
 }
@@ -53,22 +55,34 @@ FONT = "'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif"
 
 
 def query_github(token, login):
-    payload = json.dumps({"query": GRAPHQL_QUERY, "variables": {"login": login}}).encode()
-    req = urllib.request.Request(
-        "https://api.github.com/graphql",
-        data=payload,
-        headers={
-            "Authorization": f"bearer {token}",
-            "Content-Type": "application/json",
-            "User-Agent": "contributions-generator",
-        },
-    )
-    with urllib.request.urlopen(req, timeout=30) as resp:
-        data = json.loads(resp.read())
-    if "errors" in data:
-        print(f"GraphQL errors: {data['errors']}", file=sys.stderr)
-        sys.exit(1)
-    return data["data"]["user"]["repositoriesContributedTo"]["nodes"]
+    all_repos = []
+    cursor = None
+    while True:
+        variables = {"login": login}
+        if cursor:
+            variables["after"] = cursor
+        payload = json.dumps({"query": GRAPHQL_QUERY, "variables": variables}).encode()
+        req = urllib.request.Request(
+            "https://api.github.com/graphql",
+            data=payload,
+            headers={
+                "Authorization": f"bearer {token}",
+                "Content-Type": "application/json",
+                "User-Agent": "contributions-generator",
+            },
+        )
+        with urllib.request.urlopen(req, timeout=30) as resp:
+            data = json.loads(resp.read())
+        if "errors" in data:
+            print(f"GraphQL errors: {data['errors']}", file=sys.stderr)
+            sys.exit(1)
+        contrib = data["data"]["user"]["repositoriesContributedTo"]
+        all_repos.extend(contrib["nodes"])
+        page_info = contrib["pageInfo"]
+        if not page_info["hasNextPage"]:
+            break
+        cursor = page_info["endCursor"]
+    return all_repos
 
 
 def format_stars(count):
