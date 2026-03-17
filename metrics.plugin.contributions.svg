@@ -2,17 +2,15 @@
   <title id="titleId">Top Contributed Repositories</title>
 
     <style>
-      .header { font: 600 18px 'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif; fill: #e4e2e2; }
+      .header { font: 600 18px 'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif; fill: #e4bf7a; }
       @supports(-moz-appearance: auto) { .header { font-size: 15.5px; } }
-      .repo-name { font: 600 13px 'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif; fill: #58a6ff; }
-      .description { font: 400 12px 'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif; fill: #adbac7; opacity: 0.7; }
-      .gray { font: 400 12px 'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif; fill: #7f848e; }
-      .star-text { font: 400 12px 'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif; fill: #e3b341; }
-      .icon { fill: #79dafa; }
-      .star-icon { fill: #e3b341; }
-      .divider { stroke: #3e4451; stroke-width: 0.5; opacity: 0.5; }
+      .repo-name { font: 600 13px 'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif; fill: #e4bf7a; }
+      .description { font: 400 12px 'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif; fill: #df6d74; }
+      .gray { font: 400 12px 'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif; fill: #df6d74; }
+      .icon { fill: #8eb573; }
+      .divider { stroke: #e4e2e2; stroke-width: 0.5; opacity: 0.3; }
     </style>
-  <rect data-testid="card-bg" x="0.5" y="0.5" rx="4.5" width="829" height="569" fill="#282c34" stroke="#3e4451"/>
+  <rect data-testid="card-bg" x="0.5" y="0.5" rx="4.5" width="829" height="569" fill="#282c34" stroke="#e4e2e2" stroke-opacity="0"/>
   <g transform="translate(25, 35)">
     <svg class="icon" x="0" y="-13" viewBox="0 0 16 16" width="16" height="16">
       <path fill-rule="evenodd" d="M2 2.5A2.5 2.5 0 0 1 4.5 0h8.75a.75.75 0 0 1 .75.75v12.5a.75.75 0 0 1-.75.75h-2.5a.75.75 0 0 1 0-1.5h1.75v-2h-8a1 1 0 0 0-.714 1.7.75.75 0 1 1-1.072 1.05A2.495 2.495 0 0 1 2 11.5Zm10.5-1h-8a1 1 0 0 0-1 1v6.708A2.486 2.486 0 0 1 4.5 9h8ZM5 12.25a.25.25 0 0 1 .25-.25h3.5a.25.25 0 0 1 .25.25v3.25a.25.25 0 0 1-.4.2l-1.45-1.087a.249.249 0 0 0-.3 0L5.4 15.7a.25.25 0 0 1-.4-.2Z"/>
@@ -20,71 +18,71 @@
     <text x="25" y="0" class="header">Top Contributed Repositories</text>
   </g>
   <text x="25" y="75" class="repo-name">langgenius/dify</text>
-  <g transform="translate(789, 63)"><svg class="star-icon" viewBox="0 0 16 16" width="16" height="16"><path d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.75.75 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25z"/></svg></g>
-  <text x="785" y="75" class="star-text" text-anchor="end">133.1k</text>
+  <g transform="translate(789, 63)"><svg class="icon" viewBox="0 0 16 16" width="16" height="16"><path d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.75.75 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25z"/></svg></g>
+  <text x="785" y="75" class="gray" text-anchor="end">133.1k</text>
   <circle cx="658.8125" cy="70" r="5" fill="#3178c6"/>
   <text x="668.8125" y="75" class="gray">TypeScript</text>
   <text x="25" y="93" class="description">Production-ready platform for agentic workflow development.</text>
   <line class="divider" x1="25" y1="105" x2="805" y2="105"/>
   <text x="25" y="125" class="repo-name">browser-use/browser-use</text>
-  <g transform="translate(789, 113)"><svg class="star-icon" viewBox="0 0 16 16" width="16" height="16"><path d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.75.75 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25z"/></svg></g>
-  <text x="785" y="125" class="star-text" text-anchor="end">81.0k</text>
+  <g transform="translate(789, 113)"><svg class="icon" viewBox="0 0 16 16" width="16" height="16"><path d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.75.75 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25z"/></svg></g>
+  <text x="785" y="125" class="gray" text-anchor="end">81.0k</text>
   <circle cx="685.4375" cy="120" r="5" fill="#3572A5"/>
   <text x="695.4375" y="125" class="gray">Python</text>
   <text x="25" y="143" class="description">🌐 Make websites accessible for AI agents. Automate tasks online with ease.</text>
   <line class="divider" x1="25" y1="155" x2="805" y2="155"/>
   <text x="25" y="175" class="repo-name">cline/cline</text>
-  <g transform="translate(789, 163)"><svg class="star-icon" viewBox="0 0 16 16" width="16" height="16"><path d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.75.75 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25z"/></svg></g>
-  <text x="785" y="175" class="star-text" text-anchor="end">59.0k</text>
+  <g transform="translate(789, 163)"><svg class="icon" viewBox="0 0 16 16" width="16" height="16"><path d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.75.75 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25z"/></svg></g>
+  <text x="785" y="175" class="gray" text-anchor="end">59.0k</text>
   <circle cx="665.46875" cy="170" r="5" fill="#3178c6"/>
   <text x="675.46875" y="175" class="gray">TypeScript</text>
   <text x="25" y="193" class="description">Autonomous coding agent right in your IDE, capable of creating/editing files, executing commands, using…</text>
   <line class="divider" x1="25" y1="205" x2="805" y2="205"/>
   <text x="25" y="225" class="repo-name">docling-project/docling</text>
-  <g transform="translate(789, 213)"><svg class="star-icon" viewBox="0 0 16 16" width="16" height="16"><path d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.75.75 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25z"/></svg></g>
-  <text x="785" y="225" class="star-text" text-anchor="end">55.9k</text>
+  <g transform="translate(789, 213)"><svg class="icon" viewBox="0 0 16 16" width="16" height="16"><path d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.75.75 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25z"/></svg></g>
+  <text x="785" y="225" class="gray" text-anchor="end">55.9k</text>
   <circle cx="685.4375" cy="220" r="5" fill="#3572A5"/>
   <text x="695.4375" y="225" class="gray">Python</text>
   <text x="25" y="243" class="description">Get your documents ready for gen AI</text>
   <line class="divider" x1="25" y1="255" x2="805" y2="255"/>
   <text x="25" y="275" class="repo-name">run-llama/llama_index</text>
-  <g transform="translate(789, 263)"><svg class="star-icon" viewBox="0 0 16 16" width="16" height="16"><path d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.75.75 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25z"/></svg></g>
-  <text x="785" y="275" class="star-text" text-anchor="end">47.7k</text>
+  <g transform="translate(789, 263)"><svg class="icon" viewBox="0 0 16 16" width="16" height="16"><path d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.75.75 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25z"/></svg></g>
+  <text x="785" y="275" class="gray" text-anchor="end">47.7k</text>
   <circle cx="685.4375" cy="270" r="5" fill="#3572A5"/>
   <text x="695.4375" y="275" class="gray">Python</text>
   <text x="25" y="293" class="description">LlamaIndex is the leading document agent and OCR platform</text>
   <line class="divider" x1="25" y1="305" x2="805" y2="305"/>
   <text x="25" y="325" class="repo-name">agno-agi/agno</text>
-  <g transform="translate(789, 313)"><svg class="star-icon" viewBox="0 0 16 16" width="16" height="16"><path d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.75.75 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25z"/></svg></g>
-  <text x="785" y="325" class="star-text" text-anchor="end">38.7k</text>
+  <g transform="translate(789, 313)"><svg class="icon" viewBox="0 0 16 16" width="16" height="16"><path d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.75.75 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25z"/></svg></g>
+  <text x="785" y="325" class="gray" text-anchor="end">38.7k</text>
   <circle cx="685.4375" cy="320" r="5" fill="#3572A5"/>
   <text x="695.4375" y="325" class="gray">Python</text>
   <text x="25" y="343" class="description">Build, run, manage agentic software at scale.</text>
   <line class="divider" x1="25" y1="355" x2="805" y2="355"/>
   <text x="25" y="375" class="repo-name">OpenBMB/ChatDev</text>
-  <g transform="translate(789, 363)"><svg class="star-icon" viewBox="0 0 16 16" width="16" height="16"><path d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.75.75 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25z"/></svg></g>
-  <text x="785" y="375" class="star-text" text-anchor="end">31.7k</text>
+  <g transform="translate(789, 363)"><svg class="icon" viewBox="0 0 16 16" width="16" height="16"><path d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.75.75 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25z"/></svg></g>
+  <text x="785" y="375" class="gray" text-anchor="end">31.7k</text>
   <circle cx="685.4375" cy="370" r="5" fill="#3572A5"/>
   <text x="695.4375" y="375" class="gray">Python</text>
   <text x="25" y="393" class="description">ChatDev 2.0: Dev All through LLM-powered Multi-Agent Collaboration</text>
   <line class="divider" x1="25" y1="405" x2="805" y2="405"/>
   <text x="25" y="425" class="repo-name">HKUDS/LightRAG</text>
-  <g transform="translate(789, 413)"><svg class="star-icon" viewBox="0 0 16 16" width="16" height="16"><path d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.75.75 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25z"/></svg></g>
-  <text x="785" y="425" class="star-text" text-anchor="end">29.5k</text>
+  <g transform="translate(789, 413)"><svg class="icon" viewBox="0 0 16 16" width="16" height="16"><path d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.75.75 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25z"/></svg></g>
+  <text x="785" y="425" class="gray" text-anchor="end">29.5k</text>
   <circle cx="685.4375" cy="420" r="5" fill="#3572A5"/>
   <text x="695.4375" y="425" class="gray">Python</text>
   <text x="25" y="443" class="description">[EMNLP2025] &quot;LightRAG: Simple and Fast Retrieval-Augmented Generation&quot;</text>
   <line class="divider" x1="25" y1="455" x2="805" y2="455"/>
   <text x="25" y="475" class="repo-name">bytedance/UI-TARS-desktop</text>
-  <g transform="translate(789, 463)"><svg class="star-icon" viewBox="0 0 16 16" width="16" height="16"><path d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.75.75 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25z"/></svg></g>
-  <text x="785" y="475" class="star-text" text-anchor="end">28.9k</text>
+  <g transform="translate(789, 463)"><svg class="icon" viewBox="0 0 16 16" width="16" height="16"><path d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.75.75 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25z"/></svg></g>
+  <text x="785" y="475" class="gray" text-anchor="end">28.9k</text>
   <circle cx="665.46875" cy="470" r="5" fill="#3178c6"/>
   <text x="675.46875" y="475" class="gray">TypeScript</text>
   <text x="25" y="493" class="description">The Open-Source Multimodal AI Agent Stack: Connecting Cutting-Edge AI Models and Agent Infra</text>
   <line class="divider" x1="25" y1="505" x2="805" y2="505"/>
   <text x="25" y="525" class="repo-name">celery/celery</text>
-  <g transform="translate(789, 513)"><svg class="star-icon" viewBox="0 0 16 16" width="16" height="16"><path d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.75.75 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25z"/></svg></g>
-  <text x="785" y="525" class="star-text" text-anchor="end">28.2k</text>
+  <g transform="translate(789, 513)"><svg class="icon" viewBox="0 0 16 16" width="16" height="16"><path d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.75.75 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25z"/></svg></g>
+  <text x="785" y="525" class="gray" text-anchor="end">28.2k</text>
   <circle cx="685.4375" cy="520" r="5" fill="#3572A5"/>
   <text x="695.4375" y="525" class="gray">Python</text>
   <text x="25" y="543" class="description">Distributed Task Queue (development branch)</text>
