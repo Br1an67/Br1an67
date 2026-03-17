@@ -16,16 +16,17 @@ README = os.environ.get("README", "README.md")
 START_MARKER = "<!-- CONTRIBUTIONS:START -->"
 END_MARKER = "<!-- CONTRIBUTIONS:END -->"
 
-# onedark theme
+# onedark theme (matches github-readme-stats onedark)
 THEME = {
     "bg": "#282c34",
     "title": "#e4e2e2",
     "text": "#adbac7",
+    "icon": "#79dafa",
     "link": "#58a6ff",
     "star": "#e3b341",
     "muted": "#7f848e",
     "border": "#3e4451",
-    "stripe": "rgba(255,255,255,0.03)",
+    "row_hover": "rgba(255,255,255,0.03)",
 }
 
 GRAPHQL_QUERY = """
@@ -51,7 +52,42 @@ query($login: String!, $after: String) {
 """
 
 STAR_ICON = "M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.75.75 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25z"
+CONTRIB_ICON = "M2 2.5A2.5 2.5 0 0 1 4.5 0h8.75a.75.75 0 0 1 .75.75v12.5a.75.75 0 0 1-.75.75h-2.5a.75.75 0 0 1 0-1.5h1.75v-2h-8a1 1 0 0 0-.714 1.7.75.75 0 1 1-1.072 1.05A2.495 2.495 0 0 1 2 11.5Zm10.5-1h-8a1 1 0 0 0-1 1v6.708A2.486 2.486 0 0 1 4.5 9h8ZM5 12.25a.25.25 0 0 1 .25-.25h3.5a.25.25 0 0 1 .25.25v3.25a.25.25 0 0 1-.4.2l-1.45-1.087a.249.249 0 0 0-.3 0L5.4 15.7a.25.25 0 0 1-.4-.2Z"
 FONT = "'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif"
+
+# Per-character width lookup table (ported from github-readme-stats)
+# see: https://github.com/anuraghazra/github-readme-stats/blob/master/src/common/render.js
+CHAR_WIDTHS = [
+    0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+    0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+    0, 0, 0, 0, 0.2796875, 0.2765625,
+    0.3546875, 0.5546875, 0.5546875, 0.8890625, 0.665625, 0.190625,
+    0.3328125, 0.3328125, 0.3890625, 0.5828125, 0.2765625, 0.3328125,
+    0.2765625, 0.3015625, 0.5546875, 0.5546875, 0.5546875, 0.5546875,
+    0.5546875, 0.5546875, 0.5546875, 0.5546875, 0.5546875, 0.5546875,
+    0.2765625, 0.2765625, 0.584375, 0.5828125, 0.584375, 0.5546875,
+    1.0140625, 0.665625, 0.665625, 0.721875, 0.721875, 0.665625,
+    0.609375, 0.7765625, 0.721875, 0.2765625, 0.5, 0.665625,
+    0.5546875, 0.8328125, 0.721875, 0.7765625, 0.665625, 0.7765625,
+    0.721875, 0.665625, 0.609375, 0.721875, 0.665625, 0.94375,
+    0.665625, 0.665625, 0.609375, 0.2765625, 0.3546875, 0.2765625,
+    0.4765625, 0.5546875, 0.3328125, 0.5546875, 0.5546875, 0.5,
+    0.5546875, 0.5546875, 0.2765625, 0.5546875, 0.5546875, 0.221875,
+    0.240625, 0.5, 0.221875, 0.8328125, 0.5546875, 0.5546875,
+    0.5546875, 0.5546875, 0.3328125, 0.5, 0.2765625, 0.5546875,
+    0.5, 0.721875, 0.5, 0.5, 0.5, 0.3546875, 0.259375, 0.353125, 0.5890625,
+]
+AVG_CHAR_WIDTH = 0.5279276315789471
+
+
+def measure_text(text, font_size=10):
+    """Precisely measure text width using per-character lookup table."""
+    total = 0
+    for c in text:
+        code = ord(c)
+        w = CHAR_WIDTHS[code] if code < len(CHAR_WIDTHS) else AVG_CHAR_WIDTH
+        total += w
+    return total * font_size
 
 
 def query_github(token, login):
@@ -94,7 +130,7 @@ def format_stars(count):
 def escape_xml(text):
     if not text:
         return ""
-    return text.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
+    return text.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;").replace('"', "&quot;")
 
 
 def truncate(text, max_len=60):
@@ -106,62 +142,95 @@ def truncate(text, max_len=60):
 
 
 def generate_svg(repos):
-    """Generate an SVG card with onedark theme."""
-    row_height = 50
-    padding_top = 50
-    padding_bottom = 15
+    """Generate an SVG card matching github-readme-stats style."""
     card_width = 830
-    card_height = padding_top + len(repos) * row_height + padding_bottom
+    padding_x = 25
+    padding_y = 35
+    row_height = 50
+    title_height = padding_y + 20
+    card_height = title_height + len(repos) * row_height + 15
+    icon_size = 16
+    gap = 25
+
+    css = f"""
+    <style>
+      .header {{ font: 600 18px {FONT}; fill: {THEME["title"]}; }}
+      @supports(-moz-appearance: auto) {{ .header {{ font-size: 15.5px; }} }}
+      .repo-name {{ font: 600 13px {FONT}; fill: {THEME["link"]}; }}
+      .description {{ font: 400 12px {FONT}; fill: {THEME["text"]}; opacity: 0.7; }}
+      .gray {{ font: 400 12px {FONT}; fill: {THEME["muted"]}; }}
+      .star-text {{ font: 400 12px {FONT}; fill: {THEME["star"]}; }}
+      .icon {{ fill: {THEME["icon"]}; }}
+      .star-icon {{ fill: {THEME["star"]}; }}
+      .divider {{ stroke: {THEME["border"]}; stroke-width: 0.5; opacity: 0.5; }}
+    </style>"""
 
     L = []  # noqa: E741
-    L.append(f'<svg xmlns="http://www.w3.org/2000/svg" width="{card_width}" height="{card_height}" viewBox="0 0 {card_width} {card_height}">')
+    L.append(f'<svg xmlns="http://www.w3.org/2000/svg" width="{card_width}" height="{card_height}" '
+             f'viewBox="0 0 {card_width} {card_height}" fill="none" role="img" '
+             f'aria-labelledby="titleId">')
+    L.append(f'  <title id="titleId">Top Contributed Repositories</title>')
+    L.append(css)
 
     # Card background
-    L.append(f'  <rect x="0.5" y="0.5" rx="4.5" width="{card_width - 1}" height="{card_height - 1}" fill="{THEME["bg"]}" stroke="{THEME["border"]}"/>')
+    L.append(f'  <rect data-testid="card-bg" x="0.5" y="0.5" rx="4.5" '
+             f'width="{card_width - 1}" height="{card_height - 1}" '
+             f'fill="{THEME["bg"]}" stroke="{THEME["border"]}"/>')
 
-    # Title
-    L.append(f'  <text x="25" y="33" fill="{THEME["title"]}" font-family="{FONT}" font-size="15" font-weight="600">Top Contributed Repositories</text>')
+    # Title with prefix icon
+    L.append(f'  <g transform="translate({padding_x}, {padding_y})">')
+    L.append(f'    <svg class="icon" x="0" y="-13" viewBox="0 0 16 16" width="{icon_size}" height="{icon_size}">')
+    L.append(f'      <path fill-rule="evenodd" d="{CONTRIB_ICON}"/>')
+    L.append(f'    </svg>')
+    L.append(f'    <text x="{icon_size + 9}" y="0" class="header">Top Contributed Repositories</text>')
+    L.append(f'  </g>')
 
     for i, repo in enumerate(repos):
-        y = padding_top + i * row_height + 18
+        row_y = title_height + i * row_height
+        y_text = row_y + 20
+
         name = repo["nameWithOwner"]
         stars = format_stars(repo["stargazerCount"])
-        desc = truncate(escape_xml(repo.get("description") or ""), 115)
+        desc = escape_xml(truncate(repo.get("description") or "", 105))
         lang = repo.get("primaryLanguage") or {}
         lang_name = lang.get("name", "")
         lang_color = lang.get("color", THEME["muted"])
 
-        # Alternating row stripe
-        if i % 2 == 1:
-            L.append(f'  <rect x="1" y="{y - 15}" width="{card_width - 2}" height="{row_height}" fill="{THEME["stripe"]}"/>')
+        # Subtle divider line between rows
+        if i > 0:
+            L.append(f'  <line class="divider" x1="{padding_x}" y1="{row_y}" '
+                     f'x2="{card_width - padding_x}" y2="{row_y}"/>')
 
         # Repo name (left)
-        L.append(f'  <text x="25" y="{y}" fill="{THEME["link"]}" font-family="{FONT}" font-size="13.5" font-weight="600">{escape_xml(name)}</text>')
+        L.append(f'  <text x="{padding_x}" y="{y_text}" class="repo-name">{escape_xml(name)}</text>')
 
-        # Dynamically position stars + language from right edge
-        right_margin = 20
-        star_icon_w = 12
-        gap = 6  # gap between star text and icon
-        star_text_w = len(stars) * 7.2  # ~7.2px per char at font-size 12
-        # Layout from right: [icon 12px] [gap 6px] [star_text] [gap 18px] [lang_text] [gap 9px] [dot 9px]
-        icon_x = card_width - right_margin - star_icon_w
-        star_text_x = icon_x - gap  # text-anchor="end" here
+        # Right-aligned: language + stars using precise measurement
+        # Build from right to left
+        right_edge = card_width - padding_x
 
-        # Star icon + count (right-aligned)
-        L.append(f'  <g transform="translate({icon_x}, {y - 10})"><svg width="12" height="12" viewBox="0 0 16 16" fill="{THEME["star"]}"><path d="{STAR_ICON}"/></svg></g>')
-        L.append(f'  <text x="{star_text_x}" y="{y}" fill="{THEME["star"]}" font-family="{FONT}" font-size="12" text-anchor="end">{stars}</text>')
+        # Star icon (far right)
+        star_icon_x = right_edge - icon_size
+        L.append(f'  <g transform="translate({star_icon_x}, {y_text - 12})">'
+                 f'<svg class="star-icon" viewBox="0 0 16 16" width="{icon_size}" height="{icon_size}">'
+                 f'<path d="{STAR_ICON}"/></svg></g>')
 
-        # Language dot + name (positioned left of stars)
+        # Star count (left of icon)
+        star_text_w = measure_text(stars, 12)
+        star_text_x = star_icon_x - 4  # 4px gap
+        L.append(f'  <text x="{star_text_x}" y="{y_text}" class="star-text" text-anchor="end">{stars}</text>')
+
+        # Language dot + name (left of stars)
         if lang_name:
-            lang_text_w = len(lang_name) * 6.5  # ~6.5px per char at font-size 11
-            lang_right = star_text_x - star_text_w - 18  # 18px gap between language and stars
-            lx = lang_right - lang_text_w - 9  # 9px for dot+gap
-            L.append(f'  <circle cx="{lx}" cy="{y - 4}" r="4.5" fill="{lang_color}"/>')
-            L.append(f'  <text x="{lx + 9}" y="{y}" fill="{THEME["muted"]}" font-family="{FONT}" font-size="11">{escape_xml(lang_name)}</text>')
+            lang_text_w = measure_text(lang_name, 12)
+            lang_block_start = star_text_x - star_text_w - gap
+            lang_text_x = lang_block_start  # text-anchor="end"
+            dot_x = lang_text_x - lang_text_w - 8
+            L.append(f'  <circle cx="{dot_x}" cy="{y_text - 5}" r="5" fill="{lang_color}"/>')
+            L.append(f'  <text x="{dot_x + 10}" y="{y_text}" class="gray">{escape_xml(lang_name)}</text>')
 
-        # Description (second line, full width)
+        # Description (second line)
         if desc:
-            L.append(f'  <text x="25" y="{y + 16}" fill="{THEME["text"]}" font-family="{FONT}" font-size="11" opacity="0.65">{desc}</text>')
+            L.append(f'  <text x="{padding_x}" y="{y_text + 18}" class="description">{desc}</text>')
 
     L.append("</svg>")
     return "\n".join(L)
