@@ -138,16 +138,26 @@ def generate_svg(repos):
         # Repo name (left)
         L.append(f'  <text x="25" y="{y}" fill="{THEME["link"]}" font-family="{FONT}" font-size="13.5" font-weight="600">{escape_xml(name)}</text>')
 
-        # Language dot + name (right side, leave room for stars)
+        # Dynamically position stars + language from right edge
+        right_margin = 20
+        star_icon_w = 12
+        gap = 6  # gap between star text and icon
+        star_text_w = len(stars) * 7.2  # ~7.2px per char at font-size 12
+        # Layout from right: [icon 12px] [gap 6px] [star_text] [gap 18px] [lang_text] [gap 9px] [dot 9px]
+        icon_x = card_width - right_margin - star_icon_w
+        star_text_x = icon_x - gap  # text-anchor="end" here
+
+        # Star icon + count (right-aligned)
+        L.append(f'  <g transform="translate({icon_x}, {y - 10})"><svg width="12" height="12" viewBox="0 0 16 16" fill="{THEME["star"]}"><path d="{STAR_ICON}"/></svg></g>')
+        L.append(f'  <text x="{star_text_x}" y="{y}" fill="{THEME["star"]}" font-family="{FONT}" font-size="12" text-anchor="end">{stars}</text>')
+
+        # Language dot + name (positioned left of stars)
         if lang_name:
-            lx = 610
+            lang_text_w = len(lang_name) * 6.5  # ~6.5px per char at font-size 11
+            lang_right = star_text_x - star_text_w - 18  # 18px gap between language and stars
+            lx = lang_right - lang_text_w - 9  # 9px for dot+gap
             L.append(f'  <circle cx="{lx}" cy="{y - 4}" r="4.5" fill="{lang_color}"/>')
             L.append(f'  <text x="{lx + 9}" y="{y}" fill="{THEME["muted"]}" font-family="{FONT}" font-size="11">{escape_xml(lang_name)}</text>')
-
-        # Star icon + count (far right)
-        sx = 795
-        L.append(f'  <g transform="translate({sx}, {y - 10})"><svg width="12" height="12" viewBox="0 0 16 16" fill="{THEME["star"]}"><path d="{STAR_ICON}"/></svg></g>')
-        L.append(f'  <text x="{sx - 5}" y="{y}" fill="{THEME["star"]}" font-family="{FONT}" font-size="12" text-anchor="end">{stars}</text>')
 
         # Description (second line, full width)
         if desc:
