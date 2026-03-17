@@ -138,14 +138,14 @@ def generate_svg(repos):
         # Repo name (left)
         L.append(f'  <text x="25" y="{y}" fill="{THEME["link"]}" font-family="{FONT}" font-size="13.5" font-weight="600">{escape_xml(name)}</text>')
 
-        # Language dot + name (right side)
+        # Language dot + name (right side, leave room for stars)
         if lang_name:
-            lx = 680
+            lx = 610
             L.append(f'  <circle cx="{lx}" cy="{y - 4}" r="4.5" fill="{lang_color}"/>')
             L.append(f'  <text x="{lx + 9}" y="{y}" fill="{THEME["muted"]}" font-family="{FONT}" font-size="11">{escape_xml(lang_name)}</text>')
 
         # Star icon + count (far right)
-        sx = 770
+        sx = 795
         L.append(f'  <g transform="translate({sx}, {y - 10})"><svg width="12" height="12" viewBox="0 0 16 16" fill="{THEME["star"]}"><path d="{STAR_ICON}"/></svg></g>')
         L.append(f'  <text x="{sx - 5}" y="{y}" fill="{THEME["star"]}" font-family="{FONT}" font-size="12" text-anchor="end">{stars}</text>')
 
