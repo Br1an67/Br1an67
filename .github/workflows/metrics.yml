@@ -73,18 +73,3 @@ jobs:
               "📥 Issues": ["reporter"]
             }
 
-      # ============================================================
-      # 4. 🗳️ LeetCode
-      #    展示 LeetCode 刷题进度、技能分布、最近提交
-      # ============================================================
-      - name: 🗳️ LeetCode - 刷题统计
-        uses: lowlighter/metrics@latest
-        with:
-          filename: metrics.plugin.leetcode.svg
-          token: ${{ secrets.METRICS_TOKEN }}
-          user: Br1an67
-          template: classic
-          base: ""
-          config_timezone: Asia/Shanghai
-          plugin_leetcode: yes
-          plugin_leetcode_sections: solved, skills, recent
