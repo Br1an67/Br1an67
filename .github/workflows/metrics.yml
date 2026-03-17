@@ -29,8 +29,8 @@ jobs:
           plugin_habits_charts: yes
           plugin_habits_charts_type: classic
           plugin_habits_facts: yes
-          plugin_habits_days: 14
-          plugin_habits_from: 200
+          plugin_habits_days: 365
+          plugin_habits_from: 1000
 
   notable:
     runs-on: ubuntu-latest
@@ -38,6 +38,10 @@ jobs:
       contents: write
     needs: habits
     steps:
+      # 等待 3 分钟，避免紧跟 habits 触发 GitHub API 限流
+      - name: ⏳ Wait for API cooldown
+        run: sleep 180
+
       # 🎩 知名贡献 - 展示 contribute 过的知名开源项目
       - name: 🎩 Notable
         uses: Br1an67/metrics@fix/habits-null-commit-author
@@ -48,7 +52,8 @@ jobs:
           template: classic
           base: ""
           config_timezone: Asia/Shanghai
-          retries: 3
-          retries_delay: 300
+          retries: 5
+          retries_delay: 600
+          retries_output_miss: metrics.plugin.notable.svg
           plugin_notable: yes
           plugin_notable_repositories: yes
