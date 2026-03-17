@@ -8,7 +8,8 @@ import urllib.request
 
 GITHUB_TOKEN = os.environ.get("GITHUB_TOKEN") or os.environ.get("METRICS_TOKEN")
 USERNAME = os.environ.get("USERNAME", "Br1an67")
-LIMIT = int(os.environ.get("LIMIT", "10"))
+LIMIT = int(os.environ.get("LIMIT", "0"))  # 0 = show all
+PAGE_SIZE = int(os.environ.get("PAGE_SIZE", "10"))
 README = os.environ.get("README", "README.md")
 
 START_MARKER = "<!-- CONTRIBUTIONS:START -->"
@@ -69,12 +70,10 @@ def truncate(text, max_len=60):
     return text[: max_len - 1].rstrip() + "…"
 
 
-def generate_html(repos, limit):
-    """Generate an HTML table for README injection."""
-    repos = repos[:limit]
-
+def generate_table(repos):
+    """Generate an HTML table for a batch of repos."""
     lines = []
-    lines.append('<table align="center">')
+    lines.append("<table>")
     lines.append("  <thead>")
     lines.append("    <tr>")
     lines.append('      <th align="left">Repository</th>')
@@ -101,6 +100,38 @@ def generate_html(repos, limit):
 
     lines.append("  </tbody>")
     lines.append("</table>")
+    return lines
+
+
+def generate_html(repos, page_size):
+    """Generate HTML with first page visible + remaining in collapsible sections."""
+    if not repos:
+        return ""
+
+    lines = []
+
+    # First page — always visible
+    first_page = repos[:page_size]
+    lines.extend(generate_table(first_page))
+
+    # Remaining pages — wrapped in <details>
+    remaining = repos[page_size:]
+    page_num = 2
+    while remaining:
+        page = remaining[:page_size]
+        remaining = remaining[page_size:]
+        start = (page_num - 1) * page_size + 1
+        end = start + len(page) - 1
+
+        lines.append("")
+        lines.append("<details>")
+        lines.append(f"  <summary>🔽 Show more ({start}–{end})</summary>")
+        lines.append("")
+        lines.extend(generate_table(page))
+        lines.append("")
+        lines.append("</details>")
+        page_num += 1
+
     return "\n".join(lines)
 
 
@@ -141,9 +172,12 @@ def main():
     repos = [r for r in repos if r["stargazerCount"] > 0]
     repos.sort(key=lambda r: r["stargazerCount"], reverse=True)
 
-    html = generate_html(repos, LIMIT)
+    if LIMIT > 0:
+        repos = repos[:LIMIT]
+
+    html = generate_html(repos, PAGE_SIZE)
     inject_into_readme(html, README)
-    print(f"Injected top {min(LIMIT, len(repos))} repos into {README}")
+    print(f"Injected {len(repos)} repos into {README} (page size: {PAGE_SIZE})")
 
 
 if __name__ == "__main__":

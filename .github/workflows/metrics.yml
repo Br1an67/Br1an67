@@ -20,7 +20,8 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.METRICS_TOKEN }}
           USERNAME: Br1an67
-          LIMIT: "10"
+          LIMIT: "0"
+          PAGE_SIZE: "10"
           README: README.md
 
       - name: 📤 Commit & push
