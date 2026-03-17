@@ -7,19 +7,14 @@ on:
     branches: ["main"]
 
 jobs:
-  github-metrics:
+  habits:
     runs-on: ubuntu-latest
     permissions:
       contents: write
     steps:
-
-      # ============================================================
-      # 1. 💡 编码习惯 (Habits)
-      #    按小时/星期统计你的 commit 活跃度
-      #    能看出你几点写代码最多、周几最肝
-      # ============================================================
-      - name: 💡 Habits - 编码习惯热力图
-        uses: lowlighter/metrics@latest
+      # 💡 编码习惯 - 按小时/星期统计 commit 活跃度
+      - name: 💡 Habits
+        uses: Br1an67/metrics@fix/habits-null-commit-author
         with:
           filename: metrics.plugin.habits.svg
           token: ${{ secrets.METRICS_TOKEN }}
@@ -27,20 +22,24 @@ jobs:
           template: classic
           base: ""
           config_timezone: Asia/Shanghai
+          retries: 3
+          retries_delay: 300
           plugin_habits: yes
           plugin_habits_charts: yes
           plugin_habits_charts_type: classic
           plugin_habits_facts: yes
           plugin_habits_days: 14
-          plugin_habits_from: 200
+          plugin_habits_from: 100
 
-      # ============================================================
-      # 2. 🎩 知名贡献 (Notable Contributions)
-      #    展示你 contribute 过的知名开源项目
-      #    indepth 关掉以节省 API 配额
-      # ============================================================
-      - name: 🎩 Notable - 知名项目贡献
-        uses: lowlighter/metrics@latest
+  notable:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    needs: habits
+    steps:
+      # 🎩 知名贡献 - 展示 contribute 过的知名开源项目
+      - name: 🎩 Notable
+        uses: Br1an67/metrics@fix/habits-null-commit-author
         with:
           filename: metrics.plugin.notable.svg
           token: ${{ secrets.METRICS_TOKEN }}
@@ -48,5 +47,7 @@ jobs:
           template: classic
           base: ""
           config_timezone: Asia/Shanghai
+          retries: 3
+          retries_delay: 300
           plugin_notable: yes
           plugin_notable_repositories: yes
