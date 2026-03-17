@@ -77,14 +77,15 @@
 
 <!-- CONTRIBUTIONS:START -->
 <p align="center">
-  <img src="/metrics.plugin.contributions.svg?v=1773721666" alt="Top Contributed Repos" />
+  <img src="/metrics.plugin.contributions.svg?v=1773747599" alt="Top Contributed Repos" />
 </p>
 
 <details>
-<summary>Show more (26 repositories)</summary>
+<summary>Show more (29 repositories)</summary>
 
 | Repository | Stars | Language | Description |
 |:---|:---:|:---:|:---|
+| [**celery/celery**](https://github.com/celery/celery) | 28.2k | Python | Distributed Task Queue (development branch) |
 | [**authelia/authelia**](https://github.com/authelia/authelia) | 27.2k | Go | The Single Sign-On Multi-Factor portal for web apps, now OpenID Certified™ |
 | [**pydantic/pydantic**](https://github.com/pydantic/pydantic) | 27.2k | Python | Data validation using Python type hints |
 | [**assafelovic/gpt-researcher**](https://github.com/assafelovic/gpt-researcher) | 25.8k | Python | An autonomous agent that conducts deep research on any data using any LLM providers |
@@ -94,6 +95,7 @@
 | [**conventional-changelog/commitlint**](https://github.com/conventional-changelog/commitlint) | 18.4k | TypeScript | 📓 Lint commit messages |
 | [**super-productivity/super-productivity**](https://github.com/super-productivity/super-productivity) | 18.0k | TypeScript | Super Productivity is an advanced todo list app with integrated Timeboxing and time tracking capabi… |
 | [**Kilo-Org/kilocode**](https://github.com/Kilo-Org/kilocode) | 16.8k | TypeScript | Kilo is the all-in-one agentic engineering platform. Build, ship, and iterate faster with the most… |
+| [**VictoriaMetrics/VictoriaMetrics**](https://github.com/VictoriaMetrics/VictoriaMetrics) | 16.5k | Go | VictoriaMetrics: fast, cost-effective monitoring solution and time series database |
 | [**confident-ai/deepeval**](https://github.com/confident-ai/deepeval) | 14.1k | Python | The LLM Evaluation Framework |
 | [**oauth2-proxy/oauth2-proxy**](https://github.com/oauth2-proxy/oauth2-proxy) | 14.0k | Go | A reverse proxy that provides authentication with Google, Azure, OpenID Connect and many more ident… |
 | [**casdoor/casdoor**](https://github.com/casdoor/casdoor) | 13.2k | Go | An open-source AI-first Identity and Access Management (IAM) /AI MCP gateway and auth server with w… |
@@ -105,11 +107,12 @@
 | [**litestar-org/litestar**](https://github.com/litestar-org/litestar) | 8.1k | Python | Light, flexible and extensible ASGI framework | Built to scale |
 | [**microsoft/presidio**](https://github.com/microsoft/presidio) | 7.3k | Python | An open-source framework for detecting, redacting, masking, and anonymizing sensitive data (PII) ac… |
 | [**feast-dev/feast**](https://github.com/feast-dev/feast) | 6.8k | Python | The Open Source Feature Store for AI/ML |
+| [**external-secrets/external-secrets**](https://github.com/external-secrets/external-secrets) | 6.5k | Go | External Secrets Operator reads information from a third-party service like AWS Secrets Manager and… |
 | [**nteract/papermill**](https://github.com/nteract/papermill) | 6.4k | Python | 📚 Parameterize, execute, and analyze notebooks |
 | [**tortoise/tortoise-orm**](https://github.com/tortoise/tortoise-orm) | 5.5k | Python | Familiar asyncio ORM for python, built with relations in mind |
 | [**ag2ai/faststream**](https://github.com/ag2ai/faststream) | 5.1k | Python | FastStream is a powerful and easy-to-use asynchronous Python framework for building asynchronous se… |
 | [**strawberry-graphql/strawberry**](https://github.com/strawberry-graphql/strawberry) | 4.6k | Python | A GraphQL library for Python that leverages type annotations 🍓 |
-| [**langfuse/langfuse-python**](https://github.com/langfuse/langfuse-python) | 361 | Python | 🪢 Langfuse Python SDK - Instrument your LLM app with decorators or low-level SDK and get detailed t… |
+| [**langfuse/langfuse-python**](https://github.com/langfuse/langfuse-python) | 362 | Python | 🪢 Langfuse Python SDK - Instrument your LLM app with decorators or low-level SDK and get detailed t… |
 | [**deepset-ai/haystack-core-integrations**](https://github.com/deepset-ai/haystack-core-integrations) | 183 | Python | Additional packages (components, document stores and the likes) to extend the capabilities of Hayst… |
 
 </details>
