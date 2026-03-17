@@ -114,7 +114,7 @@
 | [**microsoft/graphrag**](https://github.com/microsoft/graphrag) | 31.5k | Python | A modular graph-based Retrieval-Augmented Generation (RAG) system |
 | [**Fission-AI/OpenSpec**](https://github.com/Fission-AI/OpenSpec) | 31.2k | TypeScript | Spec-driven development (SDD) for AI coding assistants. |
 | [**HKUDS/LightRAG**](https://github.com/HKUDS/LightRAG) | 29.5k | Python | [EMNLP2025] "LightRAG: Simple and Fast Retrieval-Augmented Generation" |
-| [**CopilotKit/CopilotKit**](https://github.com/CopilotKit/CopilotKit) | 29.4k | TypeScript | The Frontend Stack for Agents & Generative UI. React + Angular.  Makers of the AG-UI Protocol |
+| [**CopilotKit/CopilotKit**](https://github.com/CopilotKit/CopilotKit) | 29.5k | TypeScript | The Frontend Stack for Agents & Generative UI. React + Angular.  Makers of the AG-UI Protocol |
 | [**bytedance/UI-TARS-desktop**](https://github.com/bytedance/UI-TARS-desktop) | 28.9k | TypeScript | The Open-Source Multimodal AI Agent Stack: Connecting Cutting-Edge AI Models and Agent Infra |
 | [**celery/celery**](https://github.com/celery/celery) | 28.2k | Python | Distributed Task Queue (development branch) |
 | [**authelia/authelia**](https://github.com/authelia/authelia) | 27.2k | Go | The Single Sign-On Multi-Factor portal for web apps, now OpenID Certified™ |

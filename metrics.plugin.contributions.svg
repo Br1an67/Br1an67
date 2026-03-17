@@ -1,69 +1,91 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="830" height="565" viewBox="0 0 830 565">
-  <rect x="0.5" y="0.5" rx="4.5" width="829" height="564" fill="#282c34" stroke="#3e4451"/>
-  <text x="25" y="33" fill="#e4e2e2" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="15" font-weight="600">Top Contributed Repositories</text>
-  <text x="25" y="68" fill="#58a6ff" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="13.5" font-weight="600">openclaw/openclaw</text>
-  <g transform="translate(798, 58)"><svg width="12" height="12" viewBox="0 0 16 16" fill="#e3b341"><path d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.75.75 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25z"/></svg></g>
-  <text x="792" y="68" fill="#e3b341" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="12" text-anchor="end">318.0k</text>
-  <circle cx="656.8" cy="64" r="4.5" fill="#3178c6"/>
-  <text x="665.8" y="68" fill="#7f848e" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="11">TypeScript</text>
-  <text x="25" y="84" fill="#adbac7" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="11" opacity="0.65">Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞 </text>
-  <rect x="1" y="103" width="828" height="50" fill="rgba(255,255,255,0.03)"/>
-  <text x="25" y="118" fill="#58a6ff" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="13.5" font-weight="600">yt-dlp/yt-dlp</text>
-  <g transform="translate(798, 108)"><svg width="12" height="12" viewBox="0 0 16 16" fill="#e3b341"><path d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.75.75 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25z"/></svg></g>
-  <text x="792" y="118" fill="#e3b341" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="12" text-anchor="end">151.6k</text>
-  <circle cx="682.8" cy="114" r="4.5" fill="#3572A5"/>
-  <text x="691.8" y="118" fill="#7f848e" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="11">Python</text>
-  <text x="25" y="134" fill="#adbac7" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="11" opacity="0.65">A feature-rich command-line audio/video downloader</text>
-  <text x="25" y="168" fill="#58a6ff" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="13.5" font-weight="600">langgenius/dify</text>
-  <g transform="translate(798, 158)"><svg width="12" height="12" viewBox="0 0 16 16" fill="#e3b341"><path d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.75.75 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25z"/></svg></g>
-  <text x="792" y="168" fill="#e3b341" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="12" text-anchor="end">133.1k</text>
-  <circle cx="656.8" cy="164" r="4.5" fill="#3178c6"/>
-  <text x="665.8" y="168" fill="#7f848e" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="11">TypeScript</text>
-  <text x="25" y="184" fill="#adbac7" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="11" opacity="0.65">Production-ready platform for agentic workflow development.</text>
-  <rect x="1" y="203" width="828" height="50" fill="rgba(255,255,255,0.03)"/>
-  <text x="25" y="218" fill="#58a6ff" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="13.5" font-weight="600">open-webui/open-webui</text>
-  <g transform="translate(798, 208)"><svg width="12" height="12" viewBox="0 0 16 16" fill="#e3b341"><path d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.75.75 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25z"/></svg></g>
-  <text x="792" y="218" fill="#e3b341" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="12" text-anchor="end">127.5k</text>
-  <circle cx="682.8" cy="214" r="4.5" fill="#3572A5"/>
-  <text x="691.8" y="218" fill="#7f848e" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="11">Python</text>
-  <text x="25" y="234" fill="#adbac7" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="11" opacity="0.65">User-friendly AI Interface (Supports Ollama, OpenAI API, ...)</text>
-  <text x="25" y="268" fill="#58a6ff" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="13.5" font-weight="600">anomalyco/opencode</text>
-  <g transform="translate(798, 258)"><svg width="12" height="12" viewBox="0 0 16 16" fill="#e3b341"><path d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.75.75 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25z"/></svg></g>
-  <text x="792" y="268" fill="#e3b341" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="12" text-anchor="end">123.6k</text>
-  <circle cx="656.8" cy="264" r="4.5" fill="#3178c6"/>
-  <text x="665.8" y="268" fill="#7f848e" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="11">TypeScript</text>
-  <text x="25" y="284" fill="#adbac7" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="11" opacity="0.65">The open source coding agent.</text>
-  <rect x="1" y="303" width="828" height="50" fill="rgba(255,255,255,0.03)"/>
-  <text x="25" y="318" fill="#58a6ff" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="13.5" font-weight="600">google-gemini/gemini-cli</text>
-  <g transform="translate(798, 308)"><svg width="12" height="12" viewBox="0 0 16 16" fill="#e3b341"><path d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.75.75 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25z"/></svg></g>
-  <text x="792" y="318" fill="#e3b341" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="12" text-anchor="end">98.0k</text>
-  <circle cx="664.0" cy="314" r="4.5" fill="#3178c6"/>
-  <text x="673.0" y="318" fill="#7f848e" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="11">TypeScript</text>
-  <text x="25" y="334" fill="#adbac7" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="11" opacity="0.65">An open-source AI agent that brings the power of Gemini directly into your terminal.</text>
-  <text x="25" y="368" fill="#58a6ff" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="13.5" font-weight="600">browser-use/browser-use</text>
-  <g transform="translate(798, 358)"><svg width="12" height="12" viewBox="0 0 16 16" fill="#e3b341"><path d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.75.75 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25z"/></svg></g>
-  <text x="792" y="368" fill="#e3b341" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="12" text-anchor="end">81.0k</text>
-  <circle cx="690.0" cy="364" r="4.5" fill="#3572A5"/>
-  <text x="699.0" y="368" fill="#7f848e" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="11">Python</text>
-  <text x="25" y="384" fill="#adbac7" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="11" opacity="0.65">🌐 Make websites accessible for AI agents. Automate tasks online with ease.</text>
-  <rect x="1" y="403" width="828" height="50" fill="rgba(255,255,255,0.03)"/>
-  <text x="25" y="418" fill="#58a6ff" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="13.5" font-weight="600">infiniflow/ragflow</text>
-  <g transform="translate(798, 408)"><svg width="12" height="12" viewBox="0 0 16 16" fill="#e3b341"><path d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.75.75 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25z"/></svg></g>
-  <text x="792" y="418" fill="#e3b341" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="12" text-anchor="end">75.2k</text>
-  <circle cx="690.0" cy="414" r="4.5" fill="#3572A5"/>
-  <text x="699.0" y="418" fill="#7f848e" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="11">Python</text>
-  <text x="25" y="434" fill="#adbac7" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="11" opacity="0.65">RAGFlow is a leading open-source Retrieval-Augmented Generation (RAG) engine that fuses cutting-edge RAG with Agen…</text>
-  <text x="25" y="468" fill="#58a6ff" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="13.5" font-weight="600">lobehub/lobehub</text>
-  <g transform="translate(798, 458)"><svg width="12" height="12" viewBox="0 0 16 16" fill="#e3b341"><path d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.75.75 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25z"/></svg></g>
-  <text x="792" y="468" fill="#e3b341" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="12" text-anchor="end">73.8k</text>
-  <circle cx="664.0" cy="464" r="4.5" fill="#3178c6"/>
-  <text x="673.0" y="468" fill="#7f848e" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="11">TypeScript</text>
-  <text x="25" y="484" fill="#adbac7" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="11" opacity="0.65">The ultimate space for work and life — to find, build, and collaborate with agent teammates that grow with you. We…</text>
-  <rect x="1" y="503" width="828" height="50" fill="rgba(255,255,255,0.03)"/>
-  <text x="25" y="518" fill="#58a6ff" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="13.5" font-weight="600">grafana/grafana</text>
-  <g transform="translate(798, 508)"><svg width="12" height="12" viewBox="0 0 16 16" fill="#e3b341"><path d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.75.75 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25z"/></svg></g>
-  <text x="792" y="518" fill="#e3b341" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="12" text-anchor="end">72.7k</text>
-  <circle cx="664.0" cy="514" r="4.5" fill="#3178c6"/>
-  <text x="673.0" y="518" fill="#7f848e" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="11">TypeScript</text>
-  <text x="25" y="534" fill="#adbac7" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="11" opacity="0.65">The open and composable observability and data visualization platform. Visualize metrics, logs, and traces from mu…</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="830" height="570" viewBox="0 0 830 570" fill="none" role="img" aria-labelledby="titleId">
+  <title id="titleId">Top Contributed Repositories</title>
+
+    <style>
+      .header { font: 600 18px 'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif; fill: #e4e2e2; }
+      @supports(-moz-appearance: auto) { .header { font-size: 15.5px; } }
+      .repo-name { font: 600 13px 'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif; fill: #58a6ff; }
+      .description { font: 400 12px 'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif; fill: #adbac7; opacity: 0.7; }
+      .gray { font: 400 12px 'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif; fill: #7f848e; }
+      .star-text { font: 400 12px 'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif; fill: #e3b341; }
+      .icon { fill: #79dafa; }
+      .star-icon { fill: #e3b341; }
+      .divider { stroke: #3e4451; stroke-width: 0.5; opacity: 0.5; }
+    </style>
+  <rect data-testid="card-bg" x="0.5" y="0.5" rx="4.5" width="829" height="569" fill="#282c34" stroke="#3e4451"/>
+  <g transform="translate(25, 35)">
+    <svg class="icon" x="0" y="-13" viewBox="0 0 16 16" width="16" height="16">
+      <path fill-rule="evenodd" d="M2 2.5A2.5 2.5 0 0 1 4.5 0h8.75a.75.75 0 0 1 .75.75v12.5a.75.75 0 0 1-.75.75h-2.5a.75.75 0 0 1 0-1.5h1.75v-2h-8a1 1 0 0 0-.714 1.7.75.75 0 1 1-1.072 1.05A2.495 2.495 0 0 1 2 11.5Zm10.5-1h-8a1 1 0 0 0-1 1v6.708A2.486 2.486 0 0 1 4.5 9h8ZM5 12.25a.25.25 0 0 1 .25-.25h3.5a.25.25 0 0 1 .25.25v3.25a.25.25 0 0 1-.4.2l-1.45-1.087a.249.249 0 0 0-.3 0L5.4 15.7a.25.25 0 0 1-.4-.2Z"/>
+    </svg>
+    <text x="25" y="0" class="header">Top Contributed Repositories</text>
+  </g>
+  <text x="25" y="75" class="repo-name">openclaw/openclaw</text>
+  <g transform="translate(789, 63)"><svg class="star-icon" viewBox="0 0 16 16" width="16" height="16"><path d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.75.75 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25z"/></svg></g>
+  <text x="785" y="75" class="star-text" text-anchor="end">318.0k</text>
+  <circle cx="658.8125" cy="70" r="5" fill="#3178c6"/>
+  <text x="668.8125" y="75" class="gray">TypeScript</text>
+  <text x="25" y="93" class="description">Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞 </text>
+  <line class="divider" x1="25" y1="105" x2="805" y2="105"/>
+  <text x="25" y="125" class="repo-name">yt-dlp/yt-dlp</text>
+  <g transform="translate(789, 113)"><svg class="star-icon" viewBox="0 0 16 16" width="16" height="16"><path d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.75.75 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25z"/></svg></g>
+  <text x="785" y="125" class="star-text" text-anchor="end">151.6k</text>
+  <circle cx="678.78125" cy="120" r="5" fill="#3572A5"/>
+  <text x="688.78125" y="125" class="gray">Python</text>
+  <text x="25" y="143" class="description">A feature-rich command-line audio/video downloader</text>
+  <line class="divider" x1="25" y1="155" x2="805" y2="155"/>
+  <text x="25" y="175" class="repo-name">langgenius/dify</text>
+  <g transform="translate(789, 163)"><svg class="star-icon" viewBox="0 0 16 16" width="16" height="16"><path d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.75.75 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25z"/></svg></g>
+  <text x="785" y="175" class="star-text" text-anchor="end">133.1k</text>
+  <circle cx="658.8125" cy="170" r="5" fill="#3178c6"/>
+  <text x="668.8125" y="175" class="gray">TypeScript</text>
+  <text x="25" y="193" class="description">Production-ready platform for agentic workflow development.</text>
+  <line class="divider" x1="25" y1="205" x2="805" y2="205"/>
+  <text x="25" y="225" class="repo-name">open-webui/open-webui</text>
+  <g transform="translate(789, 213)"><svg class="star-icon" viewBox="0 0 16 16" width="16" height="16"><path d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.75.75 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25z"/></svg></g>
+  <text x="785" y="225" class="star-text" text-anchor="end">127.5k</text>
+  <circle cx="678.78125" cy="220" r="5" fill="#3572A5"/>
+  <text x="688.78125" y="225" class="gray">Python</text>
+  <text x="25" y="243" class="description">User-friendly AI Interface (Supports Ollama, OpenAI API, ...)</text>
+  <line class="divider" x1="25" y1="255" x2="805" y2="255"/>
+  <text x="25" y="275" class="repo-name">anomalyco/opencode</text>
+  <g transform="translate(789, 263)"><svg class="star-icon" viewBox="0 0 16 16" width="16" height="16"><path d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.75.75 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25z"/></svg></g>
+  <text x="785" y="275" class="star-text" text-anchor="end">123.6k</text>
+  <circle cx="658.8125" cy="270" r="5" fill="#3178c6"/>
+  <text x="668.8125" y="275" class="gray">TypeScript</text>
+  <text x="25" y="293" class="description">The open source coding agent.</text>
+  <line class="divider" x1="25" y1="305" x2="805" y2="305"/>
+  <text x="25" y="325" class="repo-name">google-gemini/gemini-cli</text>
+  <g transform="translate(789, 313)"><svg class="star-icon" viewBox="0 0 16 16" width="16" height="16"><path d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.75.75 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25z"/></svg></g>
+  <text x="785" y="325" class="star-text" text-anchor="end">98.0k</text>
+  <circle cx="665.46875" cy="320" r="5" fill="#3178c6"/>
+  <text x="675.46875" y="325" class="gray">TypeScript</text>
+  <text x="25" y="343" class="description">An open-source AI agent that brings the power of Gemini directly into your terminal.</text>
+  <line class="divider" x1="25" y1="355" x2="805" y2="355"/>
+  <text x="25" y="375" class="repo-name">browser-use/browser-use</text>
+  <g transform="translate(789, 363)"><svg class="star-icon" viewBox="0 0 16 16" width="16" height="16"><path d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.75.75 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25z"/></svg></g>
+  <text x="785" y="375" class="star-text" text-anchor="end">81.0k</text>
+  <circle cx="685.4375" cy="370" r="5" fill="#3572A5"/>
+  <text x="695.4375" y="375" class="gray">Python</text>
+  <text x="25" y="393" class="description">🌐 Make websites accessible for AI agents. Automate tasks online with ease.</text>
+  <line class="divider" x1="25" y1="405" x2="805" y2="405"/>
+  <text x="25" y="425" class="repo-name">infiniflow/ragflow</text>
+  <g transform="translate(789, 413)"><svg class="star-icon" viewBox="0 0 16 16" width="16" height="16"><path d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.75.75 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25z"/></svg></g>
+  <text x="785" y="425" class="star-text" text-anchor="end">75.2k</text>
+  <circle cx="685.4375" cy="420" r="5" fill="#3572A5"/>
+  <text x="695.4375" y="425" class="gray">Python</text>
+  <text x="25" y="443" class="description">RAGFlow is a leading open-source Retrieval-Augmented Generation (RAG) engine that fuses cutting-edge RAG…</text>
+  <line class="divider" x1="25" y1="455" x2="805" y2="455"/>
+  <text x="25" y="475" class="repo-name">lobehub/lobehub</text>
+  <g transform="translate(789, 463)"><svg class="star-icon" viewBox="0 0 16 16" width="16" height="16"><path d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.75.75 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25z"/></svg></g>
+  <text x="785" y="475" class="star-text" text-anchor="end">73.8k</text>
+  <circle cx="665.46875" cy="470" r="5" fill="#3178c6"/>
+  <text x="675.46875" y="475" class="gray">TypeScript</text>
+  <text x="25" y="493" class="description">The ultimate space for work and life — to find, build, and collaborate with agent teammates that grow wi…</text>
+  <line class="divider" x1="25" y1="505" x2="805" y2="505"/>
+  <text x="25" y="525" class="repo-name">grafana/grafana</text>
+  <g transform="translate(789, 513)"><svg class="star-icon" viewBox="0 0 16 16" width="16" height="16"><path d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.75.75 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25z"/></svg></g>
+  <text x="785" y="525" class="star-text" text-anchor="end">72.7k</text>
+  <circle cx="665.46875" cy="520" r="5" fill="#3178c6"/>
+  <text x="675.46875" y="525" class="gray">TypeScript</text>
+  <text x="25" y="543" class="description">The open and composable observability and data visualization platform. Visualize metrics, logs, and trac…</text>
 </svg>
