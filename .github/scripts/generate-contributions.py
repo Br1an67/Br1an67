@@ -16,17 +16,14 @@ README = os.environ.get("README", "README.md")
 START_MARKER = "<!-- CONTRIBUTIONS:START -->"
 END_MARKER = "<!-- CONTRIBUTIONS:END -->"
 
-# onedark theme (matches github-readme-stats onedark)
+# onedark theme — exact colors from github-readme-stats/themes/index.js
 THEME = {
     "bg": "#282c34",
-    "title": "#e4e2e2",
-    "text": "#adbac7",
-    "icon": "#79dafa",
-    "link": "#58a6ff",
-    "star": "#e3b341",
-    "muted": "#7f848e",
-    "border": "#3e4451",
-    "row_hover": "rgba(255,255,255,0.03)",
+    "title": "#e4bf7a",       # title_color (warm gold)
+    "icon": "#8eb573",        # icon_color (green)
+    "text": "#df6d74",        # text_color (pinkish, used for descriptions/labels)
+    "border": "#e4e2e2",      # default border_color (hidden via stroke-opacity)
+    "hide_border": True,      # match hide_border=true on stats cards
 }
 
 GRAPHQL_QUERY = """
@@ -152,17 +149,18 @@ def generate_svg(repos):
     icon_size = 16
     gap = 25
 
+    hide_border = THEME.get("hide_border", False)
+    border_opacity = 0 if hide_border else 1
+
     css = f"""
     <style>
       .header {{ font: 600 18px {FONT}; fill: {THEME["title"]}; }}
       @supports(-moz-appearance: auto) {{ .header {{ font-size: 15.5px; }} }}
-      .repo-name {{ font: 600 13px {FONT}; fill: {THEME["link"]}; }}
-      .description {{ font: 400 12px {FONT}; fill: {THEME["text"]}; opacity: 0.7; }}
-      .gray {{ font: 400 12px {FONT}; fill: {THEME["muted"]}; }}
-      .star-text {{ font: 400 12px {FONT}; fill: {THEME["star"]}; }}
+      .repo-name {{ font: 600 13px {FONT}; fill: {THEME["title"]}; }}
+      .description {{ font: 400 12px {FONT}; fill: {THEME["text"]}; }}
+      .gray {{ font: 400 12px {FONT}; fill: {THEME["text"]}; }}
       .icon {{ fill: {THEME["icon"]}; }}
-      .star-icon {{ fill: {THEME["star"]}; }}
-      .divider {{ stroke: {THEME["border"]}; stroke-width: 0.5; opacity: 0.5; }}
+      .divider {{ stroke: {THEME["border"]}; stroke-width: 0.5; opacity: 0.3; }}
     </style>"""
 
     L = []  # noqa: E741
@@ -175,7 +173,7 @@ def generate_svg(repos):
     # Card background
     L.append(f'  <rect data-testid="card-bg" x="0.5" y="0.5" rx="4.5" '
              f'width="{card_width - 1}" height="{card_height - 1}" '
-             f'fill="{THEME["bg"]}" stroke="{THEME["border"]}"/>')
+             f'fill="{THEME["bg"]}" stroke="{THEME["border"]}" stroke-opacity="{border_opacity}"/>')
 
     # Title with prefix icon
     L.append(f'  <g transform="translate({padding_x}, {padding_y})">')
@@ -194,7 +192,7 @@ def generate_svg(repos):
         desc = escape_xml(truncate(repo.get("description") or "", 105))
         lang = repo.get("primaryLanguage") or {}
         lang_name = lang.get("name", "")
-        lang_color = lang.get("color", THEME["muted"])
+        lang_color = lang.get("color", THEME["text"])
 
         # Subtle divider line between rows
         if i > 0:
@@ -208,16 +206,16 @@ def generate_svg(repos):
         # Build from right to left
         right_edge = card_width - padding_x
 
-        # Star icon (far right)
+        # Star icon (far right) — uses .icon class like github-readme-stats
         star_icon_x = right_edge - icon_size
         L.append(f'  <g transform="translate({star_icon_x}, {y_text - 12})">'
-                 f'<svg class="star-icon" viewBox="0 0 16 16" width="{icon_size}" height="{icon_size}">'
+                 f'<svg class="icon" viewBox="0 0 16 16" width="{icon_size}" height="{icon_size}">'
                  f'<path d="{STAR_ICON}"/></svg></g>')
 
         # Star count (left of icon)
         star_text_w = measure_text(stars, 12)
         star_text_x = star_icon_x - 4  # 4px gap
-        L.append(f'  <text x="{star_text_x}" y="{y_text}" class="star-text" text-anchor="end">{stars}</text>')
+        L.append(f'  <text x="{star_text_x}" y="{y_text}" class="gray" text-anchor="end">{stars}</text>')
 
         # Language dot + name (left of stars)
         if lang_name:
