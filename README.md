@@ -77,8 +77,13 @@
   <picture>
     <img src="/metrics.plugin.habits.svg" alt="Coding Habits" width="400" />
   </picture>
+</p>
+
+### Top Contributed Repositories
+
+<p align="center">
   <picture>
-    <img src="/metrics.plugin.notable.svg" alt="Notable Contributions" width="400" />
+    <img src="/metrics.plugin.contributions.svg" alt="Top Contributed Repos" />
   </picture>
 </p>
 

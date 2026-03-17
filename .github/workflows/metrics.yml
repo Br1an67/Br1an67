@@ -32,28 +32,25 @@ jobs:
           plugin_habits_days: 365
           plugin_habits_from: 1000
 
-  notable:
+  contributions:
     runs-on: ubuntu-latest
     permissions:
       contents: write
-    needs: habits
     steps:
-      # 等待 3 分钟，避免紧跟 habits 触发 GitHub API 限流
-      - name: ⏳ Wait for API cooldown
-        run: sleep 180
+      - name: 📥 Checkout
+        uses: actions/checkout@v4
 
-      # 🎩 知名贡献 - 展示 contribute 过的知名开源项目
-      - name: 🎩 Notable
-        uses: Br1an67/metrics@fix/habits-null-commit-author
-        with:
-          filename: metrics.plugin.notable.svg
-          token: ${{ secrets.METRICS_TOKEN }}
-          user: Br1an67
-          template: classic
-          base: ""
-          config_timezone: Asia/Shanghai
-          retries: 5
-          retries_delay: 600
-          retries_output_miss: metrics.plugin.notable.svg
-          plugin_notable: yes
-          plugin_notable_repositories: yes
+      - name: 🏆 Generate contributions card
+        run: python3 .github/scripts/generate-contributions.py
+        env:
+          GITHUB_TOKEN: ${{ secrets.METRICS_TOKEN }}
+          USERNAME: Br1an67
+          LIMIT: "10"
+          OUTPUT: metrics.plugin.contributions.svg
+
+      - name: 📤 Commit & push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add metrics.plugin.contributions.svg
+          git diff --cached --quiet && echo "No changes" || (git commit -m "chore: update contributions card [skip ci]" && git push)
