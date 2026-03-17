@@ -13,6 +13,7 @@ jobs:
       contents: write
     steps:
       # 💡 编码习惯 - 按小时/星期统计 commit 活跃度
+      # 使用修复了 null author bug 的 fork 版本
       - name: 💡 Habits
         uses: Br1an67/metrics@fix/habits-null-commit-author
         with:
@@ -29,7 +30,7 @@ jobs:
           plugin_habits_charts_type: classic
           plugin_habits_facts: yes
           plugin_habits_days: 14
-          plugin_habits_from: 100
+          plugin_habits_from: 200
 
   notable:
     runs-on: ubuntu-latest
