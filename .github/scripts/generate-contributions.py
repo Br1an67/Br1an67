@@ -4,6 +4,7 @@
 import json
 import os
 import sys
+import time
 import urllib.request
 
 GITHUB_TOKEN = os.environ.get("GITHUB_TOKEN") or os.environ.get("METRICS_TOKEN")
@@ -287,9 +288,11 @@ def main():
     print(f"Generated {SVG_OUTPUT} with {len(top_repos)} repos")
 
     # Generate README section: SVG image + collapsible table for the rest
+    # Add timestamp to bust GitHub's CDN cache
+    cache_buster = int(time.time())
     readme_lines = []
     readme_lines.append('<p align="center">')
-    readme_lines.append(f'  <img src="/{SVG_OUTPUT}" alt="Top Contributed Repos" />')
+    readme_lines.append(f'  <img src="/{SVG_OUTPUT}?v={cache_buster}" alt="Top Contributed Repos" />')
     readme_lines.append("</p>")
 
     remaining = repos[PAGE_SIZE:]
