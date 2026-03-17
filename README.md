@@ -82,12 +82,6 @@
   </picture>
 </p>
 
-<p align="center">
-  <picture>
-    <img src="/metrics.plugin.contributors.svg" alt="Contributors" width="400" />
-  </picture>
-</p>
-
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:2d539e,100:a94dbb&height=100&section=footer&fontSize=0" width="100%"/>
 
 

@@ -37,7 +37,7 @@ jobs:
       # ============================================================
       # 2. 🎩 知名贡献 (Notable Contributions)
       #    展示你 contribute 过的知名开源项目
-      #    你有 152 个 contributed repos，很能体现实力
+      #    indepth 关掉以节省 API 配额
       # ============================================================
       - name: 🎩 Notable - 知名项目贡献
         uses: lowlighter/metrics@latest
@@ -49,27 +49,4 @@ jobs:
           base: ""
           config_timezone: Asia/Shanghai
           plugin_notable: yes
-          plugin_notable_indepth: yes
           plugin_notable_repositories: yes
-
-      # ============================================================
-      # 3. 🏅 仓库贡献者 (Contributors)
-      #    展示仓库的贡献者分布（按贡献类型/数量）
-      # ============================================================
-      - name: 🏅 Contributors - 仓库贡献者
-        uses: lowlighter/metrics@latest
-        with:
-          filename: metrics.plugin.contributors.svg
-          token: ${{ secrets.METRICS_TOKEN }}
-          user: Br1an67
-          template: classic
-          base: ""
-          config_timezone: Asia/Shanghai
-          plugin_contributors: yes
-          plugin_contributors_categories: |
-            {
-              "📝 Commits": ["author"],
-              "🔀 Pull requests": ["coauthor"],
-              "📥 Issues": ["reporter"]
-            }
-
