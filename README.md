@@ -75,11 +75,8 @@
 
 ### Top Contributed Repositories
 
-<p align="center">
-  <picture>
-    <img src="/metrics.plugin.contributions.svg" alt="Top Contributed Repos" />
-  </picture>
-</p>
+<!-- CONTRIBUTIONS:START -->
+<!-- CONTRIBUTIONS:END -->
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:2d539e,100:a94dbb&height=100&section=footer&fontSize=0" width="100%"/>
 

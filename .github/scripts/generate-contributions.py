@@ -1,8 +1,7 @@
 #!/usr/bin/env python3
-"""Generate an SVG card showing top contributed repositories (onedark theme)."""
+"""Generate an HTML table of top contributed repositories, injected into README.md."""
 
 import json
-import math
 import os
 import sys
 import urllib.request
@@ -10,21 +9,10 @@ import urllib.request
 GITHUB_TOKEN = os.environ.get("GITHUB_TOKEN") or os.environ.get("METRICS_TOKEN")
 USERNAME = os.environ.get("USERNAME", "Br1an67")
 LIMIT = int(os.environ.get("LIMIT", "10"))
-OUTPUT = os.environ.get("OUTPUT", "metrics.plugin.contributions.svg")
+README = os.environ.get("README", "README.md")
 
-# onedark theme (matches github-readme-stats)
-THEME = {
-    "bg": "#282c34",
-    "title": "#e4e2e2",
-    "text": "#adbac7",
-    "link": "#58a6ff",
-    "star": "#e3b341",
-    "icon": "#9e9e9e",
-    "border": "#3e4451",
-    "rank_s": "#e3b341",
-    "rank_a": "#58a6ff",
-    "rank_b": "#9e9e9e",
-}
+START_MARKER = "<!-- CONTRIBUTIONS:START -->"
+END_MARKER = "<!-- CONTRIBUTIONS:END -->"
 
 GRAPHQL_QUERY = """
 query($login: String!) {
@@ -39,7 +27,7 @@ query($login: String!) {
         nameWithOwner
         stargazerCount
         description
-        primaryLanguage { name color }
+        primaryLanguage { name }
       }
     }
   }
@@ -56,7 +44,7 @@ def query_github(token, login):
         headers={
             "Authorization": f"bearer {token}",
             "Content-Type": "application/json",
-            "User-Agent": "contributions-card-generator",
+            "User-Agent": "contributions-generator",
         },
     )
     with urllib.request.urlopen(req, timeout=30) as resp:
@@ -73,13 +61,7 @@ def format_stars(count):
     return str(count)
 
 
-def escape_xml(text):
-    if not text:
-        return ""
-    return text.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;").replace('"', "&quot;")
-
-
-def truncate(text, max_len=70):
+def truncate(text, max_len=60):
     if not text:
         return ""
     if len(text) <= max_len:
@@ -87,81 +69,64 @@ def truncate(text, max_len=70):
     return text[: max_len - 1].rstrip() + "…"
 
 
-def generate_svg(repos, limit):
-    """Generate an SVG card with onedark theme."""
+def generate_html(repos, limit):
+    """Generate an HTML table for README injection."""
     repos = repos[:limit]
 
-    row_height = 50
-    padding_top = 55
-    padding_bottom = 20
-    card_width = 830
-    card_height = padding_top + len(repos) * row_height + padding_bottom
-
     lines = []
-    lines.append(f'<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="{card_width}" height="{card_height}" viewBox="0 0 {card_width} {card_height}">')
-    lines.append(f'  <rect x="0.5" y="0.5" rx="4.5" width="{card_width - 1}" height="{card_height - 1}" fill="{THEME["bg"]}" stroke="{THEME["border"]}"/>')
+    lines.append('<table align="center">')
+    lines.append("  <thead>")
+    lines.append("    <tr>")
+    lines.append('      <th align="left">Repository</th>')
+    lines.append('      <th align="center">⭐ Stars</th>')
+    lines.append('      <th align="center">Language</th>')
+    lines.append('      <th align="left">Description</th>')
+    lines.append("    </tr>")
+    lines.append("  </thead>")
+    lines.append("  <tbody>")
 
-    # Title
-    lines.append(f'  <text x="25" y="35" fill="{THEME["title"]}" font-family="\'Segoe UI\', Ubuntu, \'Helvetica Neue\', Sans-Serif" font-size="16" font-weight="600">Top Contributed Repositories</text>')
-
-    # Star icon SVG path
-    star_icon = "M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.75.75 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25z"
-
-    for i, repo in enumerate(repos):
-        y_base = padding_top + i * row_height + 20
+    for repo in repos:
         name = repo["nameWithOwner"]
-        stars = repo["stargazerCount"]
-        desc = truncate(escape_xml(repo.get("description") or ""), 80)
-        lang = repo.get("primaryLanguage") or {}
-        lang_name = lang.get("name", "")
-        lang_color = lang.get("color", THEME["icon"])
+        stars = format_stars(repo["stargazerCount"])
+        lang = (repo.get("primaryLanguage") or {}).get("name", "—")
+        desc = truncate(repo.get("description") or "", 60)
+        url = f"https://github.com/{name}"
 
-        # Rank badge based on stars
-        if stars >= 10000:
-            rank, rank_color = "S", THEME["rank_s"]
-        elif stars >= 1000:
-            rank, rank_color = "A", THEME["rank_a"]
-        else:
-            rank, rank_color = "B", THEME["rank_b"]
+        lines.append("    <tr>")
+        lines.append(f'      <td><a href="{url}"><b>{name}</b></a></td>')
+        lines.append(f'      <td align="center">{stars}</td>')
+        lines.append(f'      <td align="center">{lang}</td>')
+        lines.append(f"      <td>{desc}</td>")
+        lines.append("    </tr>")
 
-        # Row background (alternating subtle stripe)
-        if i % 2 == 1:
-            lines.append(f'  <rect x="1" y="{y_base - 16}" width="{card_width - 2}" height="{row_height}" fill="rgba(255,255,255,0.02)"/>')
-
-        # Clickable link wrapping the entire row
-        repo_url = f"https://github.com/{name}"
-        lines.append(f'  <a xlink:href="{repo_url}" target="_blank">')
-
-        # Rank badge
-        lines.append(f'    <g transform="translate(20, {y_base - 10})">')
-        lines.append(f'      <rect rx="3" width="22" height="18" fill="{rank_color}" opacity="0.2"/>')
-        lines.append(f'      <text x="11" y="13" fill="{rank_color}" font-family="\'Segoe UI\', Sans-Serif" font-size="11" font-weight="600" text-anchor="middle">{rank}</text>')
-        lines.append(f'    </g>')
-
-        # Repo name
-        lines.append(f'    <text x="52" y="{y_base}" fill="{THEME["link"]}" font-family="\'Segoe UI\', Sans-Serif" font-size="14" font-weight="600">{escape_xml(name)}</text>')
-
-        # Star count with icon
-        star_x = 420
-        lines.append(f'    <g transform="translate({star_x}, {y_base - 11})">')
-        lines.append(f'      <svg width="14" height="14" viewBox="0 0 16 16" fill="{THEME["star"]}"><path d="{star_icon}"/></svg>')
-        lines.append(f'    </g>')
-        lines.append(f'    <text x="{star_x + 18}" y="{y_base}" fill="{THEME["star"]}" font-family="\'Segoe UI\', Sans-Serif" font-size="12" font-weight="500">{format_stars(stars)}</text>')
-
-        # Language dot + name
-        if lang_name:
-            lang_x = 490
-            lines.append(f'    <circle cx="{lang_x}" cy="{y_base - 4}" r="5" fill="{lang_color}"/>')
-            lines.append(f'    <text x="{lang_x + 10}" y="{y_base}" fill="{THEME["icon"]}" font-family="\'Segoe UI\', Sans-Serif" font-size="11">{escape_xml(lang_name)}</text>')
-
-        # Description
-        if desc:
-            lines.append(f'    <text x="52" y="{y_base + 16}" fill="{THEME["text"]}" font-family="\'Segoe UI\', Sans-Serif" font-size="11" opacity="0.7">{desc}</text>')
-
-        lines.append(f'  </a>')
-
-    lines.append("</svg>")
+    lines.append("  </tbody>")
+    lines.append("</table>")
     return "\n".join(lines)
+
+
+def inject_into_readme(html, readme_path):
+    """Replace content between markers in README.md."""
+    with open(readme_path, "r", encoding="utf-8") as f:
+        content = f.read()
+
+    start = content.find(START_MARKER)
+    end = content.find(END_MARKER)
+
+    if start == -1 or end == -1:
+        print(f"Error: markers not found in {readme_path}", file=sys.stderr)
+        print(f"Add {START_MARKER} and {END_MARKER} to your README.md", file=sys.stderr)
+        sys.exit(1)
+
+    new_content = (
+        content[: start + len(START_MARKER)]
+        + "\n"
+        + html
+        + "\n"
+        + content[end:]
+    )
+
+    with open(readme_path, "w", encoding="utf-8") as f:
+        f.write(new_content)
 
 
 def main():
@@ -176,11 +141,9 @@ def main():
     repos = [r for r in repos if r["stargazerCount"] > 0]
     repos.sort(key=lambda r: r["stargazerCount"], reverse=True)
 
-    svg = generate_svg(repos, LIMIT)
-
-    with open(OUTPUT, "w", encoding="utf-8") as f:
-        f.write(svg)
-    print(f"Generated {OUTPUT} with top {min(LIMIT, len(repos))} repositories")
+    html = generate_html(repos, LIMIT)
+    inject_into_readme(html, README)
+    print(f"Injected top {min(LIMIT, len(repos))} repos into {README}")
 
 
 if __name__ == "__main__":
