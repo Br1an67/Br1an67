@@ -1,69 +1,69 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="830" height="565" viewBox="0 0 830 565">
   <rect x="0.5" y="0.5" rx="4.5" width="829" height="564" fill="#282c34" stroke="#3e4451"/>
   <text x="25" y="33" fill="#e4e2e2" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="15" font-weight="600">Top Contributed Repositories</text>
-  <text x="25" y="68" fill="#58a6ff" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="13.5" font-weight="600">yt-dlp/yt-dlp</text>
-  <circle cx="680" cy="64" r="4.5" fill="#3572A5"/>
-  <text x="689" y="68" fill="#7f848e" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="11">Python</text>
-  <g transform="translate(770, 58)"><svg width="12" height="12" viewBox="0 0 16 16" fill="#e3b341"><path d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.75.75 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25z"/></svg></g>
-  <text x="765" y="68" fill="#e3b341" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="12" text-anchor="end">151.6k</text>
-  <text x="25" y="84" fill="#adbac7" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="11" opacity="0.65">A feature-rich command-line audio/video downloader</text>
+  <text x="25" y="68" fill="#58a6ff" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="13.5" font-weight="600">openclaw/openclaw</text>
+  <g transform="translate(798, 58)"><svg width="12" height="12" viewBox="0 0 16 16" fill="#e3b341"><path d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.75.75 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25z"/></svg></g>
+  <text x="792" y="68" fill="#e3b341" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="12" text-anchor="end">318.0k</text>
+  <circle cx="656.8" cy="64" r="4.5" fill="#3178c6"/>
+  <text x="665.8" y="68" fill="#7f848e" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="11">TypeScript</text>
+  <text x="25" y="84" fill="#adbac7" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="11" opacity="0.65">Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞 </text>
   <rect x="1" y="103" width="828" height="50" fill="rgba(255,255,255,0.03)"/>
-  <text x="25" y="118" fill="#58a6ff" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="13.5" font-weight="600">langgenius/dify</text>
-  <circle cx="680" cy="114" r="4.5" fill="#3178c6"/>
-  <text x="689" y="118" fill="#7f848e" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="11">TypeScript</text>
-  <g transform="translate(770, 108)"><svg width="12" height="12" viewBox="0 0 16 16" fill="#e3b341"><path d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.75.75 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25z"/></svg></g>
-  <text x="765" y="118" fill="#e3b341" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="12" text-anchor="end">133.1k</text>
-  <text x="25" y="134" fill="#adbac7" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="11" opacity="0.65">Production-ready platform for agentic workflow development.</text>
-  <text x="25" y="168" fill="#58a6ff" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="13.5" font-weight="600">grafana/grafana</text>
-  <circle cx="680" cy="164" r="4.5" fill="#3178c6"/>
-  <text x="689" y="168" fill="#7f848e" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="11">TypeScript</text>
-  <g transform="translate(770, 158)"><svg width="12" height="12" viewBox="0 0 16 16" fill="#e3b341"><path d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.75.75 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25z"/></svg></g>
-  <text x="765" y="168" fill="#e3b341" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="12" text-anchor="end">72.7k</text>
-  <text x="25" y="184" fill="#adbac7" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="11" opacity="0.65">The open and composable observability and data visualization platform. Visualize metrics, logs, and traces from mu…</text>
+  <text x="25" y="118" fill="#58a6ff" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="13.5" font-weight="600">yt-dlp/yt-dlp</text>
+  <g transform="translate(798, 108)"><svg width="12" height="12" viewBox="0 0 16 16" fill="#e3b341"><path d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.75.75 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25z"/></svg></g>
+  <text x="792" y="118" fill="#e3b341" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="12" text-anchor="end">151.6k</text>
+  <circle cx="682.8" cy="114" r="4.5" fill="#3572A5"/>
+  <text x="691.8" y="118" fill="#7f848e" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="11">Python</text>
+  <text x="25" y="134" fill="#adbac7" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="11" opacity="0.65">A feature-rich command-line audio/video downloader</text>
+  <text x="25" y="168" fill="#58a6ff" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="13.5" font-weight="600">langgenius/dify</text>
+  <g transform="translate(798, 158)"><svg width="12" height="12" viewBox="0 0 16 16" fill="#e3b341"><path d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.75.75 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25z"/></svg></g>
+  <text x="792" y="168" fill="#e3b341" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="12" text-anchor="end">133.1k</text>
+  <circle cx="656.8" cy="164" r="4.5" fill="#3178c6"/>
+  <text x="665.8" y="168" fill="#7f848e" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="11">TypeScript</text>
+  <text x="25" y="184" fill="#adbac7" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="11" opacity="0.65">Production-ready platform for agentic workflow development.</text>
   <rect x="1" y="203" width="828" height="50" fill="rgba(255,255,255,0.03)"/>
-  <text x="25" y="218" fill="#58a6ff" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="13.5" font-weight="600">caddyserver/caddy</text>
-  <circle cx="680" cy="214" r="4.5" fill="#00ADD8"/>
-  <text x="689" y="218" fill="#7f848e" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="11">Go</text>
-  <g transform="translate(770, 208)"><svg width="12" height="12" viewBox="0 0 16 16" fill="#e3b341"><path d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.75.75 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25z"/></svg></g>
-  <text x="765" y="218" fill="#e3b341" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="12" text-anchor="end">70.9k</text>
-  <text x="25" y="234" fill="#adbac7" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="11" opacity="0.65">Fast and extensible multi-platform HTTP/1-2-3 web server with automatic HTTPS</text>
-  <text x="25" y="268" fill="#58a6ff" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="13.5" font-weight="600">juliangarnier/anime</text>
-  <circle cx="680" cy="264" r="4.5" fill="#f1e05a"/>
-  <text x="689" y="268" fill="#7f848e" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="11">JavaScript</text>
-  <g transform="translate(770, 258)"><svg width="12" height="12" viewBox="0 0 16 16" fill="#e3b341"><path d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.75.75 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25z"/></svg></g>
-  <text x="765" y="268" fill="#e3b341" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="12" text-anchor="end">66.9k</text>
-  <text x="25" y="284" fill="#adbac7" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="11" opacity="0.65">JavaScript animation engine</text>
+  <text x="25" y="218" fill="#58a6ff" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="13.5" font-weight="600">open-webui/open-webui</text>
+  <g transform="translate(798, 208)"><svg width="12" height="12" viewBox="0 0 16 16" fill="#e3b341"><path d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.75.75 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25z"/></svg></g>
+  <text x="792" y="218" fill="#e3b341" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="12" text-anchor="end">127.5k</text>
+  <circle cx="682.8" cy="214" r="4.5" fill="#3572A5"/>
+  <text x="691.8" y="218" fill="#7f848e" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="11">Python</text>
+  <text x="25" y="234" fill="#adbac7" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="11" opacity="0.65">User-friendly AI Interface (Supports Ollama, OpenAI API, ...)</text>
+  <text x="25" y="268" fill="#58a6ff" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="13.5" font-weight="600">anomalyco/opencode</text>
+  <g transform="translate(798, 258)"><svg width="12" height="12" viewBox="0 0 16 16" fill="#e3b341"><path d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.75.75 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25z"/></svg></g>
+  <text x="792" y="268" fill="#e3b341" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="12" text-anchor="end">123.6k</text>
+  <circle cx="656.8" cy="264" r="4.5" fill="#3178c6"/>
+  <text x="665.8" y="268" fill="#7f848e" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="11">TypeScript</text>
+  <text x="25" y="284" fill="#adbac7" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="11" opacity="0.65">The open source coding agent.</text>
   <rect x="1" y="303" width="828" height="50" fill="rgba(255,255,255,0.03)"/>
-  <text x="25" y="318" fill="#58a6ff" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="13.5" font-weight="600">scikit-learn/scikit-learn</text>
-  <circle cx="680" cy="314" r="4.5" fill="#3572A5"/>
-  <text x="689" y="318" fill="#7f848e" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="11">Python</text>
-  <g transform="translate(770, 308)"><svg width="12" height="12" viewBox="0 0 16 16" fill="#e3b341"><path d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.75.75 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25z"/></svg></g>
-  <text x="765" y="318" fill="#e3b341" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="12" text-anchor="end">65.4k</text>
-  <text x="25" y="334" fill="#adbac7" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="11" opacity="0.65">scikit-learn: machine learning in Python</text>
-  <text x="25" y="368" fill="#58a6ff" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="13.5" font-weight="600">scrapy/scrapy</text>
-  <circle cx="680" cy="364" r="4.5" fill="#3572A5"/>
-  <text x="689" y="368" fill="#7f848e" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="11">Python</text>
-  <g transform="translate(770, 358)"><svg width="12" height="12" viewBox="0 0 16 16" fill="#e3b341"><path d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.75.75 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25z"/></svg></g>
-  <text x="765" y="368" fill="#e3b341" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="12" text-anchor="end">60.8k</text>
-  <text x="25" y="384" fill="#adbac7" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="11" opacity="0.65">Scrapy, a fast high-level web crawling &amp; scraping framework for Python.</text>
+  <text x="25" y="318" fill="#58a6ff" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="13.5" font-weight="600">google-gemini/gemini-cli</text>
+  <g transform="translate(798, 308)"><svg width="12" height="12" viewBox="0 0 16 16" fill="#e3b341"><path d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.75.75 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25z"/></svg></g>
+  <text x="792" y="318" fill="#e3b341" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="12" text-anchor="end">98.0k</text>
+  <circle cx="664.0" cy="314" r="4.5" fill="#3178c6"/>
+  <text x="673.0" y="318" fill="#7f848e" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="11">TypeScript</text>
+  <text x="25" y="334" fill="#adbac7" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="11" opacity="0.65">An open-source AI agent that brings the power of Gemini directly into your terminal.</text>
+  <text x="25" y="368" fill="#58a6ff" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="13.5" font-weight="600">browser-use/browser-use</text>
+  <g transform="translate(798, 358)"><svg width="12" height="12" viewBox="0 0 16 16" fill="#e3b341"><path d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.75.75 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25z"/></svg></g>
+  <text x="792" y="368" fill="#e3b341" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="12" text-anchor="end">81.0k</text>
+  <circle cx="690.0" cy="364" r="4.5" fill="#3572A5"/>
+  <text x="699.0" y="368" fill="#7f848e" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="11">Python</text>
+  <text x="25" y="384" fill="#adbac7" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="11" opacity="0.65">🌐 Make websites accessible for AI agents. Automate tasks online with ease.</text>
   <rect x="1" y="403" width="828" height="50" fill="rgba(255,255,255,0.03)"/>
-  <text x="25" y="418" fill="#58a6ff" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="13.5" font-weight="600">meilisearch/meilisearch</text>
-  <circle cx="680" cy="414" r="4.5" fill="#dea584"/>
-  <text x="689" y="418" fill="#7f848e" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="11">Rust</text>
-  <g transform="translate(770, 408)"><svg width="12" height="12" viewBox="0 0 16 16" fill="#e3b341"><path d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.75.75 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25z"/></svg></g>
-  <text x="765" y="418" fill="#e3b341" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="12" text-anchor="end">56.4k</text>
-  <text x="25" y="434" fill="#adbac7" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="11" opacity="0.65">A lightning-fast search engine API bringing AI-powered hybrid search to your sites and applications.</text>
-  <text x="25" y="468" fill="#58a6ff" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="13.5" font-weight="600">ultralytics/ultralytics</text>
-  <circle cx="680" cy="464" r="4.5" fill="#3572A5"/>
-  <text x="689" y="468" fill="#7f848e" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="11">Python</text>
-  <g transform="translate(770, 458)"><svg width="12" height="12" viewBox="0 0 16 16" fill="#e3b341"><path d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.75.75 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25z"/></svg></g>
-  <text x="765" y="468" fill="#e3b341" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="12" text-anchor="end">54.5k</text>
-  <text x="25" y="484" fill="#adbac7" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="11" opacity="0.65">Ultralytics YOLO 🚀</text>
+  <text x="25" y="418" fill="#58a6ff" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="13.5" font-weight="600">infiniflow/ragflow</text>
+  <g transform="translate(798, 408)"><svg width="12" height="12" viewBox="0 0 16 16" fill="#e3b341"><path d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.75.75 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25z"/></svg></g>
+  <text x="792" y="418" fill="#e3b341" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="12" text-anchor="end">75.2k</text>
+  <circle cx="690.0" cy="414" r="4.5" fill="#3572A5"/>
+  <text x="699.0" y="418" fill="#7f848e" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="11">Python</text>
+  <text x="25" y="434" fill="#adbac7" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="11" opacity="0.65">RAGFlow is a leading open-source Retrieval-Augmented Generation (RAG) engine that fuses cutting-edge RAG with Agen…</text>
+  <text x="25" y="468" fill="#58a6ff" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="13.5" font-weight="600">lobehub/lobehub</text>
+  <g transform="translate(798, 458)"><svg width="12" height="12" viewBox="0 0 16 16" fill="#e3b341"><path d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.75.75 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25z"/></svg></g>
+  <text x="792" y="468" fill="#e3b341" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="12" text-anchor="end">73.8k</text>
+  <circle cx="664.0" cy="464" r="4.5" fill="#3178c6"/>
+  <text x="673.0" y="468" fill="#7f848e" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="11">TypeScript</text>
+  <text x="25" y="484" fill="#adbac7" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="11" opacity="0.65">The ultimate space for work and life — to find, build, and collaborate with agent teammates that grow with you. We…</text>
   <rect x="1" y="503" width="828" height="50" fill="rgba(255,255,255,0.03)"/>
-  <text x="25" y="518" fill="#58a6ff" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="13.5" font-weight="600">run-llama/llama_index</text>
-  <circle cx="680" cy="514" r="4.5" fill="#3572A5"/>
-  <text x="689" y="518" fill="#7f848e" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="11">Python</text>
-  <g transform="translate(770, 508)"><svg width="12" height="12" viewBox="0 0 16 16" fill="#e3b341"><path d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.75.75 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25z"/></svg></g>
-  <text x="765" y="518" fill="#e3b341" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="12" text-anchor="end">47.7k</text>
-  <text x="25" y="534" fill="#adbac7" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="11" opacity="0.65">LlamaIndex is the leading document agent and OCR platform</text>
+  <text x="25" y="518" fill="#58a6ff" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="13.5" font-weight="600">grafana/grafana</text>
+  <g transform="translate(798, 508)"><svg width="12" height="12" viewBox="0 0 16 16" fill="#e3b341"><path d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.75.75 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25z"/></svg></g>
+  <text x="792" y="518" fill="#e3b341" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="12" text-anchor="end">72.7k</text>
+  <circle cx="664.0" cy="514" r="4.5" fill="#3178c6"/>
+  <text x="673.0" y="518" fill="#7f848e" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="11">TypeScript</text>
+  <text x="25" y="534" fill="#adbac7" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="11" opacity="0.65">The open and composable observability and data visualization platform. Visualize metrics, logs, and traces from mu…</text>
 </svg>
