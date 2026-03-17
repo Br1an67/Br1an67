@@ -153,7 +153,8 @@ def generate_markdown_table(repos):
         stars = format_stars(repo["stargazerCount"])
         lang = (repo.get("primaryLanguage") or {}).get("name", "—")
         desc = truncate(repo.get("description") or "", 60)
-        lines.append(f"| **{name}** | {stars} | {lang} | {desc} |")
+        url = f"https://github.com/{name}"
+        lines.append(f"| [**{name}**]({url}) | {stars} | {lang} | {desc} |")
     return "\n".join(lines)
 
 
