@@ -77,7 +77,7 @@
 
 <!-- CONTRIBUTIONS:START -->
 <p align="center">
-  <img src="/metrics.plugin.contributions.svg?v=1773747599" alt="Top Contributed Repos" />
+  <img src="/metrics.plugin.contributions.svg?v=1773799536" alt="Top Contributed Repos" />
 </p>
 
 <details>
@@ -97,7 +97,7 @@
 | [**Kilo-Org/kilocode**](https://github.com/Kilo-Org/kilocode) | 16.8k | TypeScript | Kilo is the all-in-one agentic engineering platform. Build, ship, and iterate faster with the most… |
 | [**VictoriaMetrics/VictoriaMetrics**](https://github.com/VictoriaMetrics/VictoriaMetrics) | 16.5k | Go | VictoriaMetrics: fast, cost-effective monitoring solution and time series database |
 | [**confident-ai/deepeval**](https://github.com/confident-ai/deepeval) | 14.1k | Python | The LLM Evaluation Framework |
-| [**oauth2-proxy/oauth2-proxy**](https://github.com/oauth2-proxy/oauth2-proxy) | 14.0k | Go | A reverse proxy that provides authentication with Google, Azure, OpenID Connect and many more ident… |
+| [**oauth2-proxy/oauth2-proxy**](https://github.com/oauth2-proxy/oauth2-proxy) | 14.1k | Go | A reverse proxy that provides authentication with Google, Azure, OpenID Connect and many more ident… |
 | [**casdoor/casdoor**](https://github.com/casdoor/casdoor) | 13.2k | Go | An open-source AI-first Identity and Access Management (IAM) /AI MCP gateway and auth server with w… |
 | [**Chainlit/chainlit**](https://github.com/Chainlit/chainlit) | 11.7k | Python | Build Conversational AI in minutes ⚡️ |
 | [**plankanban/planka**](https://github.com/plankanban/planka) | 11.7k | JavaScript | PLANKA is the Kanban-style project mastering tool for everyone |
