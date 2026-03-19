@@ -77,16 +77,16 @@
 
 <!-- CONTRIBUTIONS:START -->
 <p align="center">
-  <img src="/metrics.plugin.contributions.svg?v=1773799536" alt="Top Contributed Repos" />
+  <img src="/metrics.plugin.contributions.svg?v=1773886000" alt="Top Contributed Repos" />
 </p>
 
 <details>
-<summary>Show more (29 repositories)</summary>
+<summary>Show more (30 repositories)</summary>
 
 | Repository | Stars | Language | Description |
 |:---|:---:|:---:|:---|
 | [**celery/celery**](https://github.com/celery/celery) | 28.2k | Python | Distributed Task Queue (development branch) |
-| [**authelia/authelia**](https://github.com/authelia/authelia) | 27.2k | Go | The Single Sign-On Multi-Factor portal for web apps, now OpenID Certified™ |
+| [**authelia/authelia**](https://github.com/authelia/authelia) | 27.3k | Go | The Single Sign-On Multi-Factor portal for web apps, now OpenID Certified™ |
 | [**pydantic/pydantic**](https://github.com/pydantic/pydantic) | 27.2k | Python | Data validation using Python type hints |
 | [**assafelovic/gpt-researcher**](https://github.com/assafelovic/gpt-researcher) | 25.8k | Python | An autonomous agent that conducts deep research on any data using any LLM providers |
 | [**Fosowl/agenticSeek**](https://github.com/Fosowl/agenticSeek) | 25.5k | Python | Fully Local Manus AI. No APIs, No $200 monthly bills. Enjoy an autonomous agent that thinks, browse… |
@@ -94,12 +94,13 @@
 | [**PrefectHQ/prefect**](https://github.com/PrefectHQ/prefect) | 21.9k | Python | Prefect is a workflow orchestration framework for building resilient data pipelines in Python. |
 | [**conventional-changelog/commitlint**](https://github.com/conventional-changelog/commitlint) | 18.4k | TypeScript | 📓 Lint commit messages |
 | [**super-productivity/super-productivity**](https://github.com/super-productivity/super-productivity) | 18.0k | TypeScript | Super Productivity is an advanced todo list app with integrated Timeboxing and time tracking capabi… |
-| [**Kilo-Org/kilocode**](https://github.com/Kilo-Org/kilocode) | 16.8k | TypeScript | Kilo is the all-in-one agentic engineering platform. Build, ship, and iterate faster with the most… |
-| [**VictoriaMetrics/VictoriaMetrics**](https://github.com/VictoriaMetrics/VictoriaMetrics) | 16.5k | Go | VictoriaMetrics: fast, cost-effective monitoring solution and time series database |
-| [**confident-ai/deepeval**](https://github.com/confident-ai/deepeval) | 14.1k | Python | The LLM Evaluation Framework |
+| [**Kilo-Org/kilocode**](https://github.com/Kilo-Org/kilocode) | 16.9k | TypeScript | Kilo is the all-in-one agentic engineering platform. Build, ship, and iterate faster with the most… |
+| [**VictoriaMetrics/VictoriaMetrics**](https://github.com/VictoriaMetrics/VictoriaMetrics) | 16.6k | Go | VictoriaMetrics: fast, cost-effective monitoring solution and time series database |
+| [**confident-ai/deepeval**](https://github.com/confident-ai/deepeval) | 14.2k | Python | The LLM Evaluation Framework |
 | [**oauth2-proxy/oauth2-proxy**](https://github.com/oauth2-proxy/oauth2-proxy) | 14.1k | Go | A reverse proxy that provides authentication with Google, Azure, OpenID Connect and many more ident… |
 | [**casdoor/casdoor**](https://github.com/casdoor/casdoor) | 13.2k | Go | An open-source AI-first Identity and Access Management (IAM) /AI MCP gateway and auth server with w… |
-| [**Chainlit/chainlit**](https://github.com/Chainlit/chainlit) | 11.7k | Python | Build Conversational AI in minutes ⚡️ |
+| [**pypa/pipx**](https://github.com/pypa/pipx) | 12.6k | Python | Install and Run Python Applications in Isolated Environments |
+| [**Chainlit/chainlit**](https://github.com/Chainlit/chainlit) | 11.8k | Python | Build Conversational AI in minutes ⚡️ |
 | [**plankanban/planka**](https://github.com/plankanban/planka) | 11.7k | JavaScript | PLANKA is the Kanban-style project mastering tool for everyone |
 | [**grafana/pyroscope**](https://github.com/grafana/pyroscope) | 11.3k | Go | Continuous Profiling Platform. Debug performance issues down to a single line of code |
 | [**cadence-workflow/cadence**](https://github.com/cadence-workflow/cadence) | 9.2k | Go | Cadence is a distributed, scalable, durable, and highly available orchestration engine to execute a… |
