@@ -77,25 +77,25 @@
 
 <!-- CONTRIBUTIONS:START -->
 <p align="center">
-  <img src="/metrics.plugin.contributions.svg?v=1773972037" alt="Top Contributed Repos" />
+  <img src="/metrics.plugin.contributions.svg?v=1774058075" alt="Top Contributed Repos" />
 </p>
 
 <details>
-<summary>Show more (31 repositories)</summary>
+<summary>Show more (32 repositories)</summary>
 
 | Repository | Stars | Language | Description |
 |:---|:---:|:---:|:---|
 | [**celery/celery**](https://github.com/celery/celery) | 28.3k | Python | Distributed Task Queue (development branch) |
 | [**authelia/authelia**](https://github.com/authelia/authelia) | 27.3k | Go | The Single Sign-On Multi-Factor portal for web apps, now OpenID Certified™ |
-| [**pydantic/pydantic**](https://github.com/pydantic/pydantic) | 27.2k | Python | Data validation using Python type hints |
-| [**assafelovic/gpt-researcher**](https://github.com/assafelovic/gpt-researcher) | 25.8k | Python | An autonomous agent that conducts deep research on any data using any LLM providers |
+| [**pydantic/pydantic**](https://github.com/pydantic/pydantic) | 27.3k | Python | Data validation using Python type hints |
+| [**assafelovic/gpt-researcher**](https://github.com/assafelovic/gpt-researcher) | 25.9k | Python | An autonomous agent that conducts deep research on any data using any LLM providers |
 | [**Fosowl/agenticSeek**](https://github.com/Fosowl/agenticSeek) | 25.6k | Python | Fully Local Manus AI. No APIs, No $200 monthly bills. Enjoy an autonomous agent that thinks, browse… |
 | [**deepset-ai/haystack**](https://github.com/deepset-ai/haystack) | 24.6k | MDX | Open-source AI orchestration framework for building context-engineered, production-ready LLM applic… |
 | [**PrefectHQ/prefect**](https://github.com/PrefectHQ/prefect) | 21.9k | Python | Prefect is a workflow orchestration framework for building resilient data pipelines in Python. |
 | [**QwenLM/qwen-code**](https://github.com/QwenLM/qwen-code) | 20.8k | TypeScript | An open-source AI agent that lives in your terminal. |
 | [**conventional-changelog/commitlint**](https://github.com/conventional-changelog/commitlint) | 18.4k | TypeScript | 📓 Lint commit messages |
-| [**super-productivity/super-productivity**](https://github.com/super-productivity/super-productivity) | 18.0k | TypeScript | Super Productivity is an advanced todo list app with integrated Timeboxing and time tracking capabi… |
-| [**Kilo-Org/kilocode**](https://github.com/Kilo-Org/kilocode) | 16.9k | TypeScript | Kilo is the all-in-one agentic engineering platform. Build, ship, and iterate faster with the most… |
+| [**super-productivity/super-productivity**](https://github.com/super-productivity/super-productivity) | 18.1k | TypeScript | Super Productivity is an advanced todo list app with integrated Timeboxing and time tracking capabi… |
+| [**Kilo-Org/kilocode**](https://github.com/Kilo-Org/kilocode) | 17.0k | TypeScript | Kilo is the all-in-one agentic engineering platform. Build, ship, and iterate faster with the most… |
 | [**VictoriaMetrics/VictoriaMetrics**](https://github.com/VictoriaMetrics/VictoriaMetrics) | 16.6k | Go | VictoriaMetrics: fast, cost-effective monitoring solution and time series database |
 | [**confident-ai/deepeval**](https://github.com/confident-ai/deepeval) | 14.2k | Python | The LLM Evaluation Framework |
 | [**oauth2-proxy/oauth2-proxy**](https://github.com/oauth2-proxy/oauth2-proxy) | 14.1k | Go | A reverse proxy that provides authentication with Google, Azure, OpenID Connect and many more ident… |
@@ -105,6 +105,7 @@
 | [**plankanban/planka**](https://github.com/plankanban/planka) | 11.7k | JavaScript | PLANKA is the Kanban-style project mastering tool for everyone |
 | [**grafana/pyroscope**](https://github.com/grafana/pyroscope) | 11.3k | Go | Continuous Profiling Platform. Debug performance issues down to a single line of code |
 | [**cadence-workflow/cadence**](https://github.com/cadence-workflow/cadence) | 9.2k | Go | Cadence is a distributed, scalable, durable, and highly available orchestration engine to execute a… |
+| [**pdm-project/pdm**](https://github.com/pdm-project/pdm) | 8.5k | Python | A modern Python package and dependency manager supporting the latest PEP standards |
 | [**pwr-Solaar/Solaar**](https://github.com/pwr-Solaar/Solaar) | 8.4k | Python | Linux device manager for Logitech devices |
 | [**litestar-org/litestar**](https://github.com/litestar-org/litestar) | 8.1k | Python | Light, flexible and extensible ASGI framework | Built to scale |
 | [**microsoft/presidio**](https://github.com/microsoft/presidio) | 7.3k | Python | An open-source framework for detecting, redacting, masking, and anonymizing sensitive data (PII) ac… |
