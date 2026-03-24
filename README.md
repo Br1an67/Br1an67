@@ -77,22 +77,23 @@
 
 <!-- CONTRIBUTIONS:START -->
 <p align="center">
-  <img src="/metrics.plugin.contributions.svg?v=1774231669" alt="Top Contributed Repos" />
+  <img src="/metrics.plugin.contributions.svg?v=1774317576" alt="Top Contributed Repos" />
 </p>
 
 <details>
-<summary>Show more (32 repositories)</summary>
+<summary>Show more (34 repositories)</summary>
 
 | Repository | Stars | Language | Description |
 |:---|:---:|:---:|:---|
+| [**bytedance/UI-TARS-desktop**](https://github.com/bytedance/UI-TARS-desktop) | 29.0k | TypeScript | The Open-Source Multimodal AI Agent Stack: Connecting Cutting-Edge AI Models and Agent Infra |
 | [**celery/celery**](https://github.com/celery/celery) | 28.3k | Python | Distributed Task Queue (development branch) |
 | [**pydantic/pydantic**](https://github.com/pydantic/pydantic) | 27.3k | Python | Data validation using Python type hints |
 | [**authelia/authelia**](https://github.com/authelia/authelia) | 27.3k | Go | The Single Sign-On Multi-Factor portal for web apps, now OpenID Certified™ |
-| [**assafelovic/gpt-researcher**](https://github.com/assafelovic/gpt-researcher) | 25.9k | Python | An autonomous agent that conducts deep research on any data using any LLM providers |
+| [**assafelovic/gpt-researcher**](https://github.com/assafelovic/gpt-researcher) | 26.0k | Python | An autonomous agent that conducts deep research on any data using any LLM providers |
 | [**Fosowl/agenticSeek**](https://github.com/Fosowl/agenticSeek) | 25.6k | Python | Fully Local Manus AI. No APIs, No $200 monthly bills. Enjoy an autonomous agent that thinks, browse… |
 | [**deepset-ai/haystack**](https://github.com/deepset-ai/haystack) | 24.6k | MDX | Open-source AI orchestration framework for building context-engineered, production-ready LLM applic… |
 | [**PrefectHQ/prefect**](https://github.com/PrefectHQ/prefect) | 21.9k | Python | Prefect is a workflow orchestration framework for building resilient data pipelines in Python. |
-| [**QwenLM/qwen-code**](https://github.com/QwenLM/qwen-code) | 20.9k | TypeScript | An open-source AI agent that lives in your terminal. |
+| [**QwenLM/qwen-code**](https://github.com/QwenLM/qwen-code) | 21.0k | TypeScript | An open-source AI agent that lives in your terminal. |
 | [**conventional-changelog/commitlint**](https://github.com/conventional-changelog/commitlint) | 18.4k | TypeScript | 📓 Lint commit messages |
 | [**super-productivity/super-productivity**](https://github.com/super-productivity/super-productivity) | 18.1k | TypeScript | Super Productivity is an advanced todo list app with integrated Timeboxing and time tracking capabi… |
 | [**Kilo-Org/kilocode**](https://github.com/Kilo-Org/kilocode) | 17.1k | TypeScript | Kilo is the all-in-one agentic engineering platform. Build, ship, and iterate faster with the most… |
@@ -104,11 +105,12 @@
 | [**Chainlit/chainlit**](https://github.com/Chainlit/chainlit) | 11.8k | Python | Build Conversational AI in minutes ⚡️ |
 | [**plankanban/planka**](https://github.com/plankanban/planka) | 11.7k | JavaScript | PLANKA is the Kanban-style project mastering tool for everyone |
 | [**grafana/pyroscope**](https://github.com/grafana/pyroscope) | 11.3k | Go | Continuous Profiling Platform. Debug performance issues down to a single line of code |
+| [**pwndbg/pwndbg**](https://github.com/pwndbg/pwndbg) | 10.2k | Python | Exploit Development and Reverse Engineering with GDB & LLDB Made Easy |
 | [**cadence-workflow/cadence**](https://github.com/cadence-workflow/cadence) | 9.2k | Go | Cadence is a distributed, scalable, durable, and highly available orchestration engine to execute a… |
 | [**pdm-project/pdm**](https://github.com/pdm-project/pdm) | 8.5k | Python | A modern Python package and dependency manager supporting the latest PEP standards |
 | [**pwr-Solaar/Solaar**](https://github.com/pwr-Solaar/Solaar) | 8.4k | Python | Linux device manager for Logitech devices |
 | [**litestar-org/litestar**](https://github.com/litestar-org/litestar) | 8.1k | Python | Light, flexible and extensible ASGI framework | Built to scale |
-| [**microsoft/presidio**](https://github.com/microsoft/presidio) | 7.3k | Python | An open-source framework for detecting, redacting, masking, and anonymizing sensitive data (PII) ac… |
+| [**microsoft/presidio**](https://github.com/microsoft/presidio) | 7.4k | Python | An open-source framework for detecting, redacting, masking, and anonymizing sensitive data (PII) ac… |
 | [**feast-dev/feast**](https://github.com/feast-dev/feast) | 6.8k | Python | The Open Source Feature Store for AI/ML |
 | [**external-secrets/external-secrets**](https://github.com/external-secrets/external-secrets) | 6.5k | Go | External Secrets Operator reads information from a third-party service like AWS Secrets Manager and… |
 | [**nteract/papermill**](https://github.com/nteract/papermill) | 6.4k | Python | 📚 Parameterize, execute, and analyze notebooks |
