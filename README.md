@@ -77,7 +77,7 @@
 
 <!-- CONTRIBUTIONS:START -->
 <p align="center">
-  <img src="/metrics.plugin.contributions.svg?v=1774404315" alt="Top Contributed Repos" />
+  <img src="/metrics.plugin.contributions.svg?v=1774491078" alt="Top Contributed Repos" />
 </p>
 
 <details>
@@ -93,8 +93,8 @@
 | [**assafelovic/gpt-researcher**](https://github.com/assafelovic/gpt-researcher) | 26.0k | Python | An autonomous agent that conducts deep research on any data using any LLM providers |
 | [**Fosowl/agenticSeek**](https://github.com/Fosowl/agenticSeek) | 25.6k | Python | Fully Local Manus AI. No APIs, No $200 monthly bills. Enjoy an autonomous agent that thinks, browse… |
 | [**deepset-ai/haystack**](https://github.com/deepset-ai/haystack) | 24.6k | MDX | Open-source AI orchestration framework for building context-engineered, production-ready LLM applic… |
-| [**PrefectHQ/prefect**](https://github.com/PrefectHQ/prefect) | 21.9k | Python | Prefect is a workflow orchestration framework for building resilient data pipelines in Python. |
-| [**QwenLM/qwen-code**](https://github.com/QwenLM/qwen-code) | 21.0k | TypeScript | An open-source AI agent that lives in your terminal. |
+| [**PrefectHQ/prefect**](https://github.com/PrefectHQ/prefect) | 22.0k | Python | Prefect is a workflow orchestration framework for building resilient data pipelines in Python. |
+| [**QwenLM/qwen-code**](https://github.com/QwenLM/qwen-code) | 21.1k | TypeScript | An open-source AI agent that lives in your terminal. |
 | [**conventional-changelog/commitlint**](https://github.com/conventional-changelog/commitlint) | 18.4k | TypeScript | 📓 Lint commit messages |
 | [**super-productivity/super-productivity**](https://github.com/super-productivity/super-productivity) | 18.1k | TypeScript | Super Productivity is an advanced todo list app with integrated Timeboxing and time tracking capabi… |
 | [**Kilo-Org/kilocode**](https://github.com/Kilo-Org/kilocode) | 17.2k | TypeScript | Kilo is the all-in-one agentic engineering platform. Build, ship, and iterate faster with the most… |
@@ -102,14 +102,14 @@
 | [**confident-ai/deepeval**](https://github.com/confident-ai/deepeval) | 14.3k | Python | The LLM Evaluation Framework |
 | [**oauth2-proxy/oauth2-proxy**](https://github.com/oauth2-proxy/oauth2-proxy) | 14.1k | Go | A reverse proxy that provides authentication with Google, Azure, OpenID Connect and many more ident… |
 | [**casdoor/casdoor**](https://github.com/casdoor/casdoor) | 13.2k | Go | An open-source AI-first Identity and Access Management (IAM) /AI MCP gateway and auth server with w… |
-| [**pypa/pipx**](https://github.com/pypa/pipx) | 12.6k | Python | Install and Run Python Applications in Isolated Environments |
+| [**pypa/pipx**](https://github.com/pypa/pipx) | 12.7k | Python | Install and Run Python Applications in Isolated Environments |
 | [**Chainlit/chainlit**](https://github.com/Chainlit/chainlit) | 11.8k | Python | Build Conversational AI in minutes ⚡️ |
 | [**plankanban/planka**](https://github.com/plankanban/planka) | 11.7k | JavaScript | PLANKA is the Kanban-style project mastering tool for everyone |
 | [**grafana/pyroscope**](https://github.com/grafana/pyroscope) | 11.3k | Go | Continuous Profiling Platform. Debug performance issues down to a single line of code |
 | [**pwndbg/pwndbg**](https://github.com/pwndbg/pwndbg) | 10.2k | Python | Exploit Development and Reverse Engineering with GDB & LLDB Made Easy |
 | [**cadence-workflow/cadence**](https://github.com/cadence-workflow/cadence) | 9.2k | Go | Cadence is a distributed, scalable, durable, and highly available orchestration engine to execute a… |
 | [**pdm-project/pdm**](https://github.com/pdm-project/pdm) | 8.6k | Python | A modern Python package and dependency manager supporting the latest PEP standards |
-| [**pwr-Solaar/Solaar**](https://github.com/pwr-Solaar/Solaar) | 8.4k | Python | Linux device manager for Logitech devices |
+| [**pwr-Solaar/Solaar**](https://github.com/pwr-Solaar/Solaar) | 8.5k | Python | Linux device manager for Logitech devices |
 | [**litestar-org/litestar**](https://github.com/litestar-org/litestar) | 8.1k | Python | Light, flexible and extensible ASGI framework | Built to scale |
 | [**microsoft/presidio**](https://github.com/microsoft/presidio) | 7.4k | Python | An open-source framework for detecting, redacting, masking, and anonymizing sensitive data (PII) ac… |
 | [**feast-dev/feast**](https://github.com/feast-dev/feast) | 6.8k | Python | The Open Source Feature Store for AI/ML |
@@ -118,7 +118,7 @@
 | [**tortoise/tortoise-orm**](https://github.com/tortoise/tortoise-orm) | 5.5k | Python | Familiar asyncio ORM for python, built with relations in mind |
 | [**ag2ai/faststream**](https://github.com/ag2ai/faststream) | 5.1k | Python | FastStream is a powerful and easy-to-use asynchronous Python framework for building asynchronous se… |
 | [**strawberry-graphql/strawberry**](https://github.com/strawberry-graphql/strawberry) | 4.6k | Python | A GraphQL library for Python that leverages type annotations 🍓 |
-| [**langfuse/langfuse-python**](https://github.com/langfuse/langfuse-python) | 366 | Python | 🪢 Langfuse Python SDK - Instrument your LLM app with decorators or low-level SDK and get detailed t… |
+| [**langfuse/langfuse-python**](https://github.com/langfuse/langfuse-python) | 367 | Python | 🪢 Langfuse Python SDK - Instrument your LLM app with decorators or low-level SDK and get detailed t… |
 | [**deepset-ai/haystack-core-integrations**](https://github.com/deepset-ai/haystack-core-integrations) | 183 | Python | Additional packages (components, document stores and the likes) to extend the capabilities of Hayst… |
 
 </details>
