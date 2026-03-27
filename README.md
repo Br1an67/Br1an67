@@ -77,7 +77,7 @@
 
 <!-- CONTRIBUTIONS:START -->
 <p align="center">
-  <img src="/metrics.plugin.contributions.svg?v=1774491078" alt="Top Contributed Repos" />
+  <img src="/metrics.plugin.contributions.svg?v=1774577536" alt="Top Contributed Repos" />
 </p>
 
 <details>
@@ -85,13 +85,13 @@
 
 | Repository | Stars | Language | Description |
 |:---|:---:|:---:|:---|
-| [**HKUDS/LightRAG**](https://github.com/HKUDS/LightRAG) | 30.5k | Python | [EMNLP2025] "LightRAG: Simple and Fast Retrieval-Augmented Generation" |
+| [**HKUDS/LightRAG**](https://github.com/HKUDS/LightRAG) | 30.7k | Python | [EMNLP2025] "LightRAG: Simple and Fast Retrieval-Augmented Generation" |
 | [**bytedance/UI-TARS-desktop**](https://github.com/bytedance/UI-TARS-desktop) | 29.1k | TypeScript | The Open-Source Multimodal AI Agent Stack: Connecting Cutting-Edge AI Models and Agent Infra |
 | [**celery/celery**](https://github.com/celery/celery) | 28.3k | Python | Distributed Task Queue (development branch) |
 | [**pydantic/pydantic**](https://github.com/pydantic/pydantic) | 27.3k | Python | Data validation using Python type hints |
 | [**authelia/authelia**](https://github.com/authelia/authelia) | 27.3k | Go | The Single Sign-On Multi-Factor portal for web apps, now OpenID Certified™ |
 | [**assafelovic/gpt-researcher**](https://github.com/assafelovic/gpt-researcher) | 26.0k | Python | An autonomous agent that conducts deep research on any data using any LLM providers |
-| [**Fosowl/agenticSeek**](https://github.com/Fosowl/agenticSeek) | 25.6k | Python | Fully Local Manus AI. No APIs, No $200 monthly bills. Enjoy an autonomous agent that thinks, browse… |
+| [**Fosowl/agenticSeek**](https://github.com/Fosowl/agenticSeek) | 25.7k | Python | Fully Local Manus AI. No APIs, No $200 monthly bills. Enjoy an autonomous agent that thinks, browse… |
 | [**deepset-ai/haystack**](https://github.com/deepset-ai/haystack) | 24.6k | MDX | Open-source AI orchestration framework for building context-engineered, production-ready LLM applic… |
 | [**PrefectHQ/prefect**](https://github.com/PrefectHQ/prefect) | 22.0k | Python | Prefect is a workflow orchestration framework for building resilient data pipelines in Python. |
 | [**QwenLM/qwen-code**](https://github.com/QwenLM/qwen-code) | 21.1k | TypeScript | An open-source AI agent that lives in your terminal. |
@@ -118,8 +118,8 @@
 | [**tortoise/tortoise-orm**](https://github.com/tortoise/tortoise-orm) | 5.5k | Python | Familiar asyncio ORM for python, built with relations in mind |
 | [**ag2ai/faststream**](https://github.com/ag2ai/faststream) | 5.1k | Python | FastStream is a powerful and easy-to-use asynchronous Python framework for building asynchronous se… |
 | [**strawberry-graphql/strawberry**](https://github.com/strawberry-graphql/strawberry) | 4.6k | Python | A GraphQL library for Python that leverages type annotations 🍓 |
-| [**langfuse/langfuse-python**](https://github.com/langfuse/langfuse-python) | 367 | Python | 🪢 Langfuse Python SDK - Instrument your LLM app with decorators or low-level SDK and get detailed t… |
-| [**deepset-ai/haystack-core-integrations**](https://github.com/deepset-ai/haystack-core-integrations) | 183 | Python | Additional packages (components, document stores and the likes) to extend the capabilities of Hayst… |
+| [**langfuse/langfuse-python**](https://github.com/langfuse/langfuse-python) | 368 | Python | 🪢 Langfuse Python SDK - Instrument your LLM app with decorators or low-level SDK and get detailed t… |
+| [**deepset-ai/haystack-core-integrations**](https://github.com/deepset-ai/haystack-core-integrations) | 184 | Python | Additional packages (components, document stores and the likes) to extend the capabilities of Hayst… |
 
 </details>
 <!-- CONTRIBUTIONS:END -->
