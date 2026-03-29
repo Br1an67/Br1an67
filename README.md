@@ -77,7 +77,7 @@
 
 <!-- CONTRIBUTIONS:START -->
 <p align="center">
-  <img src="/metrics.plugin.contributions.svg?v=1774663421" alt="Top Contributed Repos" />
+  <img src="/metrics.plugin.contributions.svg?v=1774750981" alt="Top Contributed Repos" />
 </p>
 
 <details>
@@ -85,7 +85,7 @@
 
 | Repository | Stars | Language | Description |
 |:---|:---:|:---:|:---|
-| [**HKUDS/LightRAG**](https://github.com/HKUDS/LightRAG) | 30.8k | Python | [EMNLP2025] "LightRAG: Simple and Fast Retrieval-Augmented Generation" |
+| [**HKUDS/LightRAG**](https://github.com/HKUDS/LightRAG) | 30.9k | Python | [EMNLP2025] "LightRAG: Simple and Fast Retrieval-Augmented Generation" |
 | [**bytedance/UI-TARS-desktop**](https://github.com/bytedance/UI-TARS-desktop) | 29.1k | TypeScript | The Open-Source Multimodal AI Agent Stack: Connecting Cutting-Edge AI Models and Agent Infra |
 | [**celery/celery**](https://github.com/celery/celery) | 28.3k | Python | Distributed Task Queue (development branch) |
 | [**authelia/authelia**](https://github.com/authelia/authelia) | 27.3k | Go | The Single Sign-On Multi-Factor portal for web apps, now OpenID Certified™ |
