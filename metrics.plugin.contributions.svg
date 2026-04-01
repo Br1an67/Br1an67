@@ -21,28 +21,28 @@
   </g>
   <text x="25" y="75" class="repo-name">openclaw/openclaw</text>
   <g transform="translate(789, 63)"><svg class="star" viewBox="0 0 16 16" width="16" height="16"><path d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.75.75 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25z"/></svg></g>
-  <text x="785" y="75" class="star-text" text-anchor="end">341.9k</text>
+  <text x="785" y="75" class="star-text" text-anchor="end">343.3k</text>
   <circle cx="658.8125" cy="70" r="5" fill="#3178c6"/>
   <text x="668.8125" y="75" class="gray">TypeScript</text>
   <text x="25" y="93" class="description">Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞 </text>
   <line class="divider" x1="25" y1="105" x2="805" y2="105"/>
   <text x="25" y="125" class="repo-name">langgenius/dify</text>
   <g transform="translate(789, 113)"><svg class="star" viewBox="0 0 16 16" width="16" height="16"><path d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.75.75 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25z"/></svg></g>
-  <text x="785" y="125" class="star-text" text-anchor="end">135.1k</text>
+  <text x="785" y="125" class="star-text" text-anchor="end">135.2k</text>
   <circle cx="658.8125" cy="120" r="5" fill="#3178c6"/>
   <text x="668.8125" y="125" class="gray">TypeScript</text>
   <text x="25" y="143" class="description">Production-ready platform for agentic workflow development.</text>
   <line class="divider" x1="25" y1="155" x2="805" y2="155"/>
   <text x="25" y="175" class="repo-name">browser-use/browser-use</text>
   <g transform="translate(789, 163)"><svg class="star" viewBox="0 0 16 16" width="16" height="16"><path d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.75.75 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25z"/></svg></g>
-  <text x="785" y="175" class="star-text" text-anchor="end">85.1k</text>
+  <text x="785" y="175" class="star-text" text-anchor="end">85.3k</text>
   <circle cx="685.4375" cy="170" r="5" fill="#3572A5"/>
   <text x="695.4375" y="175" class="gray">Python</text>
   <text x="25" y="193" class="description">🌐 Make websites accessible for AI agents. Automate tasks online with ease.</text>
   <line class="divider" x1="25" y1="205" x2="805" y2="205"/>
   <text x="25" y="225" class="repo-name">unclecode/crawl4ai</text>
   <g transform="translate(789, 213)"><svg class="star" viewBox="0 0 16 16" width="16" height="16"><path d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.75.75 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25z"/></svg></g>
-  <text x="785" y="225" class="star-text" text-anchor="end">62.9k</text>
+  <text x="785" y="225" class="star-text" text-anchor="end">63.0k</text>
   <circle cx="685.4375" cy="220" r="5" fill="#3572A5"/>
   <text x="695.4375" y="225" class="gray">Python</text>
   <text x="25" y="243" class="description">🚀🤖 Crawl4AI: Open-source LLM Friendly Web Crawler &amp; Scraper. Don't be shy, join here: https://discord.gg…</text>
@@ -63,7 +63,7 @@
   <line class="divider" x1="25" y1="355" x2="805" y2="355"/>
   <text x="25" y="375" class="repo-name">mem0ai/mem0</text>
   <g transform="translate(789, 363)"><svg class="star" viewBox="0 0 16 16" width="16" height="16"><path d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.75.75 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25z"/></svg></g>
-  <text x="785" y="375" class="star-text" text-anchor="end">51.5k</text>
+  <text x="785" y="375" class="star-text" text-anchor="end">51.6k</text>
   <circle cx="685.4375" cy="370" r="5" fill="#3572A5"/>
   <text x="695.4375" y="375" class="gray">Python</text>
   <text x="25" y="393" class="description">Universal memory layer for AI Agents</text>
@@ -77,14 +77,14 @@
   <line class="divider" x1="25" y1="455" x2="805" y2="455"/>
   <text x="25" y="475" class="repo-name">agno-agi/agno</text>
   <g transform="translate(789, 463)"><svg class="star" viewBox="0 0 16 16" width="16" height="16"><path d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.75.75 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25z"/></svg></g>
-  <text x="785" y="475" class="star-text" text-anchor="end">39.0k</text>
+  <text x="785" y="475" class="star-text" text-anchor="end">39.1k</text>
   <circle cx="685.4375" cy="470" r="5" fill="#3572A5"/>
   <text x="695.4375" y="475" class="gray">Python</text>
   <text x="25" y="493" class="description">Build, run, manage agentic software at scale.</text>
   <line class="divider" x1="25" y1="505" x2="805" y2="505"/>
   <text x="25" y="525" class="repo-name">OpenBMB/ChatDev</text>
   <g transform="translate(789, 513)"><svg class="star" viewBox="0 0 16 16" width="16" height="16"><path d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.75.75 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25z"/></svg></g>
-  <text x="785" y="525" class="star-text" text-anchor="end">32.2k</text>
+  <text x="785" y="525" class="star-text" text-anchor="end">32.4k</text>
   <circle cx="685.4375" cy="520" r="5" fill="#3572A5"/>
   <text x="695.4375" y="525" class="gray">Python</text>
   <text x="25" y="543" class="description">ChatDev 2.0: Dev All through LLM-powered Multi-Agent Collaboration</text>
