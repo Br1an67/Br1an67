@@ -77,7 +77,7 @@
 
 <!-- CONTRIBUTIONS:START -->
 <p align="center">
-  <img src="/metrics.plugin.contributions.svg?v=1775268217" alt="Top Contributed Repos" />
+  <img src="/metrics.plugin.contributions.svg?v=1775355894" alt="Top Contributed Repos" />
 </p>
 
 <details>
@@ -85,22 +85,22 @@
 
 | Repository | Stars | Language | Description |
 |:---|:---:|:---:|:---|
+| [**HKUDS/LightRAG**](https://github.com/HKUDS/LightRAG) | 32.1k | Python | [EMNLP2025] "LightRAG: Simple and Fast Retrieval-Augmented Generation" |
 | [**microsoft/graphrag**](https://github.com/microsoft/graphrag) | 32.0k | Python | A modular graph-based Retrieval-Augmented Generation (RAG) system |
-| [**HKUDS/LightRAG**](https://github.com/HKUDS/LightRAG) | 31.9k | Python | [EMNLP2025] "LightRAG: Simple and Fast Retrieval-Augmented Generation" |
-| [**bytedance/UI-TARS-desktop**](https://github.com/bytedance/UI-TARS-desktop) | 29.2k | TypeScript | The Open-Source Multimodal AI Agent Stack: Connecting Cutting-Edge AI Models and Agent Infra |
+| [**bytedance/UI-TARS-desktop**](https://github.com/bytedance/UI-TARS-desktop) | 29.3k | TypeScript | The Open-Source Multimodal AI Agent Stack: Connecting Cutting-Edge AI Models and Agent Infra |
 | [**celery/celery**](https://github.com/celery/celery) | 28.3k | Python | Distributed Task Queue (development branch) |
 | [**authelia/authelia**](https://github.com/authelia/authelia) | 27.4k | Go | The Single Sign-On Multi-Factor portal for web apps, now OpenID Certified™ |
-| [**pydantic/pydantic**](https://github.com/pydantic/pydantic) | 27.3k | Python | Data validation using Python type hints |
+| [**pydantic/pydantic**](https://github.com/pydantic/pydantic) | 27.4k | Python | Data validation using Python type hints |
 | [**assafelovic/gpt-researcher**](https://github.com/assafelovic/gpt-researcher) | 26.2k | Python | An autonomous agent that conducts deep research on any data using any LLM providers |
 | [**Fosowl/agenticSeek**](https://github.com/Fosowl/agenticSeek) | 25.8k | Python | Fully Local Manus AI. No APIs, No $200 monthly bills. Enjoy an autonomous agent that thinks, browse… |
 | [**deepset-ai/haystack**](https://github.com/deepset-ai/haystack) | 24.7k | MDX | Open-source AI orchestration framework for building context-engineered, production-ready LLM applic… |
 | [**PrefectHQ/prefect**](https://github.com/PrefectHQ/prefect) | 22.0k | Python | Prefect is a workflow orchestration framework for building resilient data pipelines in Python. |
-| [**QwenLM/qwen-code**](https://github.com/QwenLM/qwen-code) | 21.7k | TypeScript | An open-source AI agent that lives in your terminal. |
+| [**QwenLM/qwen-code**](https://github.com/QwenLM/qwen-code) | 21.8k | TypeScript | An open-source AI agent that lives in your terminal. |
 | [**conventional-changelog/commitlint**](https://github.com/conventional-changelog/commitlint) | 18.4k | TypeScript | 📓 Lint commit messages |
 | [**super-productivity/super-productivity**](https://github.com/super-productivity/super-productivity) | 18.4k | TypeScript | Super Productivity is an advanced todo list app with integrated Timeboxing and time tracking capabi… |
-| [**Kilo-Org/kilocode**](https://github.com/Kilo-Org/kilocode) | 17.6k | TypeScript | Kilo is the all-in-one agentic engineering platform. Build, ship, and iterate faster with the most… |
+| [**Kilo-Org/kilocode**](https://github.com/Kilo-Org/kilocode) | 17.7k | TypeScript | Kilo is the all-in-one agentic engineering platform. Build, ship, and iterate faster with the most… |
 | [**VictoriaMetrics/VictoriaMetrics**](https://github.com/VictoriaMetrics/VictoriaMetrics) | 16.7k | Go | VictoriaMetrics: fast, cost-effective monitoring solution and time series database |
-| [**confident-ai/deepeval**](https://github.com/confident-ai/deepeval) | 14.4k | Python | The LLM Evaluation Framework |
+| [**confident-ai/deepeval**](https://github.com/confident-ai/deepeval) | 14.5k | Python | The LLM Evaluation Framework |
 | [**oauth2-proxy/oauth2-proxy**](https://github.com/oauth2-proxy/oauth2-proxy) | 14.1k | Go | A reverse proxy that provides authentication with Google, Azure, OpenID Connect and many more ident… |
 | [**casdoor/casdoor**](https://github.com/casdoor/casdoor) | 13.3k | Go | An open-source AI-first Identity and Access Management (IAM) /AI MCP & agent gateway and auth serve… |
 | [**pypa/pipx**](https://github.com/pypa/pipx) | 12.7k | Python | Install and Run Python Applications in Isolated Environments |
@@ -119,7 +119,7 @@
 | [**tortoise/tortoise-orm**](https://github.com/tortoise/tortoise-orm) | 5.5k | Python | Familiar asyncio ORM for python, built with relations in mind |
 | [**ag2ai/faststream**](https://github.com/ag2ai/faststream) | 5.1k | Python | FastStream is a powerful and easy-to-use asynchronous Python framework for building asynchronous se… |
 | [**strawberry-graphql/strawberry**](https://github.com/strawberry-graphql/strawberry) | 4.6k | Python | A GraphQL library for Python that leverages type annotations 🍓 |
-| [**langfuse/langfuse-python**](https://github.com/langfuse/langfuse-python) | 373 | Python | 🪢 Langfuse Python SDK - Instrument your LLM app with decorators or low-level SDK and get detailed t… |
+| [**langfuse/langfuse-python**](https://github.com/langfuse/langfuse-python) | 374 | Python | 🪢 Langfuse Python SDK - Instrument your LLM app with decorators or low-level SDK and get detailed t… |
 | [**deepset-ai/haystack-core-integrations**](https://github.com/deepset-ai/haystack-core-integrations) | 187 | Python | Additional packages (components, document stores and the likes) to extend the capabilities of Hayst… |
 
 </details>
