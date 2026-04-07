@@ -77,7 +77,7 @@
 
 <!-- CONTRIBUTIONS:START -->
 <p align="center">
-  <img src="/metrics.plugin.contributions.svg?v=1775442364" alt="Top Contributed Repos" />
+  <img src="/metrics.plugin.contributions.svg?v=1775528025" alt="Top Contributed Repos" />
 </p>
 
 <details>
@@ -85,7 +85,7 @@
 
 | Repository | Stars | Language | Description |
 |:---|:---:|:---:|:---|
-| [**HKUDS/LightRAG**](https://github.com/HKUDS/LightRAG) | 32.3k | Python | [EMNLP2025] "LightRAG: Simple and Fast Retrieval-Augmented Generation" |
+| [**HKUDS/LightRAG**](https://github.com/HKUDS/LightRAG) | 32.4k | Python | [EMNLP2025] "LightRAG: Simple and Fast Retrieval-Augmented Generation" |
 | [**microsoft/graphrag**](https://github.com/microsoft/graphrag) | 32.0k | Python | A modular graph-based Retrieval-Augmented Generation (RAG) system |
 | [**bytedance/UI-TARS-desktop**](https://github.com/bytedance/UI-TARS-desktop) | 29.3k | TypeScript | The Open-Source Multimodal AI Agent Stack: Connecting Cutting-Edge AI Models and Agent Infra |
 | [**celery/celery**](https://github.com/celery/celery) | 28.3k | Python | Distributed Task Queue (development branch) |
@@ -94,14 +94,14 @@
 | [**assafelovic/gpt-researcher**](https://github.com/assafelovic/gpt-researcher) | 26.3k | Python | An autonomous agent that conducts deep research on any data using any LLM providers |
 | [**Fosowl/agenticSeek**](https://github.com/Fosowl/agenticSeek) | 25.8k | Python | Fully Local Manus AI. No APIs, No $200 monthly bills. Enjoy an autonomous agent that thinks, browse… |
 | [**deepset-ai/haystack**](https://github.com/deepset-ai/haystack) | 24.7k | MDX | Open-source AI orchestration framework for building context-engineered, production-ready LLM applic… |
-| [**PrefectHQ/prefect**](https://github.com/PrefectHQ/prefect) | 22.0k | Python | Prefect is a workflow orchestration framework for building resilient data pipelines in Python. |
-| [**QwenLM/qwen-code**](https://github.com/QwenLM/qwen-code) | 21.9k | TypeScript | An open-source AI agent that lives in your terminal. |
+| [**PrefectHQ/prefect**](https://github.com/PrefectHQ/prefect) | 22.1k | Python | Prefect is a workflow orchestration framework for building resilient data pipelines in Python. |
+| [**QwenLM/qwen-code**](https://github.com/QwenLM/qwen-code) | 22.0k | TypeScript | An open-source AI agent that lives in your terminal. |
+| [**super-productivity/super-productivity**](https://github.com/super-productivity/super-productivity) | 18.5k | TypeScript | Super Productivity is an advanced todo list app with integrated Timeboxing and time tracking capabi… |
 | [**conventional-changelog/commitlint**](https://github.com/conventional-changelog/commitlint) | 18.4k | TypeScript | 📓 Lint commit messages |
-| [**super-productivity/super-productivity**](https://github.com/super-productivity/super-productivity) | 18.4k | TypeScript | Super Productivity is an advanced todo list app with integrated Timeboxing and time tracking capabi… |
-| [**Kilo-Org/kilocode**](https://github.com/Kilo-Org/kilocode) | 17.7k | TypeScript | Kilo is the all-in-one agentic engineering platform. Build, ship, and iterate faster with the most… |
+| [**Kilo-Org/kilocode**](https://github.com/Kilo-Org/kilocode) | 17.8k | TypeScript | Kilo is the all-in-one agentic engineering platform. Build, ship, and iterate faster with the most… |
 | [**VictoriaMetrics/VictoriaMetrics**](https://github.com/VictoriaMetrics/VictoriaMetrics) | 16.7k | Go | VictoriaMetrics: fast, cost-effective monitoring solution and time series database |
 | [**confident-ai/deepeval**](https://github.com/confident-ai/deepeval) | 14.5k | Python | The LLM Evaluation Framework |
-| [**oauth2-proxy/oauth2-proxy**](https://github.com/oauth2-proxy/oauth2-proxy) | 14.1k | Go | A reverse proxy that provides authentication with Google, Azure, OpenID Connect and many more ident… |
+| [**oauth2-proxy/oauth2-proxy**](https://github.com/oauth2-proxy/oauth2-proxy) | 14.2k | Go | A reverse proxy that provides authentication with Google, Azure, OpenID Connect and many more ident… |
 | [**casdoor/casdoor**](https://github.com/casdoor/casdoor) | 13.3k | Go | An open-source AI-first Identity and Access Management (IAM) /AI MCP & agent gateway and auth serve… |
 | [**pypa/pipx**](https://github.com/pypa/pipx) | 12.7k | Python | Install and Run Python Applications in Isolated Environments |
 | [**Chainlit/chainlit**](https://github.com/Chainlit/chainlit) | 11.9k | Python | Build Conversational AI in minutes ⚡️ |
