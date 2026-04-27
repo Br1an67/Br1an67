@@ -77,7 +77,7 @@
 
 <!-- CONTRIBUTIONS:START -->
 <p align="center">
-  <img src="/metrics.plugin.contributions.svg?v=1777171058" alt="Top Contributed Repos" />
+  <img src="/metrics.plugin.contributions.svg?v=1777257566" alt="Top Contributed Repos" />
 </p>
 
 <details>
@@ -96,8 +96,8 @@
 | [**Fosowl/agenticSeek**](https://github.com/Fosowl/agenticSeek) | 26.1k | Python | Fully Local Manus AI. No APIs, No $200 monthly bills. Enjoy an autonomous agent that thinks, browse… |
 | [**deepset-ai/haystack**](https://github.com/deepset-ai/haystack) | 25.0k | MDX | Open-source AI orchestration framework for building context-engineered, production-ready LLM applic… |
 | [**QwenLM/qwen-code**](https://github.com/QwenLM/qwen-code) | 23.9k | TypeScript | An open-source AI agent that lives in your terminal. |
-| [**PrefectHQ/prefect**](https://github.com/PrefectHQ/prefect) | 22.2k | Python | Prefect is a workflow orchestration framework for building resilient data pipelines in Python. |
-| [**super-productivity/super-productivity**](https://github.com/super-productivity/super-productivity) | 18.8k | TypeScript | Super Productivity is an advanced todo list app with integrated Timeboxing and time tracking capabi… |
+| [**PrefectHQ/prefect**](https://github.com/PrefectHQ/prefect) | 22.3k | Python | Prefect is a workflow orchestration framework for building resilient data pipelines in Python. |
+| [**super-productivity/super-productivity**](https://github.com/super-productivity/super-productivity) | 18.9k | TypeScript | Super Productivity is an advanced todo list app with integrated Timeboxing and time tracking capabi… |
 | [**Kilo-Org/kilocode**](https://github.com/Kilo-Org/kilocode) | 18.6k | TypeScript | Kilo is the all-in-one agentic engineering platform. Build, ship, and iterate faster with the most… |
 | [**conventional-changelog/commitlint**](https://github.com/conventional-changelog/commitlint) | 18.5k | TypeScript | 📓 Lint commit messages |
 | [**VictoriaMetrics/VictoriaMetrics**](https://github.com/VictoriaMetrics/VictoriaMetrics) | 16.9k | Go | VictoriaMetrics: fast, cost-effective monitoring solution and time series database |
@@ -105,7 +105,7 @@
 | [**oauth2-proxy/oauth2-proxy**](https://github.com/oauth2-proxy/oauth2-proxy) | 14.3k | Go | A reverse proxy that provides authentication with Google, Azure, OpenID Connect and many more ident… |
 | [**casdoor/casdoor**](https://github.com/casdoor/casdoor) | 13.5k | Go | An open-source Agent-first Identity and Access Management (IAM) /LLM MCP & agent gateway and auth s… |
 | [**Lightning-AI/litgpt**](https://github.com/Lightning-AI/litgpt) | 13.3k | Python | 20+ high-performance LLMs with recipes to pretrain, finetune and deploy at scale. |
-| [**pypa/pipx**](https://github.com/pypa/pipx) | 12.7k | Python | Install and Run Python Applications in Isolated Environments |
+| [**pypa/pipx**](https://github.com/pypa/pipx) | 12.8k | Python | Install and Run Python Applications in Isolated Environments |
 | [**Chainlit/chainlit**](https://github.com/Chainlit/chainlit) | 12.0k | Python | Build Conversational AI in minutes ⚡️ |
 | [**plankanban/planka**](https://github.com/plankanban/planka) | 11.9k | JavaScript | PLANKA is the Kanban-style project mastering tool for everyone |
 | [**grafana/pyroscope**](https://github.com/grafana/pyroscope) | 11.4k | Go | Continuous Profiling Platform. Debug performance issues down to a single line of code |
@@ -121,7 +121,7 @@
 | [**tortoise/tortoise-orm**](https://github.com/tortoise/tortoise-orm) | 5.6k | Python | Familiar asyncio ORM for python, built with relations in mind |
 | [**ag2ai/faststream**](https://github.com/ag2ai/faststream) | 5.1k | Python | FastStream is a powerful and easy-to-use asynchronous Python framework for building asynchronous se… |
 | [**strawberry-graphql/strawberry**](https://github.com/strawberry-graphql/strawberry) | 4.7k | Python | A GraphQL library for Python that leverages type annotations 🍓 |
-| [**langfuse/langfuse-python**](https://github.com/langfuse/langfuse-python) | 386 | Python | 🪢 Langfuse Python SDK - Instrument your LLM app with decorators or low-level SDK and get detailed t… |
+| [**langfuse/langfuse-python**](https://github.com/langfuse/langfuse-python) | 387 | Python | 🪢 Langfuse Python SDK - Instrument your LLM app with decorators or low-level SDK and get detailed t… |
 | [**deepset-ai/haystack-core-integrations**](https://github.com/deepset-ai/haystack-core-integrations) | 192 | Python | Additional packages (components, document stores and the likes) to extend the capabilities of Hayst… |
 
 </details>
