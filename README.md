@@ -77,7 +77,7 @@
 
 <!-- CONTRIBUTIONS:START -->
 <p align="center">
-  <img src="/metrics.plugin.contributions.svg?v=1777257566" alt="Top Contributed Repos" />
+  <img src="/metrics.plugin.contributions.svg?v=1777344440" alt="Top Contributed Repos" />
 </p>
 
 <details>
@@ -85,9 +85,9 @@
 
 | Repository | Stars | Language | Description |
 |:---|:---:|:---:|:---|
-| [**HKUDS/LightRAG**](https://github.com/HKUDS/LightRAG) | 34.3k | Python | [EMNLP2025] "LightRAG: Simple and Fast Retrieval-Augmented Generation" |
+| [**HKUDS/LightRAG**](https://github.com/HKUDS/LightRAG) | 34.4k | Python | [EMNLP2025] "LightRAG: Simple and Fast Retrieval-Augmented Generation" |
 | [**OpenBMB/ChatDev**](https://github.com/OpenBMB/ChatDev) | 32.9k | Python | ChatDev 2.0: Dev All through LLM-powered Multi-Agent Collaboration |
-| [**microsoft/graphrag**](https://github.com/microsoft/graphrag) | 32.5k | Python | A modular graph-based Retrieval-Augmented Generation (RAG) system |
+| [**microsoft/graphrag**](https://github.com/microsoft/graphrag) | 32.6k | Python | A modular graph-based Retrieval-Augmented Generation (RAG) system |
 | [**bytedance/UI-TARS-desktop**](https://github.com/bytedance/UI-TARS-desktop) | 29.5k | TypeScript | The Open-Source Multimodal AI Agent Stack: Connecting Cutting-Edge AI Models and Agent Infra |
 | [**celery/celery**](https://github.com/celery/celery) | 28.4k | Python | Distributed Task Queue (development branch) |
 | [**authelia/authelia**](https://github.com/authelia/authelia) | 27.6k | Go | The Single Sign-On Multi-Factor portal for web apps, now OpenID Certified™ |
@@ -121,8 +121,8 @@
 | [**tortoise/tortoise-orm**](https://github.com/tortoise/tortoise-orm) | 5.6k | Python | Familiar asyncio ORM for python, built with relations in mind |
 | [**ag2ai/faststream**](https://github.com/ag2ai/faststream) | 5.1k | Python | FastStream is a powerful and easy-to-use asynchronous Python framework for building asynchronous se… |
 | [**strawberry-graphql/strawberry**](https://github.com/strawberry-graphql/strawberry) | 4.7k | Python | A GraphQL library for Python that leverages type annotations 🍓 |
-| [**langfuse/langfuse-python**](https://github.com/langfuse/langfuse-python) | 387 | Python | 🪢 Langfuse Python SDK - Instrument your LLM app with decorators or low-level SDK and get detailed t… |
-| [**deepset-ai/haystack-core-integrations**](https://github.com/deepset-ai/haystack-core-integrations) | 192 | Python | Additional packages (components, document stores and the likes) to extend the capabilities of Hayst… |
+| [**langfuse/langfuse-python**](https://github.com/langfuse/langfuse-python) | 388 | Python | 🪢 Langfuse Python SDK - Instrument your LLM app with decorators or low-level SDK and get detailed t… |
+| [**deepset-ai/haystack-core-integrations**](https://github.com/deepset-ai/haystack-core-integrations) | 193 | Python | Additional packages (components, document stores and the likes) to extend the capabilities of Hayst… |
 
 </details>
 <!-- CONTRIBUTIONS:END -->
