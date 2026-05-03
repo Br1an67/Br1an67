@@ -77,7 +77,7 @@
 
 <!-- CONTRIBUTIONS:START -->
 <p align="center">
-  <img src="/metrics.plugin.contributions.svg?v=1777689352" alt="Top Contributed Repos" />
+  <img src="/metrics.plugin.contributions.svg?v=1777776447" alt="Top Contributed Repos" />
 </p>
 
 <details>
