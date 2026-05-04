@@ -77,7 +77,7 @@
 
 <!-- CONTRIBUTIONS:START -->
 <p align="center">
-  <img src="/metrics.plugin.contributions.svg?v=1777776447" alt="Top Contributed Repos" />
+  <img src="/metrics.plugin.contributions.svg?v=1777862672" alt="Top Contributed Repos" />
 </p>
 
 <details>
@@ -98,7 +98,7 @@
 | [**QwenLM/qwen-code**](https://github.com/QwenLM/qwen-code) | 24.1k | TypeScript | An open-source AI agent that lives in your terminal. |
 | [**PrefectHQ/prefect**](https://github.com/PrefectHQ/prefect) | 22.3k | Python | Prefect is a workflow orchestration framework for building resilient data pipelines in Python. |
 | [**super-productivity/super-productivity**](https://github.com/super-productivity/super-productivity) | 19.0k | TypeScript | Super Productivity is an advanced todo list app with integrated Timeboxing and time tracking capabi… |
-| [**Kilo-Org/kilocode**](https://github.com/Kilo-Org/kilocode) | 18.8k | TypeScript | Kilo is the all-in-one agentic engineering platform. Build, ship, and iterate faster with the most… |
+| [**Kilo-Org/kilocode**](https://github.com/Kilo-Org/kilocode) | 18.9k | TypeScript | Kilo is the all-in-one agentic engineering platform. Build, ship, and iterate faster with the most… |
 | [**conventional-changelog/commitlint**](https://github.com/conventional-changelog/commitlint) | 18.5k | TypeScript | 📓 Lint commit messages |
 | [**VictoriaMetrics/VictoriaMetrics**](https://github.com/VictoriaMetrics/VictoriaMetrics) | 16.9k | Go | VictoriaMetrics: fast, cost-effective monitoring solution and time series database |
 | [**confident-ai/deepeval**](https://github.com/confident-ai/deepeval) | 15.1k | Python | The LLM Evaluation Framework |
@@ -111,7 +111,7 @@
 | [**grafana/pyroscope**](https://github.com/grafana/pyroscope) | 11.4k | Go | Continuous Profiling Platform. Debug performance issues down to a single line of code |
 | [**pwndbg/pwndbg**](https://github.com/pwndbg/pwndbg) | 10.4k | Python | Exploit Development and Reverse Engineering with GDB & LLDB Made Easy |
 | [**cadence-workflow/cadence**](https://github.com/cadence-workflow/cadence) | 9.3k | Go | Cadence is a distributed, scalable, durable, and highly available orchestration engine to execute a… |
-| [**pwr-Solaar/Solaar**](https://github.com/pwr-Solaar/Solaar) | 8.6k | Python | Linux device manager for Logitech devices |
+| [**pwr-Solaar/Solaar**](https://github.com/pwr-Solaar/Solaar) | 8.7k | Python | Linux device manager for Logitech devices |
 | [**pdm-project/pdm**](https://github.com/pdm-project/pdm) | 8.6k | Python | A modern Python package and dependency manager supporting the latest PEP standards |
 | [**litestar-org/litestar**](https://github.com/litestar-org/litestar) | 8.2k | Python | Light, flexible and extensible ASGI framework | Built to scale |
 | [**microsoft/presidio**](https://github.com/microsoft/presidio) | 7.9k | Python | An open-source framework for detecting, redacting, masking, and anonymizing sensitive data (PII) ac… |
