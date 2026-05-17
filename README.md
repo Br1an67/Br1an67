@@ -77,7 +77,7 @@
 
 <!-- CONTRIBUTIONS:START -->
 <p align="center">
-  <img src="/metrics.plugin.contributions.svg?v=1778899621" alt="Top Contributed Repos" />
+  <img src="/metrics.plugin.contributions.svg?v=1778986555" alt="Top Contributed Repos" />
 </p>
 
 <details>
@@ -85,11 +85,11 @@
 
 | Repository | Stars | Language | Description |
 |:---|:---:|:---:|:---|
-| [**run-llama/llama_index**](https://github.com/run-llama/llama_index) | 49.4k | Python | LlamaIndex is the leading document agent and OCR platform |
-| [**agno-agi/agno**](https://github.com/agno-agi/agno) | 40.1k | Python | Build, run, and manage agent platforms. |
+| [**run-llama/llama_index**](https://github.com/run-llama/llama_index) | 49.5k | Python | LlamaIndex is the leading document agent and OCR platform |
+| [**agno-agi/agno**](https://github.com/agno-agi/agno) | 40.2k | Python | Build, run, and manage agent platforms. |
 | [**mattermost/mattermost**](https://github.com/mattermost/mattermost) | 36.7k | TypeScript | Mattermost is an open source platform for secure collaboration across the entire software developme… |
-| [**HKUDS/LightRAG**](https://github.com/HKUDS/LightRAG) | 35.2k | Python | [EMNLP2025] "LightRAG: Simple and Fast Retrieval-Augmented Generation" |
-| [**bytedance/UI-TARS-desktop**](https://github.com/bytedance/UI-TARS-desktop) | 34.1k | TypeScript | The Open-Source Multimodal AI Agent Stack: Connecting Cutting-Edge AI Models and Agent Infra |
+| [**HKUDS/LightRAG**](https://github.com/HKUDS/LightRAG) | 35.3k | Python | [EMNLP2025] "LightRAG: Simple and Fast Retrieval-Augmented Generation" |
+| [**bytedance/UI-TARS-desktop**](https://github.com/bytedance/UI-TARS-desktop) | 34.2k | TypeScript | The Open-Source Multimodal AI Agent Stack: Connecting Cutting-Edge AI Models and Agent Infra |
 | [**OpenBMB/ChatDev**](https://github.com/OpenBMB/ChatDev) | 33.1k | Python | ChatDev 2.0: Dev All through LLM-powered Multi-Agent Collaboration |
 | [**microsoft/graphrag**](https://github.com/microsoft/graphrag) | 33.0k | Python | A modular graph-based Retrieval-Augmented Generation (RAG) system |
 | [**celery/celery**](https://github.com/celery/celery) | 28.5k | Python | Distributed Task Queue (development branch) |
