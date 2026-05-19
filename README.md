@@ -77,7 +77,7 @@
 
 <!-- CONTRIBUTIONS:START -->
 <p align="center">
-  <img src="/metrics.plugin.contributions.svg?v=1779075222" alt="Top Contributed Repos" />
+  <img src="/metrics.plugin.contributions.svg?v=1779161216" alt="Top Contributed Repos" />
 </p>
 
 <details>
@@ -87,9 +87,9 @@
 |:---|:---:|:---:|:---|
 | [**run-llama/llama_index**](https://github.com/run-llama/llama_index) | 49.5k | Python | LlamaIndex is the leading document agent and OCR platform |
 | [**agno-agi/agno**](https://github.com/agno-agi/agno) | 40.2k | Python | Build, run, and manage agent platforms. |
-| [**mattermost/mattermost**](https://github.com/mattermost/mattermost) | 36.7k | TypeScript | Mattermost is an open source platform for secure collaboration across the entire software developme… |
+| [**mattermost/mattermost**](https://github.com/mattermost/mattermost) | 36.8k | TypeScript | Mattermost is an open source platform for secure collaboration across the entire software developme… |
 | [**HKUDS/LightRAG**](https://github.com/HKUDS/LightRAG) | 35.3k | Python | [EMNLP2025] "LightRAG: Simple and Fast Retrieval-Augmented Generation" |
-| [**bytedance/UI-TARS-desktop**](https://github.com/bytedance/UI-TARS-desktop) | 34.5k | TypeScript | The Open-Source Multimodal AI Agent Stack: Connecting Cutting-Edge AI Models and Agent Infra |
+| [**bytedance/UI-TARS-desktop**](https://github.com/bytedance/UI-TARS-desktop) | 34.7k | TypeScript | The Open-Source Multimodal AI Agent Stack: Connecting Cutting-Edge AI Models and Agent Infra |
 | [**OpenBMB/ChatDev**](https://github.com/OpenBMB/ChatDev) | 33.1k | Python | ChatDev 2.0: Dev All through LLM-powered Multi-Agent Collaboration |
 | [**microsoft/graphrag**](https://github.com/microsoft/graphrag) | 33.1k | Python | A modular graph-based Retrieval-Augmented Generation (RAG) system |
 | [**celery/celery**](https://github.com/celery/celery) | 28.5k | Python | Distributed Task Queue (development branch) |
@@ -98,7 +98,7 @@
 | [**assafelovic/gpt-researcher**](https://github.com/assafelovic/gpt-researcher) | 27.1k | Python | An autonomous agent that conducts deep research on any data using any LLM providers |
 | [**Fosowl/agenticSeek**](https://github.com/Fosowl/agenticSeek) | 26.4k | Python | Fully Local Manus AI. No APIs, No $200 monthly bills. Enjoy an autonomous agent that thinks, browse… |
 | [**deepset-ai/haystack**](https://github.com/deepset-ai/haystack) | 25.3k | MDX | Open-source AI orchestration framework for building context-engineered, production-ready LLM applic… |
-| [**QwenLM/qwen-code**](https://github.com/QwenLM/qwen-code) | 24.4k | TypeScript | An open-source AI agent that lives in your terminal. |
+| [**QwenLM/qwen-code**](https://github.com/QwenLM/qwen-code) | 24.5k | TypeScript | An open-source AI agent that lives in your terminal. |
 | [**PrefectHQ/prefect**](https://github.com/PrefectHQ/prefect) | 22.4k | Python | Prefect is a workflow orchestration framework for building resilient data pipelines in Python. |
 | [**super-productivity/super-productivity**](https://github.com/super-productivity/super-productivity) | 19.5k | TypeScript | Super Productivity is an advanced todo list app with integrated Timeboxing and time tracking capabi… |
 | [**Kilo-Org/kilocode**](https://github.com/Kilo-Org/kilocode) | 19.4k | TypeScript | Kilo is the all-in-one agentic engineering platform. Build, ship, and iterate faster with the most… |
