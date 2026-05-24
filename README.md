@@ -77,7 +77,7 @@
 
 <!-- CONTRIBUTIONS:START -->
 <p align="center">
-  <img src="/metrics.plugin.contributions.svg?v=1779504639" alt="Top Contributed Repos" />
+  <img src="/metrics.plugin.contributions.svg?v=1779593352" alt="Top Contributed Repos" />
 </p>
 
 <details>
@@ -89,24 +89,24 @@
 | [**agno-agi/agno**](https://github.com/agno-agi/agno) | 40.3k | Python | Build, run, and manage agent platforms. |
 | [**mattermost/mattermost**](https://github.com/mattermost/mattermost) | 36.8k | TypeScript | Mattermost is an open source platform for secure collaboration across the entire software developme… |
 | [**HKUDS/LightRAG**](https://github.com/HKUDS/LightRAG) | 35.6k | Python | [EMNLP2025] "LightRAG: Simple and Fast Retrieval-Augmented Generation" |
-| [**bytedance/UI-TARS-desktop**](https://github.com/bytedance/UI-TARS-desktop) | 35.0k | TypeScript | The Open-Source Multimodal AI Agent Stack: Connecting Cutting-Edge AI Models and Agent Infra |
+| [**bytedance/UI-TARS-desktop**](https://github.com/bytedance/UI-TARS-desktop) | 35.1k | TypeScript | The Open-Source Multimodal AI Agent Stack: Connecting Cutting-Edge AI Models and Agent Infra |
 | [**microsoft/graphrag**](https://github.com/microsoft/graphrag) | 33.2k | Python | A modular graph-based Retrieval-Augmented Generation (RAG) system |
 | [**OpenBMB/ChatDev**](https://github.com/OpenBMB/ChatDev) | 33.2k | Python | ChatDev 2.0: Dev All through LLM-powered Multi-Agent Collaboration |
 | [**celery/celery**](https://github.com/celery/celery) | 28.5k | Python | Distributed Task Queue (development branch) |
 | [**authelia/authelia**](https://github.com/authelia/authelia) | 27.9k | Go | The Single Sign-On Multi-Factor portal for web apps, now OpenID Certified™ |
 | [**pydantic/pydantic**](https://github.com/pydantic/pydantic) | 27.8k | Python | Data validation using Python type hints |
-| [**assafelovic/gpt-researcher**](https://github.com/assafelovic/gpt-researcher) | 27.2k | Python | An autonomous agent that conducts deep research on any data using any LLM providers |
+| [**assafelovic/gpt-researcher**](https://github.com/assafelovic/gpt-researcher) | 27.3k | Python | An autonomous agent that conducts deep research on any data using any LLM providers |
 | [**Fosowl/agenticSeek**](https://github.com/Fosowl/agenticSeek) | 26.4k | Python | Fully Local Manus AI. No APIs, No $200 monthly bills. Enjoy an autonomous agent that thinks, browse… |
-| [**deepset-ai/haystack**](https://github.com/deepset-ai/haystack) | 25.3k | MDX | Open-source AI orchestration framework for building context-engineered, production-ready LLM applic… |
+| [**deepset-ai/haystack**](https://github.com/deepset-ai/haystack) | 25.4k | MDX | Open-source AI orchestration framework for building context-engineered, production-ready LLM applic… |
 | [**QwenLM/qwen-code**](https://github.com/QwenLM/qwen-code) | 24.6k | TypeScript | An open-source AI agent that lives in your terminal. |
-| [**PrefectHQ/prefect**](https://github.com/PrefectHQ/prefect) | 22.4k | Python | Prefect is a workflow orchestration framework for building resilient data pipelines in Python. |
+| [**PrefectHQ/prefect**](https://github.com/PrefectHQ/prefect) | 22.5k | Python | Prefect is a workflow orchestration framework for building resilient data pipelines in Python. |
 | [**super-productivity/super-productivity**](https://github.com/super-productivity/super-productivity) | 19.6k | TypeScript | Super Productivity is an advanced todo list app with integrated Timeboxing and time tracking capabi… |
 | [**Kilo-Org/kilocode**](https://github.com/Kilo-Org/kilocode) | 19.5k | TypeScript | Kilo is the all-in-one agentic engineering platform. Build, ship, and iterate faster with the most… |
 | [**conventional-changelog/commitlint**](https://github.com/conventional-changelog/commitlint) | 18.5k | TypeScript | 📓 Lint commit messages |
 | [**VictoriaMetrics/VictoriaMetrics**](https://github.com/VictoriaMetrics/VictoriaMetrics) | 17.0k | Go | VictoriaMetrics: fast, cost-effective monitoring solution and time series database |
 | [**camel-ai/camel**](https://github.com/camel-ai/camel) | 17.0k | Python | 🐫 CAMEL: The first and the best multi-agent framework. Finding the Scaling Law of Agents. https://w… |
 | [**aio-libs/aiohttp**](https://github.com/aio-libs/aiohttp) | 16.4k | Python | Asynchronous HTTP client/server framework for asyncio and Python |
-| [**confident-ai/deepeval**](https://github.com/confident-ai/deepeval) | 15.6k | Python | The LLM Evaluation Framework |
+| [**confident-ai/deepeval**](https://github.com/confident-ai/deepeval) | 15.7k | Python | The LLM Evaluation Framework |
 | [**oauth2-proxy/oauth2-proxy**](https://github.com/oauth2-proxy/oauth2-proxy) | 14.4k | Go | A reverse proxy that provides authentication with Google, Azure, OpenID Connect and many more ident… |
 | [**casdoor/casdoor**](https://github.com/casdoor/casdoor) | 13.7k | Go | An open-source Agent-first Identity and Access Management (IAM) /LLM MCP & agent gateway and auth s… |
 | [**redis/redis-py**](https://github.com/redis/redis-py) | 13.5k | Python | Redis Python client |
@@ -120,7 +120,7 @@
 | [**cadence-workflow/cadence**](https://github.com/cadence-workflow/cadence) | 9.3k | Go | Cadence is a distributed, scalable, durable, and highly available orchestration engine to execute a… |
 | [**pwr-Solaar/Solaar**](https://github.com/pwr-Solaar/Solaar) | 8.7k | Python | Linux device manager for Logitech devices |
 | [**pdm-project/pdm**](https://github.com/pdm-project/pdm) | 8.6k | Python | A modern Python package and dependency manager supporting the latest PEP standards |
-| [**microsoft/presidio**](https://github.com/microsoft/presidio) | 8.2k | Python | An open-source framework for detecting, redacting, masking, and anonymizing sensitive data (PII) ac… |
+| [**microsoft/presidio**](https://github.com/microsoft/presidio) | 8.3k | Python | An open-source framework for detecting, redacting, masking, and anonymizing sensitive data (PII) ac… |
 | [**litestar-org/litestar**](https://github.com/litestar-org/litestar) | 8.2k | Python | Light, flexible and extensible ASGI framework | Built to scale |
 | [**feast-dev/feast**](https://github.com/feast-dev/feast) | 7.0k | Python | The Open Source Feature Store for AI/ML |
 | [**external-secrets/external-secrets**](https://github.com/external-secrets/external-secrets) | 6.6k | Go | External Secrets Operator reads information from a third-party service like AWS Secrets Manager and… |
@@ -128,7 +128,7 @@
 | [**tortoise/tortoise-orm**](https://github.com/tortoise/tortoise-orm) | 5.6k | Python | Familiar asyncio ORM for python, built with relations in mind |
 | [**ag2ai/faststream**](https://github.com/ag2ai/faststream) | 5.2k | Python | FastStream is a powerful and easy-to-use asynchronous Python framework for building asynchronous se… |
 | [**strawberry-graphql/strawberry**](https://github.com/strawberry-graphql/strawberry) | 4.7k | Python | A GraphQL library for Python that leverages type annotations 🍓 |
-| [**langfuse/langfuse-python**](https://github.com/langfuse/langfuse-python) | 405 | Python | 🪢 Langfuse Python SDK - Instrument your LLM app with decorators or low-level SDK and get detailed t… |
+| [**langfuse/langfuse-python**](https://github.com/langfuse/langfuse-python) | 406 | Python | 🪢 Langfuse Python SDK - Instrument your LLM app with decorators or low-level SDK and get detailed t… |
 | [**deepset-ai/haystack-core-integrations**](https://github.com/deepset-ai/haystack-core-integrations) | 197 | Python | Additional packages (components, document stores and the likes) to extend the capabilities of Hayst… |
 
 </details>
