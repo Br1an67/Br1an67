@@ -77,7 +77,7 @@
 
 <!-- CONTRIBUTIONS:START -->
 <p align="center">
-  <img src="/metrics.plugin.contributions.svg?v=1780198841" alt="Top Contributed Repos" />
+  <img src="/metrics.plugin.contributions.svg?v=1780286138" alt="Top Contributed Repos" />
 </p>
 
 <details>
@@ -90,7 +90,7 @@
 | [**mattermost/mattermost**](https://github.com/mattermost/mattermost) | 36.9k | TypeScript | Mattermost is an open source platform for secure collaboration across the entire software developme… |
 | [**HKUDS/LightRAG**](https://github.com/HKUDS/LightRAG) | 36.0k | Python | [EMNLP2025] "LightRAG: Simple and Fast Retrieval-Augmented Generation" |
 | [**bytedance/UI-TARS-desktop**](https://github.com/bytedance/UI-TARS-desktop) | 35.8k | TypeScript | The Open-Source Multimodal AI Agent Stack: Connecting Cutting-Edge AI Models and Agent Infra |
-| [**microsoft/graphrag**](https://github.com/microsoft/graphrag) | 33.3k | Python | A modular graph-based Retrieval-Augmented Generation (RAG) system |
+| [**microsoft/graphrag**](https://github.com/microsoft/graphrag) | 33.4k | Python | A modular graph-based Retrieval-Augmented Generation (RAG) system |
 | [**OpenBMB/ChatDev**](https://github.com/OpenBMB/ChatDev) | 33.3k | Python | ChatDev 2.0: Dev All through LLM-powered Multi-Agent Collaboration |
 | [**celery/celery**](https://github.com/celery/celery) | 28.5k | Python | Distributed Task Queue (development branch) |
 | [**authelia/authelia**](https://github.com/authelia/authelia) | 27.9k | Go | The Single Sign-On Multi-Factor portal for web apps, now OpenID Certified™ |
