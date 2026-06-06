@@ -77,7 +77,7 @@
 
 <!-- CONTRIBUTIONS:START -->
 <p align="center">
-  <img src="/metrics.plugin.contributions.svg?v=1780630639" alt="Top Contributed Repos" />
+  <img src="/metrics.plugin.contributions.svg?v=1780714693" alt="Top Contributed Repos" />
 </p>
 
 <details>
@@ -94,14 +94,14 @@
 | [**OpenBMB/ChatDev**](https://github.com/OpenBMB/ChatDev) | 33.3k | Python | ChatDev 2.0: Dev All through LLM-powered Multi-Agent Collaboration |
 | [**celery/celery**](https://github.com/celery/celery) | 28.6k | Python | Distributed Task Queue (development branch) |
 | [**authelia/authelia**](https://github.com/authelia/authelia) | 28.0k | Go | The Single Sign-On Multi-Factor portal for web apps, now OpenID Certified™ |
-| [**pydantic/pydantic**](https://github.com/pydantic/pydantic) | 27.9k | Python | Data validation using Python type hints |
+| [**pydantic/pydantic**](https://github.com/pydantic/pydantic) | 28.0k | Python | Data validation using Python type hints |
 | [**assafelovic/gpt-researcher**](https://github.com/assafelovic/gpt-researcher) | 27.5k | Python | An autonomous agent that conducts deep research on any data using any LLM providers |
 | [**Fosowl/agenticSeek**](https://github.com/Fosowl/agenticSeek) | 26.5k | Python | Fully Local Manus AI. No APIs, No $200 monthly bills. Enjoy an autonomous agent that thinks, browse… |
 | [**deepset-ai/haystack**](https://github.com/deepset-ai/haystack) | 25.5k | MDX | Open-source AI orchestration framework for building context-engineered, production-ready LLM applic… |
 | [**QwenLM/qwen-code**](https://github.com/QwenLM/qwen-code) | 24.9k | TypeScript | An open-source AI coding agent that lives in your terminal. |
-| [**PrefectHQ/prefect**](https://github.com/PrefectHQ/prefect) | 22.5k | Python | Prefect is a workflow orchestration framework for building resilient data pipelines in Python. |
+| [**PrefectHQ/prefect**](https://github.com/PrefectHQ/prefect) | 22.6k | Python | Prefect is a workflow orchestration framework for building resilient data pipelines in Python. |
 | [**super-productivity/super-productivity**](https://github.com/super-productivity/super-productivity) | 19.9k | TypeScript | Super Productivity is an advanced todo list app with integrated Timeboxing and time tracking capabi… |
-| [**Kilo-Org/kilocode**](https://github.com/Kilo-Org/kilocode) | 19.8k | TypeScript | Kilo is the all-in-one agentic engineering platform. Build, ship, and iterate faster with the most… |
+| [**Kilo-Org/kilocode**](https://github.com/Kilo-Org/kilocode) | 19.9k | TypeScript | Kilo is the all-in-one agentic engineering platform. Build, ship, and iterate faster with the most… |
 | [**conventional-changelog/commitlint**](https://github.com/conventional-changelog/commitlint) | 18.6k | TypeScript | 📓 Lint commit messages |
 | [**camel-ai/camel**](https://github.com/camel-ai/camel) | 17.1k | Python | 🐫 CAMEL: The first and the best multi-agent framework. Finding the Scaling Law of Agents. https://w… |
 | [**VictoriaMetrics/VictoriaMetrics**](https://github.com/VictoriaMetrics/VictoriaMetrics) | 17.1k | Go | VictoriaMetrics: fast, cost-effective monitoring solution and time series database |
@@ -124,12 +124,12 @@
 | [**microsoft/presidio**](https://github.com/microsoft/presidio) | 8.5k | Python | An open-source framework for detecting, redacting, masking, and anonymizing sensitive data (PII) ac… |
 | [**litestar-org/litestar**](https://github.com/litestar-org/litestar) | 8.3k | Python | Light, flexible and extensible ASGI framework | Built to scale |
 | [**feast-dev/feast**](https://github.com/feast-dev/feast) | 7.1k | Python | The Open Source Feature Store for AI/ML |
-| [**external-secrets/external-secrets**](https://github.com/external-secrets/external-secrets) | 6.6k | Go | External Secrets Operator reads information from a third-party service like AWS Secrets Manager and… |
+| [**external-secrets/external-secrets**](https://github.com/external-secrets/external-secrets) | 6.7k | Go | External Secrets Operator reads information from a third-party service like AWS Secrets Manager and… |
 | [**nteract/papermill**](https://github.com/nteract/papermill) | 6.4k | Python | 📚 Parameterize, execute, and analyze notebooks |
 | [**tortoise/tortoise-orm**](https://github.com/tortoise/tortoise-orm) | 5.6k | Python | Familiar asyncio ORM for python, built with relations in mind |
 | [**ag2ai/faststream**](https://github.com/ag2ai/faststream) | 5.2k | Python | FastStream is an asynchronous Python framework for building event-driven applications. It brings to… |
 | [**strawberry-graphql/strawberry**](https://github.com/strawberry-graphql/strawberry) | 4.7k | Python | A GraphQL library for Python that leverages type annotations 🍓 |
-| [**langfuse/langfuse-python**](https://github.com/langfuse/langfuse-python) | 411 | Python | 🪢 Langfuse Python SDK - Instrument your LLM app with decorators or low-level SDK and get detailed t… |
+| [**langfuse/langfuse-python**](https://github.com/langfuse/langfuse-python) | 412 | Python | 🪢 Langfuse Python SDK - Instrument your LLM app with decorators or low-level SDK and get detailed t… |
 | [**deepset-ai/haystack-core-integrations**](https://github.com/deepset-ai/haystack-core-integrations) | 197 | Python | Additional packages (components, document stores and the likes) to extend the capabilities of Hayst… |
 
 </details>
