@@ -77,7 +77,7 @@
 
 <!-- CONTRIBUTIONS:START -->
 <p align="center">
-  <img src="/metrics.plugin.contributions.svg?v=1780803898" alt="Top Contributed Repos" />
+  <img src="/metrics.plugin.contributions.svg?v=1780890812" alt="Top Contributed Repos" />
 </p>
 
 <details>
@@ -86,16 +86,16 @@
 | Repository | Stars | Language | Description |
 |:---|:---:|:---:|:---|
 | [**run-llama/llama_index**](https://github.com/run-llama/llama_index) | 50.0k | Python | LlamaIndex is the leading document agent and OCR platform |
-| [**agno-agi/agno**](https://github.com/agno-agi/agno) | 40.5k | Python | Build, run, and manage agent platforms. |
+| [**agno-agi/agno**](https://github.com/agno-agi/agno) | 40.6k | Python | Build, run, and manage agent platforms. |
 | [**mattermost/mattermost**](https://github.com/mattermost/mattermost) | 37.0k | TypeScript | Mattermost is an open source platform for secure collaboration across the entire software developme… |
-| [**HKUDS/LightRAG**](https://github.com/HKUDS/LightRAG) | 36.2k | Python | [EMNLP2025] "LightRAG: Simple and Fast Retrieval-Augmented Generation" |
+| [**HKUDS/LightRAG**](https://github.com/HKUDS/LightRAG) | 36.3k | Python | [EMNLP2025] "LightRAG: Simple and Fast Retrieval-Augmented Generation" |
 | [**bytedance/UI-TARS-desktop**](https://github.com/bytedance/UI-TARS-desktop) | 36.2k | TypeScript | The Open-Source Multimodal AI Agent Stack: Connecting Cutting-Edge AI Models and Agent Infra |
 | [**microsoft/graphrag**](https://github.com/microsoft/graphrag) | 33.5k | Python | A modular graph-based Retrieval-Augmented Generation (RAG) system |
 | [**OpenBMB/ChatDev**](https://github.com/OpenBMB/ChatDev) | 33.3k | Python | ChatDev 2.0: Dev All through LLM-powered Multi-Agent Collaboration |
 | [**celery/celery**](https://github.com/celery/celery) | 28.6k | Python | Distributed Task Queue (development branch) |
 | [**authelia/authelia**](https://github.com/authelia/authelia) | 28.0k | Go | The Single Sign-On Multi-Factor portal for web apps, now OpenID Certified™ |
 | [**pydantic/pydantic**](https://github.com/pydantic/pydantic) | 28.0k | Python | Data validation using Python type hints |
-| [**assafelovic/gpt-researcher**](https://github.com/assafelovic/gpt-researcher) | 27.5k | Python | An autonomous agent that conducts deep research on any data using any LLM providers |
+| [**assafelovic/gpt-researcher**](https://github.com/assafelovic/gpt-researcher) | 27.6k | Python | An autonomous agent that conducts deep research on any data using any LLM providers |
 | [**Fosowl/agenticSeek**](https://github.com/Fosowl/agenticSeek) | 26.5k | Python | Fully Local Manus AI. No APIs, No $200 monthly bills. Enjoy an autonomous agent that thinks, browse… |
 | [**deepset-ai/haystack**](https://github.com/deepset-ai/haystack) | 25.5k | MDX | Open-source AI orchestration framework for building context-engineered, production-ready LLM applic… |
 | [**QwenLM/qwen-code**](https://github.com/QwenLM/qwen-code) | 25.0k | TypeScript | An open-source AI coding agent that lives in your terminal. |
@@ -108,7 +108,7 @@
 | [**aio-libs/aiohttp**](https://github.com/aio-libs/aiohttp) | 16.4k | Python | Asynchronous HTTP client/server framework for asyncio and Python |
 | [**confident-ai/deepeval**](https://github.com/confident-ai/deepeval) | 16.0k | Python | The LLM Evaluation Framework |
 | [**oauth2-proxy/oauth2-proxy**](https://github.com/oauth2-proxy/oauth2-proxy) | 14.5k | Go | A reverse proxy that provides authentication with Google, Azure, OpenID Connect and many more ident… |
-| [**prowler-cloud/prowler**](https://github.com/prowler-cloud/prowler) | 13.9k | Python | Prowler is the world’s most widely used open-source cloud security platform that automates security… |
+| [**prowler-cloud/prowler**](https://github.com/prowler-cloud/prowler) | 14.0k | Python | Prowler is the world’s most widely used open-source cloud security platform that automates security… |
 | [**casdoor/casdoor**](https://github.com/casdoor/casdoor) | 13.7k | Go | An open-source Agent-first Identity and Access Management (IAM) /LLM MCP & agent gateway and auth s… |
 | [**redis/redis-py**](https://github.com/redis/redis-py) | 13.6k | Python | Redis Python client |
 | [**Lightning-AI/litgpt**](https://github.com/Lightning-AI/litgpt) | 13.4k | Python | 20+ high-performance LLMs with recipes to pretrain, finetune and deploy at scale. |
