@@ -77,7 +77,7 @@
 
 <!-- CONTRIBUTIONS:START -->
 <p align="center">
-  <img src="/metrics.plugin.contributions.svg?v=1781149862" alt="Top Contributed Repos" />
+  <img src="/metrics.plugin.contributions.svg?v=1781236210" alt="Top Contributed Repos" />
 </p>
 
 <details>
@@ -87,10 +87,10 @@
 |:---|:---:|:---:|:---|
 | [**run-llama/llama_index**](https://github.com/run-llama/llama_index) | 50.1k | Python | LlamaIndex is the leading document agent and OCR platform |
 | [**agno-agi/agno**](https://github.com/agno-agi/agno) | 40.6k | Python | Build, run, and manage agent platforms. |
-| [**mattermost/mattermost**](https://github.com/mattermost/mattermost) | 37.1k | TypeScript | Mattermost is an open source platform for secure collaboration across the entire software developme… |
-| [**HKUDS/LightRAG**](https://github.com/HKUDS/LightRAG) | 36.4k | Python | [EMNLP2025] "LightRAG: Simple and Fast Retrieval-Augmented Generation" |
+| [**mattermost/mattermost**](https://github.com/mattermost/mattermost) | 37.4k | TypeScript | Mattermost is an open source platform for secure collaboration across the entire software developme… |
+| [**HKUDS/LightRAG**](https://github.com/HKUDS/LightRAG) | 36.5k | Python | [EMNLP2025] "LightRAG: Simple and Fast Retrieval-Augmented Generation" |
 | [**bytedance/UI-TARS-desktop**](https://github.com/bytedance/UI-TARS-desktop) | 36.3k | TypeScript | The Open-Source Multimodal AI Agent Stack: Connecting Cutting-Edge AI Models and Agent Infra |
-| [**microsoft/graphrag**](https://github.com/microsoft/graphrag) | 33.6k | Python | A modular graph-based Retrieval-Augmented Generation (RAG) system |
+| [**microsoft/graphrag**](https://github.com/microsoft/graphrag) | 33.7k | Python | A modular graph-based Retrieval-Augmented Generation (RAG) system |
 | [**OpenBMB/ChatDev**](https://github.com/OpenBMB/ChatDev) | 33.4k | Python | ChatDev 2.0: Dev All through LLM-powered Multi-Agent Collaboration |
 | [**celery/celery**](https://github.com/celery/celery) | 28.6k | Python | Distributed Task Queue (development branch) |
 | [**authelia/authelia**](https://github.com/authelia/authelia) | 28.0k | Go | The Single Sign-On Multi-Factor portal for web apps, now OpenID Certified™ |
@@ -116,8 +116,8 @@
 | [**Chainlit/chainlit**](https://github.com/Chainlit/chainlit) | 12.2k | Python | Build Conversational AI in minutes ⚡️ |
 | [**plankanban/planka**](https://github.com/plankanban/planka) | 12.1k | JavaScript | PLANKA is the Kanban-style project mastering tool for everyone |
 | [**grafana/pyroscope**](https://github.com/grafana/pyroscope) | 11.5k | Go | Continuous Profiling Platform. Debug performance issues down to a single line of code |
-| [**pwndbg/pwndbg**](https://github.com/pwndbg/pwndbg) | 10.5k | Python | Exploit Development and Reverse Engineering with GDB & LLDB Made Easy |
-| [**ThreeDotsLabs/watermill**](https://github.com/ThreeDotsLabs/watermill) | 9.7k | Go | Building event-driven applications the easy way in Go. |
+| [**pwndbg/pwndbg**](https://github.com/pwndbg/pwndbg) | 10.6k | Python | Exploit Development and Reverse Engineering with GDB & LLDB Made Easy |
+| [**ThreeDotsLabs/watermill**](https://github.com/ThreeDotsLabs/watermill) | 9.8k | Go | Building event-driven applications the easy way in Go. |
 | [**cadence-workflow/cadence**](https://github.com/cadence-workflow/cadence) | 9.3k | Go | Cadence is a distributed, scalable, durable, and highly available orchestration engine to execute a… |
 | [**pwr-Solaar/Solaar**](https://github.com/pwr-Solaar/Solaar) | 8.8k | Python | Linux device manager for Logitech devices |
 | [**pdm-project/pdm**](https://github.com/pdm-project/pdm) | 8.6k | Python | A modern Python package and dependency manager supporting the latest PEP standards |
@@ -129,7 +129,7 @@
 | [**tortoise/tortoise-orm**](https://github.com/tortoise/tortoise-orm) | 5.6k | Python | Familiar asyncio ORM for python, built with relations in mind |
 | [**ag2ai/faststream**](https://github.com/ag2ai/faststream) | 5.2k | Python | FastStream is an asynchronous Python framework for building event-driven applications. It brings to… |
 | [**strawberry-graphql/strawberry**](https://github.com/strawberry-graphql/strawberry) | 4.7k | Python | A GraphQL library for Python that leverages type annotations 🍓 |
-| [**langfuse/langfuse-python**](https://github.com/langfuse/langfuse-python) | 414 | Python | 🪢 Langfuse Python SDK - Instrument your LLM app with decorators or low-level SDK and get detailed t… |
+| [**langfuse/langfuse-python**](https://github.com/langfuse/langfuse-python) | 415 | Python | 🪢 Langfuse Python SDK - Instrument your LLM app with decorators or low-level SDK and get detailed t… |
 | [**deepset-ai/haystack-core-integrations**](https://github.com/deepset-ai/haystack-core-integrations) | 198 | Python | Additional packages (components, document stores and the likes) to extend the capabilities of Hayst… |
 
 </details>
