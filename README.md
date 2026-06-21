@@ -77,7 +77,7 @@
 
 <!-- CONTRIBUTIONS:START -->
 <p align="center">
-  <img src="/metrics.plugin.contributions.svg?v=1781926356" alt="Top Contributed Repos" />
+  <img src="/metrics.plugin.contributions.svg?v=1782014641" alt="Top Contributed Repos" />
 </p>
 
 <details>
@@ -99,8 +99,8 @@
 | [**Fosowl/agenticSeek**](https://github.com/Fosowl/agenticSeek) | 26.5k | Python | Fully Local Manus AI. No APIs, No $200 monthly bills. Enjoy an autonomous agent that thinks, browse… |
 | [**deepset-ai/haystack**](https://github.com/deepset-ai/haystack) | 25.6k | MDX | Open-source AI orchestration framework for building context-engineered, production-ready LLM applic… |
 | [**QwenLM/qwen-code**](https://github.com/QwenLM/qwen-code) | 25.4k | TypeScript | An open-source AI coding agent that lives in your terminal. |
-| [**Kilo-Org/kilocode**](https://github.com/Kilo-Org/kilocode) | 23.0k | TypeScript | Kilo is the all-in-one agentic engineering platform. Build, ship, and iterate faster with the most… |
-| [**PrefectHQ/prefect**](https://github.com/PrefectHQ/prefect) | 22.6k | Python | Prefect is a workflow orchestration framework for building resilient data pipelines in Python. |
+| [**Kilo-Org/kilocode**](https://github.com/Kilo-Org/kilocode) | 23.4k | TypeScript | Kilo is the all-in-one agentic engineering platform. Build, ship, and iterate faster with the most… |
+| [**PrefectHQ/prefect**](https://github.com/PrefectHQ/prefect) | 22.7k | Python | Prefect is a workflow orchestration framework for building resilient data pipelines in Python. |
 | [**super-productivity/super-productivity**](https://github.com/super-productivity/super-productivity) | 20.2k | TypeScript | Super Productivity is an advanced todo list app with integrated Timeboxing and time tracking capabi… |
 | [**conventional-changelog/commitlint**](https://github.com/conventional-changelog/commitlint) | 18.6k | TypeScript | 📓 Lint commit messages |
 | [**camel-ai/camel**](https://github.com/camel-ai/camel) | 17.2k | Python | 🐫 CAMEL: The first and the best multi-agent framework. Finding the Scaling Law of Agents. https://w… |
@@ -118,8 +118,8 @@
 | [**grafana/pyroscope**](https://github.com/grafana/pyroscope) | 11.5k | Go | Continuous Profiling Platform. Debug performance issues down to a single line of code |
 | [**pwndbg/pwndbg**](https://github.com/pwndbg/pwndbg) | 10.6k | Python | Exploit Development and Reverse Engineering with GDB & LLDB Made Easy |
 | [**ThreeDotsLabs/watermill**](https://github.com/ThreeDotsLabs/watermill) | 9.8k | Go | Building event-driven applications the easy way in Go. |
+| [**microsoft/presidio**](https://github.com/microsoft/presidio) | 9.4k | Python | An open-source framework for detecting, redacting, masking, and anonymizing sensitive data (PII) ac… |
 | [**cadence-workflow/cadence**](https://github.com/cadence-workflow/cadence) | 9.3k | Go | Cadence is a distributed, scalable, durable, and highly available orchestration engine to execute a… |
-| [**microsoft/presidio**](https://github.com/microsoft/presidio) | 9.2k | Python | An open-source framework for detecting, redacting, masking, and anonymizing sensitive data (PII) ac… |
 | [**pwr-Solaar/Solaar**](https://github.com/pwr-Solaar/Solaar) | 8.9k | Python | Linux device manager for Logitech devices |
 | [**pdm-project/pdm**](https://github.com/pdm-project/pdm) | 8.6k | Python | A modern Python package and dependency manager supporting the latest PEP standards |
 | [**litestar-org/litestar**](https://github.com/litestar-org/litestar) | 8.3k | Python | Light, flexible and extensible ASGI framework | Built to scale |
