@@ -77,7 +77,7 @@
 
 <!-- CONTRIBUTIONS:START -->
 <p align="center">
-  <img src="/metrics.plugin.contributions.svg?v=1783220156" alt="Top Contributed Repos" />
+  <img src="/metrics.plugin.contributions.svg?v=1783308175" alt="Top Contributed Repos" />
 </p>
 
 <details>
@@ -85,7 +85,7 @@
 
 | Repository | Stars | Language | Description |
 |:---|:---:|:---:|:---|
-| [**run-llama/llama_index**](https://github.com/run-llama/llama_index) | 50.6k | Python | LlamaIndex is the leading document agent and OCR platform |
+| [**run-llama/llama_index**](https://github.com/run-llama/llama_index) | 50.7k | Python | LlamaIndex is the leading document agent and OCR platform |
 | [**agno-agi/agno**](https://github.com/agno-agi/agno) | 41.0k | Python | Build, run, and manage agent platforms. |
 | [**mattermost/mattermost**](https://github.com/mattermost/mattermost) | 38.3k | TypeScript | Mattermost is an open source platform for secure collaboration across the entire software developme… |
 | [**bytedance/UI-TARS-desktop**](https://github.com/bytedance/UI-TARS-desktop) | 37.7k | TypeScript | The Open-Source Multimodal AI Agent Stack: Connecting Cutting-Edge AI Models and Agent Infra |
@@ -105,7 +105,7 @@
 | [**conventional-changelog/commitlint**](https://github.com/conventional-changelog/commitlint) | 18.6k | TypeScript | 📓 Lint commit messages |
 | [**camel-ai/camel**](https://github.com/camel-ai/camel) | 17.3k | Python | 🐫 CAMEL: The first and the best multi-agent framework. Finding the Scaling Law of Agents. https://w… |
 | [**VictoriaMetrics/VictoriaMetrics**](https://github.com/VictoriaMetrics/VictoriaMetrics) | 17.3k | Go | VictoriaMetrics: fast, cost-effective monitoring solution and time series database |
-| [**confident-ai/deepeval**](https://github.com/confident-ai/deepeval) | 16.6k | Python | The LLM Evaluation Framework |
+| [**confident-ai/deepeval**](https://github.com/confident-ai/deepeval) | 16.7k | Python | The LLM Evaluation Framework |
 | [**aio-libs/aiohttp**](https://github.com/aio-libs/aiohttp) | 16.5k | Python | Asynchronous HTTP client/server framework for asyncio and Python |
 | [**oauth2-proxy/oauth2-proxy**](https://github.com/oauth2-proxy/oauth2-proxy) | 14.6k | Go | A reverse proxy that provides authentication with Google, Azure, OpenID Connect and many more ident… |
 | [**prowler-cloud/prowler**](https://github.com/prowler-cloud/prowler) | 14.1k | Python | Prowler is the world’s most widely used open-source cloud security platform that automates security… |
@@ -117,7 +117,7 @@
 | [**plankanban/planka**](https://github.com/plankanban/planka) | 12.2k | JavaScript | PLANKA is the Kanban-style project mastering tool for everyone |
 | [**grafana/pyroscope**](https://github.com/grafana/pyroscope) | 11.5k | Go | Continuous Profiling Platform. Debug performance issues down to a single line of code |
 | [**pwndbg/pwndbg**](https://github.com/pwndbg/pwndbg) | 10.6k | Python | Exploit Development and Reverse Engineering with GDB & LLDB Made Easy |
-| [**data-privacy-stack/presidio**](https://github.com/data-privacy-stack/presidio) | 9.8k | Python | An open-source framework for detecting, redacting, masking, and anonymizing sensitive data (PII) ac… |
+| [**data-privacy-stack/presidio**](https://github.com/data-privacy-stack/presidio) | 9.9k | Python | An open-source framework for detecting, redacting, masking, and anonymizing sensitive data (PII) ac… |
 | [**ThreeDotsLabs/watermill**](https://github.com/ThreeDotsLabs/watermill) | 9.8k | Go | Building event-driven applications the easy way in Go. |
 | [**cadence-workflow/cadence**](https://github.com/cadence-workflow/cadence) | 9.4k | Go | Cadence is a distributed, scalable, durable, and highly available orchestration engine to execute a… |
 | [**pwr-Solaar/Solaar**](https://github.com/pwr-Solaar/Solaar) | 9.0k | Python | Linux device manager for Logitech devices |
@@ -129,7 +129,7 @@
 | [**tortoise/tortoise-orm**](https://github.com/tortoise/tortoise-orm) | 5.6k | Python | Familiar asyncio ORM for python, built with relations in mind |
 | [**ag2ai/faststream**](https://github.com/ag2ai/faststream) | 5.3k | Python | FastStream is an asynchronous Python framework for building event-driven applications. It brings to… |
 | [**strawberry-graphql/strawberry**](https://github.com/strawberry-graphql/strawberry) | 4.7k | Python | A GraphQL library for Python that leverages type annotations 🍓 |
-| [**langfuse/langfuse-python**](https://github.com/langfuse/langfuse-python) | 431 | Python | 🪢 Langfuse Python SDK - Instrument your LLM app with decorators or low-level SDK and get detailed t… |
+| [**langfuse/langfuse-python**](https://github.com/langfuse/langfuse-python) | 432 | Python | 🪢 Langfuse Python SDK - Instrument your LLM app with decorators or low-level SDK and get detailed t… |
 | [**deepset-ai/haystack-core-integrations**](https://github.com/deepset-ai/haystack-core-integrations) | 198 | Python | Additional packages (components, document stores and the likes) to extend the capabilities of Hayst… |
 
 </details>
