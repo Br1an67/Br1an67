@@ -77,7 +77,7 @@
 
 <!-- CONTRIBUTIONS:START -->
 <p align="center">
-  <img src="/metrics.plugin.contributions.svg?v=1783477938" alt="Top Contributed Repos" />
+  <img src="/metrics.plugin.contributions.svg?v=1783565412" alt="Top Contributed Repos" />
 </p>
 
 <details>
@@ -86,20 +86,20 @@
 | Repository | Stars | Language | Description |
 |:---|:---:|:---:|:---|
 | [**run-llama/llama_index**](https://github.com/run-llama/llama_index) | 50.7k | Python | LlamaIndex is the leading document agent and OCR platform |
-| [**agno-agi/agno**](https://github.com/agno-agi/agno) | 41.0k | Python | Build, run, and manage agent platforms. |
+| [**agno-agi/agno**](https://github.com/agno-agi/agno) | 41.1k | Python | Build, run, and manage agent platforms. |
 | [**mattermost/mattermost**](https://github.com/mattermost/mattermost) | 38.4k | TypeScript | Mattermost is an open source platform for secure collaboration across the entire software developme… |
 | [**bytedance/UI-TARS-desktop**](https://github.com/bytedance/UI-TARS-desktop) | 37.8k | TypeScript | The Open-Source Multimodal AI Agent Stack: Connecting Cutting-Edge AI Models and Agent Infra |
-| [**HKUDS/LightRAG**](https://github.com/HKUDS/LightRAG) | 37.4k | Python | [EMNLP2025] "LightRAG: Simple and Fast Retrieval-Augmented Generation" |
-| [**microsoft/graphrag**](https://github.com/microsoft/graphrag) | 34.2k | Python | A modular graph-based Retrieval-Augmented Generation (RAG) system |
+| [**HKUDS/LightRAG**](https://github.com/HKUDS/LightRAG) | 37.5k | Python | [EMNLP2025] "LightRAG: Simple and Fast Retrieval-Augmented Generation" |
+| [**microsoft/graphrag**](https://github.com/microsoft/graphrag) | 34.3k | Python | A modular graph-based Retrieval-Augmented Generation (RAG) system |
 | [**OpenBMB/ChatDev**](https://github.com/OpenBMB/ChatDev) | 33.7k | Python | ChatDev 2.0: Dev All through LLM-powered Multi-Agent Collaboration |
 | [**celery/celery**](https://github.com/celery/celery) | 28.7k | Python | Distributed Task Queue (development branch) |
 | [**pydantic/pydantic**](https://github.com/pydantic/pydantic) | 28.2k | Python | Data validation using Python type hints |
 | [**authelia/authelia**](https://github.com/authelia/authelia) | 28.2k | Go | The Single Sign-On Multi-Factor portal for web apps, now OpenID Certified™ |
-| [**assafelovic/gpt-researcher**](https://github.com/assafelovic/gpt-researcher) | 28.1k | Python | An autonomous agent that conducts deep research on any data using any LLM providers |
+| [**assafelovic/gpt-researcher**](https://github.com/assafelovic/gpt-researcher) | 28.2k | Python | An autonomous agent that conducts deep research on any data using any LLM providers |
 | [**Fosowl/agenticSeek**](https://github.com/Fosowl/agenticSeek) | 26.6k | Python | Fully Local Manus AI. No APIs, No $200 monthly bills. Enjoy an autonomous agent that thinks, browse… |
 | [**QwenLM/qwen-code**](https://github.com/QwenLM/qwen-code) | 25.9k | TypeScript | An open-source AI coding agent that lives in your terminal. |
-| [**deepset-ai/haystack**](https://github.com/deepset-ai/haystack) | 25.8k | MDX | Open-source AI orchestration framework for building context-engineered, production-ready LLM applic… |
-| [**Kilo-Org/kilocode**](https://github.com/Kilo-Org/kilocode) | 25.8k | TypeScript | Kilo is the all-in-one agentic engineering platform. Build, ship, and iterate faster with the most… |
+| [**Kilo-Org/kilocode**](https://github.com/Kilo-Org/kilocode) | 25.9k | TypeScript | Kilo is the all-in-one agentic engineering platform. Build, ship, and iterate faster with the most… |
+| [**deepset-ai/haystack**](https://github.com/deepset-ai/haystack) | 25.9k | MDX | Open-source AI orchestration framework for building context-engineered, production-ready LLM applic… |
 | [**PrefectHQ/prefect**](https://github.com/PrefectHQ/prefect) | 22.8k | Python | Prefect is a workflow orchestration framework for building resilient data pipelines in Python. |
 | [**super-productivity/super-productivity**](https://github.com/super-productivity/super-productivity) | 20.5k | TypeScript | Super Productivity is an advanced todo list app with integrated Timeboxing and time tracking capabi… |
 | [**conventional-changelog/commitlint**](https://github.com/conventional-changelog/commitlint) | 18.6k | TypeScript | 📓 Lint commit messages |
@@ -121,7 +121,7 @@
 | [**ThreeDotsLabs/watermill**](https://github.com/ThreeDotsLabs/watermill) | 9.8k | Go | Building event-driven applications the easy way in Go. |
 | [**cadence-workflow/cadence**](https://github.com/cadence-workflow/cadence) | 9.4k | Go | Cadence is a distributed, scalable, durable, and highly available orchestration engine to execute a… |
 | [**pwr-Solaar/Solaar**](https://github.com/pwr-Solaar/Solaar) | 9.0k | Python | Linux device manager for Logitech devices |
-| [**pdm-project/pdm**](https://github.com/pdm-project/pdm) | 8.6k | Python | A modern Python package and dependency manager supporting the latest PEP standards |
+| [**pdm-project/pdm**](https://github.com/pdm-project/pdm) | 8.7k | Python | A modern Python package and dependency manager supporting the latest PEP standards |
 | [**litestar-org/litestar**](https://github.com/litestar-org/litestar) | 8.3k | Python | Light, flexible and extensible ASGI framework | Built to scale |
 | [**feast-dev/feast**](https://github.com/feast-dev/feast) | 7.1k | Python | The Open Source Feature Store for AI/ML |
 | [**external-secrets/external-secrets**](https://github.com/external-secrets/external-secrets) | 6.7k | Go | External Secrets Operator reads information from a third-party service like AWS Secrets Manager and… |
