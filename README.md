@@ -77,7 +77,7 @@
 
 <!-- CONTRIBUTIONS:START -->
 <p align="center">
-  <img src="/metrics.plugin.contributions.svg?v=1783823752" alt="Top Contributed Repos" />
+  <img src="/metrics.plugin.contributions.svg?v=1783913120" alt="Top Contributed Repos" />
 </p>
 
 <details>
@@ -97,10 +97,10 @@
 | [**pydantic/pydantic**](https://github.com/pydantic/pydantic) | 28.3k | Python | Data validation using Python type hints |
 | [**authelia/authelia**](https://github.com/authelia/authelia) | 28.2k | Go | The Single Sign-On Multi-Factor portal for web apps, now OpenID Certified™ |
 | [**Fosowl/agenticSeek**](https://github.com/Fosowl/agenticSeek) | 26.6k | Python | Fully Local Manus AI. No APIs, No $200 monthly bills. Enjoy an autonomous agent that thinks, browse… |
-| [**Kilo-Org/kilocode**](https://github.com/Kilo-Org/kilocode) | 26.0k | TypeScript | Kilo is the all-in-one agentic engineering platform. Build, ship, and iterate faster with the most… |
+| [**Kilo-Org/kilocode**](https://github.com/Kilo-Org/kilocode) | 26.1k | TypeScript | Kilo is the all-in-one agentic engineering platform. Build, ship, and iterate faster with the most… |
 | [**QwenLM/qwen-code**](https://github.com/QwenLM/qwen-code) | 26.0k | TypeScript | An open-source AI coding agent that lives in your terminal. |
 | [**deepset-ai/haystack**](https://github.com/deepset-ai/haystack) | 25.9k | MDX | Open-source AI orchestration framework for building context-engineered, production-ready LLM applic… |
-| [**PrefectHQ/prefect**](https://github.com/PrefectHQ/prefect) | 23.0k | Python | Prefect is a workflow orchestration framework for building resilient data pipelines in Python. |
+| [**PrefectHQ/prefect**](https://github.com/PrefectHQ/prefect) | 23.2k | Python | Prefect is a workflow orchestration framework for building resilient data pipelines in Python. |
 | [**super-productivity/super-productivity**](https://github.com/super-productivity/super-productivity) | 20.6k | TypeScript | Super Productivity is an advanced todo list app with integrated Timeboxing and time tracking capabi… |
 | [**conventional-changelog/commitlint**](https://github.com/conventional-changelog/commitlint) | 18.6k | TypeScript | 📓 Lint commit messages |
 | [**camel-ai/camel**](https://github.com/camel-ai/camel) | 17.4k | Python | 🐫 CAMEL: The first and the best multi-agent framework. Finding the Scaling Law of Agents. https://w… |
