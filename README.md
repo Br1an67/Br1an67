@@ -77,7 +77,7 @@
 
 <!-- CONTRIBUTIONS:START -->
 <p align="center">
-  <img src="/metrics.plugin.contributions.svg?v=1784860287" alt="Top Contributed Repos" />
+  <img src="/metrics.plugin.contributions.svg?v=1784946570" alt="Top Contributed Repos" />
 </p>
 
 <details>
@@ -85,11 +85,11 @@
 
 | Repository | Stars | Language | Description |
 |:---|:---:|:---:|:---|
-| [**run-llama/llama_index**](https://github.com/run-llama/llama_index) | 51.0k | Python | LlamaIndex is the leading document agent and OCR platform |
+| [**run-llama/llama_index**](https://github.com/run-llama/llama_index) | 51.1k | Python | LlamaIndex is the leading document agent and OCR platform |
 | [**agno-agi/agno**](https://github.com/agno-agi/agno) | 41.4k | Python | Build, run, and manage agent platforms. |
 | [**mattermost/mattermost**](https://github.com/mattermost/mattermost) | 38.5k | TypeScript | Mattermost is an open source platform for secure collaboration across the entire software developme… |
-| [**bytedance/UI-TARS-desktop**](https://github.com/bytedance/UI-TARS-desktop) | 38.2k | TypeScript | The Open-Source Multimodal AI Agent Stack: Connecting Cutting-Edge AI Models and Agent Infra |
-| [**HKUDS/LightRAG**](https://github.com/HKUDS/LightRAG) | 38.0k | Python | [EMNLP2025] "LightRAG: Simple and Fast Retrieval-Augmented Generation" |
+| [**bytedance/UI-TARS-desktop**](https://github.com/bytedance/UI-TARS-desktop) | 38.3k | TypeScript | The Open-Source Multimodal AI Agent Stack: Connecting Cutting-Edge AI Models and Agent Infra |
+| [**HKUDS/LightRAG**](https://github.com/HKUDS/LightRAG) | 38.1k | Python | [EMNLP2025] "LightRAG: Simple and Fast Retrieval-Augmented Generation" |
 | [**microsoft/graphrag**](https://github.com/microsoft/graphrag) | 34.8k | Python | A modular graph-based Retrieval-Augmented Generation (RAG) system |
 | [**OpenBMB/ChatDev**](https://github.com/OpenBMB/ChatDev) | 33.8k | Python | ChatDev 2.0: Dev All through LLM-powered Multi-Agent Collaboration |
 | [**celery/celery**](https://github.com/celery/celery) | 28.7k | Python | Distributed Task Queue (development branch) |
@@ -101,7 +101,7 @@
 | [**QwenLM/qwen-code**](https://github.com/QwenLM/qwen-code) | 26.3k | TypeScript | An open-source AI coding agent that lives in your terminal. |
 | [**deepset-ai/haystack**](https://github.com/deepset-ai/haystack) | 26.0k | Python | Open-source AI orchestration framework for building context-engineered, production-ready LLM applic… |
 | [**PrefectHQ/prefect**](https://github.com/PrefectHQ/prefect) | 23.5k | Python | Prefect is a workflow orchestration framework for building resilient data pipelines in Python. |
-| [**super-productivity/super-productivity**](https://github.com/super-productivity/super-productivity) | 20.8k | TypeScript | Super Productivity is an advanced todo list app with integrated Timeboxing and time tracking capabi… |
+| [**super-productivity/super-productivity**](https://github.com/super-productivity/super-productivity) | 20.9k | TypeScript | Super Productivity is an advanced todo list app with integrated Timeboxing and time tracking capabi… |
 | [**conventional-changelog/commitlint**](https://github.com/conventional-changelog/commitlint) | 18.7k | TypeScript | 📓 Lint commit messages |
 | [**camel-ai/camel**](https://github.com/camel-ai/camel) | 17.5k | Python | 🐫 CAMEL: The first and the best multi-agent framework. Finding the Scaling Law of Agents. https://w… |
 | [**VictoriaMetrics/VictoriaMetrics**](https://github.com/VictoriaMetrics/VictoriaMetrics) | 17.4k | Go | VictoriaMetrics: fast, cost-effective monitoring solution and time series database |
@@ -117,7 +117,7 @@
 | [**plankanban/planka**](https://github.com/plankanban/planka) | 12.3k | JavaScript | PLANKA is the Kanban-style project mastering tool for everyone |
 | [**grafana/pyroscope**](https://github.com/grafana/pyroscope) | 11.6k | Go | Continuous Profiling Platform. Debug performance issues down to a single line of code |
 | [**pwndbg/pwndbg**](https://github.com/pwndbg/pwndbg) | 10.7k | Python | Exploit Development and Reverse Engineering with GDB & LLDB Made Easy |
-| [**data-privacy-stack/presidio**](https://github.com/data-privacy-stack/presidio) | 10.1k | Python | An open-source framework for detecting, redacting, masking, and anonymizing sensitive data (PII) ac… |
+| [**data-privacy-stack/presidio**](https://github.com/data-privacy-stack/presidio) | 10.2k | Python | An open-source framework for detecting, redacting, masking, and anonymizing sensitive data (PII) ac… |
 | [**ThreeDotsLabs/watermill**](https://github.com/ThreeDotsLabs/watermill) | 9.8k | Go | Building event-driven applications the easy way in Go. |
 | [**cadence-workflow/cadence**](https://github.com/cadence-workflow/cadence) | 9.4k | Go | Cadence is a distributed, scalable, durable, and highly available orchestration engine to execute a… |
 | [**pwr-Solaar/Solaar**](https://github.com/pwr-Solaar/Solaar) | 9.1k | Python | Linux device manager for Logitech devices |
@@ -129,7 +129,7 @@
 | [**tortoise/tortoise-orm**](https://github.com/tortoise/tortoise-orm) | 5.6k | Python | Familiar asyncio ORM for python, built with relations in mind |
 | [**ag2ai/faststream**](https://github.com/ag2ai/faststream) | 5.3k | Python | FastStream is an asynchronous Python framework for building event-driven applications. It brings to… |
 | [**strawberry-graphql/strawberry**](https://github.com/strawberry-graphql/strawberry) | 4.7k | Python | A GraphQL library for Python that leverages type annotations 🍓 |
-| [**anc95/ChatGPT-CodeReview**](https://github.com/anc95/ChatGPT-CodeReview) | 4.5k | JavaScript | 🐥 A code review bot powered by ChatGPT |
+| [**anc95/ChatGPT-CodeReview**](https://github.com/anc95/ChatGPT-CodeReview) | 4.4k | JavaScript | 🐥 A code review bot powered by ChatGPT |
 | [**langfuse/langfuse-python**](https://github.com/langfuse/langfuse-python) | 441 | Python | 🪢 Langfuse Python SDK - Instrument your LLM app with decorators or low-level SDK and get detailed t… |
 | [**deepset-ai/haystack-core-integrations**](https://github.com/deepset-ai/haystack-core-integrations) | 200 | Python | Additional packages (components, document stores and the likes) to extend the capabilities of Hayst… |
 
