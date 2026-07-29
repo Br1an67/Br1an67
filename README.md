@@ -77,7 +77,7 @@
 
 <!-- CONTRIBUTIONS:START -->
 <p align="center">
-  <img src="/metrics.plugin.contributions.svg?v=1785205463" alt="Top Contributed Repos" />
+  <img src="/metrics.plugin.contributions.svg?v=1785292121" alt="Top Contributed Repos" />
 </p>
 
 <details>
@@ -85,13 +85,13 @@
 
 | Repository | Stars | Language | Description |
 |:---|:---:|:---:|:---|
-| [**run-llama/llama_index**](https://github.com/run-llama/llama_index) | 51.1k | Python | LlamaIndex is the leading document agent and OCR platform |
+| [**run-llama/llama_index**](https://github.com/run-llama/llama_index) | 51.2k | Python | LlamaIndex is the leading document agent and OCR platform |
 | [**agno-agi/agno**](https://github.com/agno-agi/agno) | 41.5k | Python | Build, run, and manage agent platforms. |
 | [**mattermost/mattermost**](https://github.com/mattermost/mattermost) | 38.6k | TypeScript | Mattermost is an open source platform for secure collaboration across the entire software developme… |
 | [**bytedance/UI-TARS-desktop**](https://github.com/bytedance/UI-TARS-desktop) | 38.3k | TypeScript | The Open-Source Multimodal AI Agent Stack: Connecting Cutting-Edge AI Models and Agent Infra |
-| [**HKUDS/LightRAG**](https://github.com/HKUDS/LightRAG) | 38.2k | Python | [EMNLP2025] "LightRAG: Simple and Fast Retrieval-Augmented Generation" |
-| [**microsoft/graphrag**](https://github.com/microsoft/graphrag) | 34.9k | Python | A modular graph-based Retrieval-Augmented Generation (RAG) system |
-| [**OpenBMB/ChatDev**](https://github.com/OpenBMB/ChatDev) | 33.8k | Python | ChatDev 2.0: Dev All through LLM-powered Multi-Agent Collaboration |
+| [**HKUDS/LightRAG**](https://github.com/HKUDS/LightRAG) | 38.3k | Python | [EMNLP2025] "LightRAG: Simple and Fast Retrieval-Augmented Generation" |
+| [**microsoft/graphrag**](https://github.com/microsoft/graphrag) | 35.0k | Python | A modular graph-based Retrieval-Augmented Generation (RAG) system |
+| [**OpenBMB/ChatDev**](https://github.com/OpenBMB/ChatDev) | 33.9k | Python | ChatDev 2.0: Dev All through LLM-powered Multi-Agent Collaboration |
 | [**celery/celery**](https://github.com/celery/celery) | 28.7k | Python | Distributed Task Queue (development branch) |
 | [**assafelovic/gpt-researcher**](https://github.com/assafelovic/gpt-researcher) | 28.7k | Python | An autonomous agent that conducts deep research on any data using any LLM providers |
 | [**pydantic/pydantic**](https://github.com/pydantic/pydantic) | 28.4k | Python | Data validation using Python type hints |
@@ -101,13 +101,13 @@
 | [**QwenLM/qwen-code**](https://github.com/QwenLM/qwen-code) | 26.4k | TypeScript | An open-source AI coding agent that lives in your terminal. |
 | [**deepset-ai/haystack**](https://github.com/deepset-ai/haystack) | 26.0k | Python | Open-source AI orchestration framework for building context-engineered, production-ready LLM applic… |
 | [**PrefectHQ/prefect**](https://github.com/PrefectHQ/prefect) | 23.5k | Python | Prefect is a workflow orchestration framework for building resilient data pipelines in Python. |
-| [**super-productivity/super-productivity**](https://github.com/super-productivity/super-productivity) | 20.9k | TypeScript | Super Productivity is an advanced todo list app with integrated Timeboxing and time tracking capabi… |
+| [**super-productivity/super-productivity**](https://github.com/super-productivity/super-productivity) | 21.0k | TypeScript | Super Productivity is an advanced todo list app with integrated Timeboxing and time tracking capabi… |
 | [**conventional-changelog/commitlint**](https://github.com/conventional-changelog/commitlint) | 18.7k | TypeScript | 📓 Lint commit messages |
 | [**camel-ai/camel**](https://github.com/camel-ai/camel) | 17.5k | Python | 🐫 CAMEL: The first and the best multi-agent framework. Finding the Scaling Law of Agents. https://w… |
 | [**VictoriaMetrics/VictoriaMetrics**](https://github.com/VictoriaMetrics/VictoriaMetrics) | 17.4k | Go | VictoriaMetrics: fast, cost-effective monitoring solution and time series database |
 | [**confident-ai/deepeval**](https://github.com/confident-ai/deepeval) | 17.2k | Python | The LLM Evaluation Framework |
 | [**aio-libs/aiohttp**](https://github.com/aio-libs/aiohttp) | 16.5k | Python | Asynchronous HTTP client/server framework for asyncio and Python |
-| [**oauth2-proxy/oauth2-proxy**](https://github.com/oauth2-proxy/oauth2-proxy) | 14.7k | Go | A reverse proxy that provides authentication with Google, Azure, OpenID Connect and many more ident… |
+| [**oauth2-proxy/oauth2-proxy**](https://github.com/oauth2-proxy/oauth2-proxy) | 14.8k | Go | A reverse proxy that provides authentication with Google, Azure, OpenID Connect and many more ident… |
 | [**prowler-cloud/prowler**](https://github.com/prowler-cloud/prowler) | 14.5k | Python | Prowler is the world’s most widely used open-source cloud security platform that automates security… |
 | [**casdoor/casdoor**](https://github.com/casdoor/casdoor) | 14.1k | Go | An open-source Agent-first Identity and Access Management (IAM) /LLM MCP & agent gateway and auth s… |
 | [**redis/redis-py**](https://github.com/redis/redis-py) | 13.6k | Python | Redis Python client |
