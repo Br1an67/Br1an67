@@ -77,7 +77,7 @@
 
 <!-- CONTRIBUTIONS:START -->
 <p align="center">
-  <img src="/metrics.plugin.contributions.svg?v=1785377464" alt="Top Contributed Repos" />
+  <img src="/metrics.plugin.contributions.svg?v=1785465539" alt="Top Contributed Repos" />
 </p>
 
 <details>
@@ -89,16 +89,16 @@
 | [**agno-agi/agno**](https://github.com/agno-agi/agno) | 41.5k | Python | Build, run, and manage agent platforms. |
 | [**mattermost/mattermost**](https://github.com/mattermost/mattermost) | 38.6k | TypeScript | Mattermost is an open source platform for secure collaboration across the entire software developme… |
 | [**bytedance/UI-TARS-desktop**](https://github.com/bytedance/UI-TARS-desktop) | 38.4k | TypeScript | The Open-Source Multimodal AI Agent Stack: Connecting Cutting-Edge AI Models and Agent Infra |
-| [**HKUDS/LightRAG**](https://github.com/HKUDS/LightRAG) | 38.3k | Python | [EMNLP2025] "LightRAG: Simple and Fast Retrieval-Augmented Generation" |
+| [**HKUDS/LightRAG**](https://github.com/HKUDS/LightRAG) | 38.4k | Python | [EMNLP2025] "LightRAG: Simple and Fast Retrieval-Augmented Generation" |
 | [**microsoft/graphrag**](https://github.com/microsoft/graphrag) | 35.1k | Python | A modular graph-based Retrieval-Augmented Generation (RAG) system |
 | [**OpenBMB/ChatDev**](https://github.com/OpenBMB/ChatDev) | 33.9k | Python | ChatDev 2.0: Dev All through LLM-powered Multi-Agent Collaboration |
-| [**celery/celery**](https://github.com/celery/celery) | 28.7k | Python | Distributed Task Queue (development branch) |
 | [**assafelovic/gpt-researcher**](https://github.com/assafelovic/gpt-researcher) | 28.7k | Python | An autonomous agent that conducts deep research on any data using any LLM providers |
+| [**celery/celery**](https://github.com/celery/celery) | 28.7k | Python | Distributed Task Queue (development branch) |
 | [**pydantic/pydantic**](https://github.com/pydantic/pydantic) | 28.4k | Python | Data validation using Python type hints |
 | [**authelia/authelia**](https://github.com/authelia/authelia) | 28.4k | Go | The Single Sign-On Multi-Factor portal for web apps, now OpenID Certified™ |
 | [**Fosowl/agenticSeek**](https://github.com/Fosowl/agenticSeek) | 26.7k | Python | Fully Local Manus AI. No APIs, No $200 monthly bills. Enjoy an autonomous agent that thinks, browse… |
 | [**Kilo-Org/kilocode**](https://github.com/Kilo-Org/kilocode) | 26.6k | TypeScript | Kilo is the all-in-one agentic engineering platform. Build, ship, and iterate faster with the most… |
-| [**QwenLM/qwen-code**](https://github.com/QwenLM/qwen-code) | 26.4k | TypeScript | An open-source AI coding agent that lives in your terminal. |
+| [**QwenLM/qwen-code**](https://github.com/QwenLM/qwen-code) | 26.5k | TypeScript | An open-source AI coding agent that lives in your terminal. |
 | [**deepset-ai/haystack**](https://github.com/deepset-ai/haystack) | 26.1k | Python | Open-source AI orchestration framework for building context-engineered, production-ready LLM applic… |
 | [**PrefectHQ/prefect**](https://github.com/PrefectHQ/prefect) | 23.5k | Python | Prefect is a workflow orchestration framework for building resilient data pipelines in Python. |
 | [**super-productivity/super-productivity**](https://github.com/super-productivity/super-productivity) | 21.0k | TypeScript | Super Productivity is an advanced todo list app with integrated Timeboxing and time tracking capabi… |
@@ -113,7 +113,7 @@
 | [**redis/redis-py**](https://github.com/redis/redis-py) | 13.6k | Python | Redis Python client |
 | [**Lightning-AI/litgpt**](https://github.com/Lightning-AI/litgpt) | 13.6k | Python | 20+ high-performance LLMs with recipes to pretrain, finetune and deploy at scale. |
 | [**pypa/pipx**](https://github.com/pypa/pipx) | 12.9k | Python | Install and Run Python Applications in Isolated Environments |
-| [**Chainlit/chainlit**](https://github.com/Chainlit/chainlit) | 12.3k | Python | Build Conversational AI in minutes ⚡️ |
+| [**Chainlit/chainlit**](https://github.com/Chainlit/chainlit) | 12.4k | Python | Build Conversational AI in minutes ⚡️ |
 | [**plankanban/planka**](https://github.com/plankanban/planka) | 12.3k | JavaScript | PLANKA is the Kanban-style project mastering tool for everyone |
 | [**grafana/pyroscope**](https://github.com/grafana/pyroscope) | 11.6k | Go | Continuous Profiling Platform. Debug performance issues down to a single line of code |
 | [**pwndbg/pwndbg**](https://github.com/pwndbg/pwndbg) | 10.7k | Python | Exploit Development and Reverse Engineering with GDB & LLDB Made Easy |
