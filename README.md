@@ -77,7 +77,7 @@
 
 <!-- CONTRIBUTIONS:START -->
 <p align="center">
-  <img src="/metrics.plugin.contributions.svg?v=1786928900" alt="Top Contributed Repos" />
+  <img src="/metrics.plugin.contributions.svg?v=1787015158" alt="Top Contributed Repos" />
 </p>
 
 <details>
@@ -105,7 +105,7 @@
 | [**conventional-changelog/commitlint**](https://github.com/conventional-changelog/commitlint) | 18.7k | TypeScript | 📓 Lint commit messages |
 | [**confident-ai/deepeval**](https://github.com/confident-ai/deepeval) | 17.6k | Python | The LLM Evaluation Framework |
 | [**camel-ai/camel**](https://github.com/camel-ai/camel) | 17.6k | Python | 🐫 CAMEL: The first and the best multi-agent framework. Finding the Scaling Law of Agents. https://w… |
-| [**VictoriaMetrics/VictoriaMetrics**](https://github.com/VictoriaMetrics/VictoriaMetrics) | 17.5k | Go | VictoriaMetrics: fast, cost-effective monitoring solution and time series database |
+| [**VictoriaMetrics/VictoriaMetrics**](https://github.com/VictoriaMetrics/VictoriaMetrics) | 17.6k | Go | VictoriaMetrics: fast, cost-effective monitoring solution and time series database |
 | [**aio-libs/aiohttp**](https://github.com/aio-libs/aiohttp) | 16.5k | Python | Asynchronous HTTP client/server framework for asyncio and Python |
 | [**oauth2-proxy/oauth2-proxy**](https://github.com/oauth2-proxy/oauth2-proxy) | 14.8k | Go | A reverse proxy that provides authentication with Google, Azure, OpenID Connect and many more ident… |
 | [**prowler-cloud/prowler**](https://github.com/prowler-cloud/prowler) | 14.6k | Python | Prowler is the world’s most widely used open-source cloud security platform that automates security… |
@@ -131,8 +131,8 @@
 | [**ag2ai/faststream**](https://github.com/ag2ai/faststream) | 5.3k | Python | FastStream is an asynchronous Python framework for building event-driven applications. It brings to… |
 | [**strawberry-graphql/strawberry**](https://github.com/strawberry-graphql/strawberry) | 4.7k | Python | A GraphQL library for Python that leverages type annotations 🍓 |
 | [**anc95/ChatGPT-CodeReview**](https://github.com/anc95/ChatGPT-CodeReview) | 4.5k | JavaScript | 🐥 A code review bot powered by ChatGPT |
-| [**langfuse/langfuse-python**](https://github.com/langfuse/langfuse-python) | 452 | Python | 🪢 Langfuse Python SDK - Instrument your LLM app with decorators or low-level SDK and get detailed t… |
-| [**deepset-ai/haystack-core-integrations**](https://github.com/deepset-ai/haystack-core-integrations) | 202 | Python | Additional packages (components, document stores and the likes) to extend the capabilities of Hayst… |
+| [**langfuse/langfuse-python**](https://github.com/langfuse/langfuse-python) | 451 | Python | 🪢 Langfuse Python SDK - Instrument your LLM app with decorators or low-level SDK and get detailed t… |
+| [**deepset-ai/haystack-core-integrations**](https://github.com/deepset-ai/haystack-core-integrations) | 203 | Python | Additional packages (components, document stores and the likes) to extend the capabilities of Hayst… |
 
 </details>
 <!-- CONTRIBUTIONS:END -->
