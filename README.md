@@ -77,7 +77,7 @@
 
 <!-- CONTRIBUTIONS:START -->
 <p align="center">
-  <img src="/metrics.plugin.contributions.svg?v=1787360775" alt="Top Contributed Repos" />
+  <img src="/metrics.plugin.contributions.svg?v=1787447491" alt="Top Contributed Repos" />
 </p>
 
 <details>
@@ -94,13 +94,13 @@
 | [**OpenBMB/ChatDev**](https://github.com/OpenBMB/ChatDev) | 34.1k | Python | ChatDev 2.0: Dev All through LLM-powered Multi-Agent Collaboration |
 | [**assafelovic/gpt-researcher**](https://github.com/assafelovic/gpt-researcher) | 29.1k | Python | An autonomous agent that conducts deep research on any data using any LLM providers |
 | [**celery/celery**](https://github.com/celery/celery) | 28.8k | Python | Distributed Task Queue (development branch) |
-| [**authelia/authelia**](https://github.com/authelia/authelia) | 28.6k | Go | The Single Sign-On Multi-Factor portal for web apps, now OpenID Certified™ |
+| [**authelia/authelia**](https://github.com/authelia/authelia) | 28.7k | Go | The Single Sign-On Multi-Factor portal for web apps, now OpenID Certified™ |
 | [**pydantic/pydantic**](https://github.com/pydantic/pydantic) | 28.6k | Python | Data validation using Python type hints |
 | [**QwenLM/qwen-code**](https://github.com/QwenLM/qwen-code) | 27.3k | TypeScript | An open-source AI coding agent that lives in your terminal. |
 | [**Kilo-Org/kilocode**](https://github.com/Kilo-Org/kilocode) | 27.0k | TypeScript | Kilo is the all-in-one agentic engineering platform. Build, ship, and iterate faster with the most… |
-| [**Fosowl/agenticSeek**](https://github.com/Fosowl/agenticSeek) | 26.9k | Python | Fully Local Manus AI. No APIs, No $200 monthly bills. Enjoy an autonomous agent that thinks, browse… |
+| [**Fosowl/agenticSeek**](https://github.com/Fosowl/agenticSeek) | 27.0k | Python | Fully Local Manus AI. No APIs, No $200 monthly bills. Enjoy an autonomous agent that thinks, browse… |
 | [**deepset-ai/haystack**](https://github.com/deepset-ai/haystack) | 26.3k | Python | Open-source AI orchestration framework for building context-engineered, production-ready LLM applic… |
-| [**PrefectHQ/prefect**](https://github.com/PrefectHQ/prefect) | 23.6k | Python | Prefect is a workflow orchestration framework for building resilient data pipelines in Python. |
+| [**PrefectHQ/prefect**](https://github.com/PrefectHQ/prefect) | 23.7k | Python | Prefect is a workflow orchestration framework for building resilient data pipelines in Python. |
 | [**super-productivity/super-productivity**](https://github.com/super-productivity/super-productivity) | 21.5k | TypeScript | Super Productivity is an advanced todo list app with integrated Timeboxing and time tracking capabi… |
 | [**conventional-changelog/commitlint**](https://github.com/conventional-changelog/commitlint) | 18.7k | TypeScript | 📓 Lint commit messages |
 | [**confident-ai/deepeval**](https://github.com/confident-ai/deepeval) | 17.8k | Python | The LLM Evaluation Framework |
@@ -109,7 +109,7 @@
 | [**aio-libs/aiohttp**](https://github.com/aio-libs/aiohttp) | 16.5k | Python | Asynchronous HTTP client/server framework for asyncio and Python |
 | [**oauth2-proxy/oauth2-proxy**](https://github.com/oauth2-proxy/oauth2-proxy) | 14.9k | Go | A reverse proxy that provides authentication with Google, Azure, OpenID Connect and many more ident… |
 | [**prowler-cloud/prowler**](https://github.com/prowler-cloud/prowler) | 14.6k | Python | Prowler is the world’s most widely used open-source cloud security platform that automates security… |
-| [**casdoor/casdoor**](https://github.com/casdoor/casdoor) | 14.2k | Go | An open-source Agent-first Identity and Access Management (IAM) /LLM MCP & agent gateway and auth s… |
+| [**casdoor/casdoor**](https://github.com/casdoor/casdoor) | 14.3k | Go | An open-source Agent-first Identity and Access Management (IAM) /LLM MCP & agent gateway and auth s… |
 | [**Lightning-AI/litgpt**](https://github.com/Lightning-AI/litgpt) | 13.6k | Python | 20+ high-performance LLMs with recipes to pretrain, finetune and deploy at scale. |
 | [**redis/redis-py**](https://github.com/redis/redis-py) | 13.6k | Python | Redis Python client |
 | [**pypa/pipx**](https://github.com/pypa/pipx) | 12.9k | Python | Install and Run Python Applications in Isolated Environments |
@@ -118,7 +118,7 @@
 | [**grafana/pyroscope**](https://github.com/grafana/pyroscope) | 11.6k | Go | Continuous Profiling Platform. Debug performance issues down to a single line of code |
 | [**pwndbg/pwndbg**](https://github.com/pwndbg/pwndbg) | 10.8k | Python | Exploit Development and Reverse Engineering with GDB & LLDB Made Easy |
 | [**data-privacy-stack/presidio**](https://github.com/data-privacy-stack/presidio) | 10.6k | Python | An open-source framework for detecting, redacting, masking, and anonymizing sensitive data (PII) ac… |
-| [**ThreeDotsLabs/watermill**](https://github.com/ThreeDotsLabs/watermill) | 9.8k | Go | Building event-driven applications the easy way in Go. |
+| [**ThreeDotsLabs/watermill**](https://github.com/ThreeDotsLabs/watermill) | 9.9k | Go | Building event-driven applications the easy way in Go. |
 | [**cadence-workflow/cadence**](https://github.com/cadence-workflow/cadence) | 9.4k | Go | Cadence is a distributed, scalable, durable, and highly available orchestration engine to execute a… |
 | [**pwr-Solaar/Solaar**](https://github.com/pwr-Solaar/Solaar) | 9.3k | Python | Linux device manager for Logitech devices |
 | [**pdm-project/pdm**](https://github.com/pdm-project/pdm) | 8.7k | Python | A modern Python package and dependency manager supporting the latest PEP standards |
