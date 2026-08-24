@@ -77,7 +77,7 @@
 
 <!-- CONTRIBUTIONS:START -->
 <p align="center">
-  <img src="/metrics.plugin.contributions.svg?v=1787447491" alt="Top Contributed Repos" />
+  <img src="/metrics.plugin.contributions.svg?v=1787533764" alt="Top Contributed Repos" />
 </p>
 
 <details>
@@ -86,7 +86,7 @@
 | Repository | Stars | Language | Description |
 |:---|:---:|:---:|:---|
 | [**run-llama/llama_index**](https://github.com/run-llama/llama_index) | 51.8k | Python | LlamaIndex is the leading document agent and OCR platform |
-| [**agno-agi/agno**](https://github.com/agno-agi/agno) | 41.8k | Python | Build, run, and manage agent platforms. |
+| [**agno-agi/agno**](https://github.com/agno-agi/agno) | 41.9k | Python | Build, run, and manage agent platforms. |
 | [**HKUDS/LightRAG**](https://github.com/HKUDS/LightRAG) | 39.1k | Python | [EMNLP2025] LightRAG: Simple and Fast Retrieval-Augmented Generation |
 | [**mattermost/mattermost**](https://github.com/mattermost/mattermost) | 38.9k | TypeScript | Mattermost is an open source platform for secure collaboration across the entire software developme… |
 | [**bytedance/UI-TARS-desktop**](https://github.com/bytedance/UI-TARS-desktop) | 38.7k | TypeScript | The Open-Source Multimodal AI Agent Stack: Connecting Cutting-Edge AI Models and Agent Infra |
@@ -108,7 +108,7 @@
 | [**VictoriaMetrics/VictoriaMetrics**](https://github.com/VictoriaMetrics/VictoriaMetrics) | 17.6k | Go | VictoriaMetrics: fast, cost-effective monitoring solution and time series database |
 | [**aio-libs/aiohttp**](https://github.com/aio-libs/aiohttp) | 16.5k | Python | Asynchronous HTTP client/server framework for asyncio and Python |
 | [**oauth2-proxy/oauth2-proxy**](https://github.com/oauth2-proxy/oauth2-proxy) | 14.9k | Go | A reverse proxy that provides authentication with Google, Azure, OpenID Connect and many more ident… |
-| [**prowler-cloud/prowler**](https://github.com/prowler-cloud/prowler) | 14.6k | Python | Prowler is the world’s most widely used open-source cloud security platform that automates security… |
+| [**prowler-cloud/prowler**](https://github.com/prowler-cloud/prowler) | 14.7k | Python | Prowler is the world’s most widely used open-source cloud security platform that automates security… |
 | [**casdoor/casdoor**](https://github.com/casdoor/casdoor) | 14.3k | Go | An open-source Agent-first Identity and Access Management (IAM) /LLM MCP & agent gateway and auth s… |
 | [**Lightning-AI/litgpt**](https://github.com/Lightning-AI/litgpt) | 13.6k | Python | 20+ high-performance LLMs with recipes to pretrain, finetune and deploy at scale. |
 | [**redis/redis-py**](https://github.com/redis/redis-py) | 13.6k | Python | Redis Python client |
