@@ -77,7 +77,7 @@
 
 <!-- CONTRIBUTIONS:START -->
 <p align="center">
-  <img src="/metrics.plugin.contributions.svg?v=1787982063" alt="Top Contributed Repos" />
+  <img src="/metrics.plugin.contributions.svg?v=1788061330" alt="Top Contributed Repos" />
 </p>
 
 <details>
@@ -91,7 +91,7 @@
 | [**mattermost/mattermost**](https://github.com/mattermost/mattermost) | 38.9k | TypeScript | Mattermost is an open source platform for secure collaboration across the entire software developme… |
 | [**bytedance/UI-TARS-desktop**](https://github.com/bytedance/UI-TARS-desktop) | 38.7k | TypeScript | The Open-Source Multimodal AI Agent Stack: Connecting Cutting-Edge AI Models and Agent Infra |
 | [**microsoft/graphrag**](https://github.com/microsoft/graphrag) | 35.7k | Python | A modular graph-based Retrieval-Augmented Generation (RAG) system |
-| [**OpenBMB/ChatDev**](https://github.com/OpenBMB/ChatDev) | 34.1k | Python | ChatDev 2.0: Dev All through LLM-powered Multi-Agent Collaboration |
+| [**OpenBMB/ChatDev**](https://github.com/OpenBMB/ChatDev) | 34.2k | Python | ChatDev 2.0: Dev All through LLM-powered Multi-Agent Collaboration |
 | [**assafelovic/gpt-researcher**](https://github.com/assafelovic/gpt-researcher) | 29.2k | Python | An autonomous agent that conducts deep research on any data using any LLM providers |
 | [**celery/celery**](https://github.com/celery/celery) | 28.8k | Python | Distributed Task Queue (development branch) |
 | [**authelia/authelia**](https://github.com/authelia/authelia) | 28.7k | Go | The Single Sign-On Multi-Factor portal for web apps, now OpenID Certified™ |
@@ -101,9 +101,9 @@
 | [**Fosowl/agenticSeek**](https://github.com/Fosowl/agenticSeek) | 27.1k | Python | Fully Local Manus AI. No APIs, No $200 monthly bills. Enjoy an autonomous agent that thinks, browse… |
 | [**deepset-ai/haystack**](https://github.com/deepset-ai/haystack) | 26.4k | Python | Open-source AI orchestration framework for building context-engineered, production-ready LLM applic… |
 | [**PrefectHQ/prefect**](https://github.com/PrefectHQ/prefect) | 23.7k | Python | Prefect is a workflow orchestration framework for building resilient data pipelines in Python. |
-| [**super-productivity/super-productivity**](https://github.com/super-productivity/super-productivity) | 21.6k | TypeScript | Super Productivity is an advanced todo list app with integrated Timeboxing and time tracking capabi… |
+| [**super-productivity/super-productivity**](https://github.com/super-productivity/super-productivity) | 21.7k | TypeScript | Super Productivity is an advanced todo list app with integrated Timeboxing and time tracking capabi… |
 | [**conventional-changelog/commitlint**](https://github.com/conventional-changelog/commitlint) | 18.7k | TypeScript | 📓 Lint commit messages |
-| [**confident-ai/deepeval**](https://github.com/confident-ai/deepeval) | 17.9k | Python | The LLM Evaluation Framework |
+| [**confident-ai/deepeval**](https://github.com/confident-ai/deepeval) | 18.0k | Python | The LLM Evaluation Framework |
 | [**camel-ai/camel**](https://github.com/camel-ai/camel) | 17.7k | Python | 🐫 CAMEL: The first and the best multi-agent framework. Finding the Scaling Law of Agents. https://w… |
 | [**VictoriaMetrics/VictoriaMetrics**](https://github.com/VictoriaMetrics/VictoriaMetrics) | 17.6k | Go | VictoriaMetrics: fast, cost-effective monitoring solution and time series database |
 | [**aio-libs/aiohttp**](https://github.com/aio-libs/aiohttp) | 16.5k | Python | Asynchronous HTTP client/server framework for asyncio and Python |
