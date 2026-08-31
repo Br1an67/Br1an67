@@ -77,7 +77,7 @@
 
 <!-- CONTRIBUTIONS:START -->
 <p align="center">
-  <img src="/metrics.plugin.contributions.svg?v=1788061330" alt="Top Contributed Repos" />
+  <img src="/metrics.plugin.contributions.svg?v=1788147773" alt="Top Contributed Repos" />
 </p>
 
 <details>
@@ -89,12 +89,12 @@
 | [**agno-agi/agno**](https://github.com/agno-agi/agno) | 42.0k | Python | Build, run, and manage agent platforms. |
 | [**HKUDS/LightRAG**](https://github.com/HKUDS/LightRAG) | 39.3k | Python | [EMNLP2025] LightRAG: Simple and Fast Retrieval-Augmented Generation |
 | [**mattermost/mattermost**](https://github.com/mattermost/mattermost) | 38.9k | TypeScript | Mattermost is an open source platform for secure collaboration across the entire software developme… |
-| [**bytedance/UI-TARS-desktop**](https://github.com/bytedance/UI-TARS-desktop) | 38.7k | TypeScript | The Open-Source Multimodal AI Agent Stack: Connecting Cutting-Edge AI Models and Agent Infra |
-| [**microsoft/graphrag**](https://github.com/microsoft/graphrag) | 35.7k | Python | A modular graph-based Retrieval-Augmented Generation (RAG) system |
+| [**bytedance/UI-TARS-desktop**](https://github.com/bytedance/UI-TARS-desktop) | 38.8k | TypeScript | The Open-Source Multimodal AI Agent Stack: Connecting Cutting-Edge AI Models and Agent Infra |
+| [**microsoft/graphrag**](https://github.com/microsoft/graphrag) | 35.8k | Python | A modular graph-based Retrieval-Augmented Generation (RAG) system |
 | [**OpenBMB/ChatDev**](https://github.com/OpenBMB/ChatDev) | 34.2k | Python | ChatDev 2.0: Dev All through LLM-powered Multi-Agent Collaboration |
 | [**assafelovic/gpt-researcher**](https://github.com/assafelovic/gpt-researcher) | 29.2k | Python | An autonomous agent that conducts deep research on any data using any LLM providers |
 | [**celery/celery**](https://github.com/celery/celery) | 28.8k | Python | Distributed Task Queue (development branch) |
-| [**authelia/authelia**](https://github.com/authelia/authelia) | 28.7k | Go | The Single Sign-On Multi-Factor portal for web apps, now OpenID Certified™ |
+| [**authelia/authelia**](https://github.com/authelia/authelia) | 28.8k | Go | The Single Sign-On Multi-Factor portal for web apps, now OpenID Certified™ |
 | [**pydantic/pydantic**](https://github.com/pydantic/pydantic) | 28.7k | Python | Data validation using Python type hints |
 | [**QwenLM/qwen-code**](https://github.com/QwenLM/qwen-code) | 27.5k | TypeScript | An open-source AI coding agent that lives in your terminal. |
 | [**Kilo-Org/kilocode**](https://github.com/Kilo-Org/kilocode) | 27.1k | TypeScript | Kilo is the all-in-one agentic engineering platform. Build, ship, and iterate faster with the most… |
@@ -107,13 +107,13 @@
 | [**camel-ai/camel**](https://github.com/camel-ai/camel) | 17.7k | Python | 🐫 CAMEL: The first and the best multi-agent framework. Finding the Scaling Law of Agents. https://w… |
 | [**VictoriaMetrics/VictoriaMetrics**](https://github.com/VictoriaMetrics/VictoriaMetrics) | 17.6k | Go | VictoriaMetrics: fast, cost-effective monitoring solution and time series database |
 | [**aio-libs/aiohttp**](https://github.com/aio-libs/aiohttp) | 16.5k | Python | Asynchronous HTTP client/server framework for asyncio and Python |
-| [**FlareSolverr/FlareSolverr**](https://github.com/FlareSolverr/FlareSolverr) | 15.3k | Python | Proxy server to bypass Cloudflare protection |
+| [**FlareSolverr/FlareSolverr**](https://github.com/FlareSolverr/FlareSolverr) | 15.4k | Python | Proxy server to bypass Cloudflare protection |
 | [**oauth2-proxy/oauth2-proxy**](https://github.com/oauth2-proxy/oauth2-proxy) | 14.9k | Go | A reverse proxy that provides authentication with Google, Azure, OpenID Connect and many more ident… |
 | [**prowler-cloud/prowler**](https://github.com/prowler-cloud/prowler) | 14.7k | Python | Prowler is the world’s most widely used open-source cloud security platform that automates security… |
 | [**casdoor/casdoor**](https://github.com/casdoor/casdoor) | 14.3k | Go | An open-source Agent-first Identity and Access Management (IAM) /LLM MCP & agent gateway and auth s… |
 | [**Lightning-AI/litgpt**](https://github.com/Lightning-AI/litgpt) | 13.6k | Python | 20+ high-performance LLMs with recipes to pretrain, finetune and deploy at scale. |
 | [**redis/redis-py**](https://github.com/redis/redis-py) | 13.6k | Python | Redis Python client |
-| [**pypa/pipx**](https://github.com/pypa/pipx) | 12.9k | Python | Install and Run Python Applications in Isolated Environments |
+| [**pypa/pipx**](https://github.com/pypa/pipx) | 13.0k | Python | Install and Run Python Applications in Isolated Environments |
 | [**plankanban/planka**](https://github.com/plankanban/planka) | 12.5k | JavaScript | PLANKA is the Kanban-style project mastering tool for everyone |
 | [**Chainlit/chainlit**](https://github.com/Chainlit/chainlit) | 12.4k | Python | Build Conversational AI in minutes ⚡️ |
 | [**grafana/pyroscope**](https://github.com/grafana/pyroscope) | 11.6k | Go | Continuous Profiling Platform. Debug performance issues down to a single line of code |
