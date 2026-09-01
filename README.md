@@ -77,7 +77,7 @@
 
 <!-- CONTRIBUTIONS:START -->
 <p align="center">
-  <img src="/metrics.plugin.contributions.svg?v=1788147773" alt="Top Contributed Repos" />
+  <img src="/metrics.plugin.contributions.svg?v=1788233854" alt="Top Contributed Repos" />
 </p>
 
 <details>
@@ -88,7 +88,7 @@
 | [**run-llama/llama_index**](https://github.com/run-llama/llama_index) | 51.9k | Python | LlamaIndex is the leading document agent and OCR platform |
 | [**agno-agi/agno**](https://github.com/agno-agi/agno) | 42.0k | Python | Build, run, and manage agent platforms. |
 | [**HKUDS/LightRAG**](https://github.com/HKUDS/LightRAG) | 39.3k | Python | [EMNLP2025] LightRAG: Simple and Fast Retrieval-Augmented Generation |
-| [**mattermost/mattermost**](https://github.com/mattermost/mattermost) | 38.9k | TypeScript | Mattermost is an open source platform for secure collaboration across the entire software developme… |
+| [**mattermost/mattermost**](https://github.com/mattermost/mattermost) | 39.0k | TypeScript | Mattermost is an open source platform for secure collaboration across the entire software developme… |
 | [**bytedance/UI-TARS-desktop**](https://github.com/bytedance/UI-TARS-desktop) | 38.8k | TypeScript | The Open-Source Multimodal AI Agent Stack: Connecting Cutting-Edge AI Models and Agent Infra |
 | [**microsoft/graphrag**](https://github.com/microsoft/graphrag) | 35.8k | Python | A modular graph-based Retrieval-Augmented Generation (RAG) system |
 | [**OpenBMB/ChatDev**](https://github.com/OpenBMB/ChatDev) | 34.2k | Python | ChatDev 2.0: Dev All through LLM-powered Multi-Agent Collaboration |
@@ -113,7 +113,7 @@
 | [**casdoor/casdoor**](https://github.com/casdoor/casdoor) | 14.3k | Go | An open-source Agent-first Identity and Access Management (IAM) /LLM MCP & agent gateway and auth s… |
 | [**Lightning-AI/litgpt**](https://github.com/Lightning-AI/litgpt) | 13.6k | Python | 20+ high-performance LLMs with recipes to pretrain, finetune and deploy at scale. |
 | [**redis/redis-py**](https://github.com/redis/redis-py) | 13.6k | Python | Redis Python client |
-| [**pypa/pipx**](https://github.com/pypa/pipx) | 13.0k | Python | Install and Run Python Applications in Isolated Environments |
+| [**pypa/pipx**](https://github.com/pypa/pipx) | 12.9k | Python | Install and Run Python Applications in Isolated Environments |
 | [**plankanban/planka**](https://github.com/plankanban/planka) | 12.5k | JavaScript | PLANKA is the Kanban-style project mastering tool for everyone |
 | [**Chainlit/chainlit**](https://github.com/Chainlit/chainlit) | 12.4k | Python | Build Conversational AI in minutes ⚡️ |
 | [**grafana/pyroscope**](https://github.com/grafana/pyroscope) | 11.6k | Go | Continuous Profiling Platform. Debug performance issues down to a single line of code |
@@ -132,7 +132,7 @@
 | [**ag2ai/faststream**](https://github.com/ag2ai/faststream) | 5.3k | Python | Asynchronous Python framework for event-driven services. A thin client for Kafka, RabbitMQ, NATS, R… |
 | [**strawberry-graphql/strawberry**](https://github.com/strawberry-graphql/strawberry) | 4.7k | Python | A GraphQL library for Python that leverages type annotations 🍓 |
 | [**anc95/ChatGPT-CodeReview**](https://github.com/anc95/ChatGPT-CodeReview) | 4.5k | JavaScript | 🐥 A code review bot powered by ChatGPT |
-| [**langfuse/langfuse-python**](https://github.com/langfuse/langfuse-python) | 459 | Python | 🪢 Langfuse Python SDK - Instrument your LLM app with decorators or low-level SDK and get detailed t… |
+| [**langfuse/langfuse-python**](https://github.com/langfuse/langfuse-python) | 461 | Python | 🪢 Langfuse Python SDK - Instrument your LLM app with decorators or low-level SDK and get detailed t… |
 | [**deepset-ai/haystack-core-integrations**](https://github.com/deepset-ai/haystack-core-integrations) | 202 | Python | Additional packages (components, document stores and the likes) to extend the capabilities of Hayst… |
 
 </details>
