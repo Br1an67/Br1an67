@@ -77,7 +77,7 @@
 
 <!-- CONTRIBUTIONS:START -->
 <p align="center">
-  <img src="/metrics.plugin.contributions.svg?v=1788836812" alt="Top Contributed Repos" />
+  <img src="/metrics.plugin.contributions.svg?v=1788923307" alt="Top Contributed Repos" />
 </p>
 
 <details>
@@ -93,7 +93,7 @@
 | [**bytedance/UI-TARS-desktop**](https://github.com/bytedance/UI-TARS-desktop) | 38.9k | TypeScript | The Open-Source Multimodal AI Agent Stack: Connecting Cutting-Edge AI Models and Agent Infra |
 | [**microsoft/graphrag**](https://github.com/microsoft/graphrag) | 35.9k | Python | A modular graph-based Retrieval-Augmented Generation (RAG) system |
 | [**OpenBMB/ChatDev**](https://github.com/OpenBMB/ChatDev) | 34.2k | Python | ChatDev 2.0: Dev All through LLM-powered Multi-Agent Collaboration |
-| [**assafelovic/gpt-researcher**](https://github.com/assafelovic/gpt-researcher) | 29.3k | Python | An autonomous agent that conducts deep research on any data using any LLM providers |
+| [**assafelovic/gpt-researcher**](https://github.com/assafelovic/gpt-researcher) | 29.4k | Python | An autonomous agent that conducts deep research on any data using any LLM providers |
 | [**celery/celery**](https://github.com/celery/celery) | 28.9k | Python | Distributed Task Queue (development branch) |
 | [**authelia/authelia**](https://github.com/authelia/authelia) | 28.8k | Go | The Single Sign-On Multi-Factor portal for web apps. OpenID Certified™ and Post-Quantum Cryptograph… |
 | [**pydantic/pydantic**](https://github.com/pydantic/pydantic) | 28.7k | Python | Data validation using Python type hints |
@@ -109,14 +109,14 @@
 | [**camel-ai/camel**](https://github.com/camel-ai/camel) | 17.7k | Python | 🐫 CAMEL: The first and the best multi-agent framework. Finding the Scaling Law of Agents. https://w… |
 | [**VictoriaMetrics/VictoriaMetrics**](https://github.com/VictoriaMetrics/VictoriaMetrics) | 17.7k | Go | VictoriaMetrics: fast, cost-effective monitoring solution and time series database |
 | [**aio-libs/aiohttp**](https://github.com/aio-libs/aiohttp) | 16.5k | Python | Asynchronous HTTP client/server framework for asyncio and Python |
-| [**FlareSolverr/FlareSolverr**](https://github.com/FlareSolverr/FlareSolverr) | 15.4k | Python | Proxy server to bypass Cloudflare protection |
+| [**FlareSolverr/FlareSolverr**](https://github.com/FlareSolverr/FlareSolverr) | 15.5k | Python | Proxy server to bypass Cloudflare protection |
 | [**oauth2-proxy/oauth2-proxy**](https://github.com/oauth2-proxy/oauth2-proxy) | 14.9k | Go | A reverse proxy that provides authentication with Google, Azure, OpenID Connect and many more ident… |
 | [**prowler-cloud/prowler**](https://github.com/prowler-cloud/prowler) | 14.8k | Python | Prowler is the world’s most widely used open-source cloud security platform that automates security… |
 | [**casdoor/casdoor**](https://github.com/casdoor/casdoor) | 14.4k | Go | An open-source Agent-first Identity and Access Management (IAM) /LLM MCP & agent gateway and auth s… |
 | [**Lightning-AI/litgpt**](https://github.com/Lightning-AI/litgpt) | 13.7k | Python | 20+ high-performance LLMs with recipes to pretrain, finetune and deploy at scale. |
 | [**redis/redis-py**](https://github.com/redis/redis-py) | 13.6k | Python | Redis Python client |
 | [**pypa/pipx**](https://github.com/pypa/pipx) | 13.0k | Python | Install and Run Python Applications in Isolated Environments |
-| [**plankanban/planka**](https://github.com/plankanban/planka) | 12.5k | JavaScript | PLANKA is the Kanban-style project mastering tool for everyone |
+| [**plankanban/planka**](https://github.com/plankanban/planka) | 12.5k | JavaScript | Elegant open source project tracking. Self-hosted Kanban for teams — free Community edition, with P… |
 | [**Chainlit/chainlit**](https://github.com/Chainlit/chainlit) | 12.4k | Python | Build Conversational AI in minutes ⚡️ |
 | [**grafana/pyroscope**](https://github.com/grafana/pyroscope) | 11.7k | Go | Continuous Profiling Platform. Debug performance issues down to a single line of code |
 | [**pwndbg/pwndbg**](https://github.com/pwndbg/pwndbg) | 10.8k | Python | Exploit Development and Reverse Engineering with GDB & LLDB Made Easy |
@@ -134,7 +134,7 @@
 | [**ag2ai/faststream**](https://github.com/ag2ai/faststream) | 5.3k | Python | Asynchronous Python framework for event-driven services. A thin client for Kafka, RabbitMQ, NATS, R… |
 | [**strawberry-graphql/strawberry**](https://github.com/strawberry-graphql/strawberry) | 4.7k | Python | A GraphQL library for Python that leverages type annotations 🍓 |
 | [**anc95/ChatGPT-CodeReview**](https://github.com/anc95/ChatGPT-CodeReview) | 4.5k | JavaScript | 🐥 A code review bot powered by ChatGPT |
-| [**langfuse/langfuse-python**](https://github.com/langfuse/langfuse-python) | 463 | Python | 🪢 Langfuse Python SDK - Instrument your LLM app with decorators or low-level SDK and get detailed t… |
+| [**langfuse/langfuse-python**](https://github.com/langfuse/langfuse-python) | 464 | Python | 🪢 Langfuse Python SDK - Instrument your LLM app with decorators or low-level SDK and get detailed t… |
 | [**deepset-ai/haystack-core-integrations**](https://github.com/deepset-ai/haystack-core-integrations) | 202 | Python | Additional packages (components, document stores and the likes) to extend the capabilities of Hayst… |
 
 </details>
