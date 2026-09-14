@@ -77,7 +77,7 @@
 
 <!-- CONTRIBUTIONS:START -->
 <p align="center">
-  <img src="/metrics.plugin.contributions.svg?v=1789269207" alt="Top Contributed Repos" />
+  <img src="/metrics.plugin.contributions.svg?v=1789356409" alt="Top Contributed Repos" />
 </p>
 
 <details>
@@ -85,12 +85,12 @@
 
 | Repository | Stars | Language | Description |
 |:---|:---:|:---:|:---|
-| [**mem0ai/mem0**](https://github.com/mem0ai/mem0) | 65.2k | Python | The Memory Layer for AI Agents - Drop-in memory infrastructure for AI agents and apps. Context that… |
-| [**run-llama/llama_index**](https://github.com/run-llama/llama_index) | 52.1k | Python | LlamaIndex is the document processing platform for AI |
-| [**agno-agi/agno**](https://github.com/agno-agi/agno) | 42.1k | Python | Build, run, and manage agent platforms. |
+| [**mem0ai/mem0**](https://github.com/mem0ai/mem0) | 65.3k | Python | The Memory Layer for AI Agents - Drop-in memory infrastructure for AI agents and apps. Context that… |
+| [**run-llama/llama_index**](https://github.com/run-llama/llama_index) | 52.2k | Python | LlamaIndex is the document processing platform for AI |
+| [**agno-agi/agno**](https://github.com/agno-agi/agno) | 42.2k | Python | Build, run, and manage agent platforms. |
 | [**HKUDS/LightRAG**](https://github.com/HKUDS/LightRAG) | 39.6k | Python | [EMNLP2025] LightRAG: Simple and Fast Retrieval-Augmented Generation |
-| [**mattermost/mattermost**](https://github.com/mattermost/mattermost) | 39.0k | TypeScript | Mattermost is an open source platform for secure collaboration across the entire software developme… |
-| [**bytedance/UI-TARS-desktop**](https://github.com/bytedance/UI-TARS-desktop) | 38.9k | TypeScript | The Open-Source Multimodal AI Agent Stack: Connecting Cutting-Edge AI Models and Agent Infra |
+| [**mattermost/mattermost**](https://github.com/mattermost/mattermost) | 39.1k | TypeScript | Mattermost is an open source platform for secure collaboration across the entire software developme… |
+| [**bytedance/UI-TARS-desktop**](https://github.com/bytedance/UI-TARS-desktop) | 39.0k | TypeScript | The Open-Source Multimodal AI Agent Stack: Connecting Cutting-Edge AI Models and Agent Infra |
 | [**microsoft/graphrag**](https://github.com/microsoft/graphrag) | 36.0k | Python | A modular graph-based Retrieval-Augmented Generation (RAG) system |
 | [**OpenBMB/ChatDev**](https://github.com/OpenBMB/ChatDev) | 34.3k | Python | ChatDev 2.0: Dev All through LLM-powered Multi-Agent Collaboration |
 | [**assafelovic/gpt-researcher**](https://github.com/assafelovic/gpt-researcher) | 29.4k | Python | An autonomous agent that conducts deep research on any data using any LLM providers |
@@ -105,12 +105,12 @@
 | [**super-productivity/super-productivity**](https://github.com/super-productivity/super-productivity) | 22.0k | TypeScript | Super Productivity is an advanced todo list app with integrated Timeboxing and time tracking capabi… |
 | [**onnx/onnx**](https://github.com/onnx/onnx) | 21.5k | Python | Open standard for machine learning interoperability |
 | [**conventional-changelog/commitlint**](https://github.com/conventional-changelog/commitlint) | 18.7k | TypeScript | 📓 Lint commit messages |
-| [**confident-ai/deepeval**](https://github.com/confident-ai/deepeval) | 18.2k | Python | The LLM Evaluation Framework |
+| [**confident-ai/deepeval**](https://github.com/confident-ai/deepeval) | 18.3k | Python | The LLM Evaluation Framework |
 | [**VictoriaMetrics/VictoriaMetrics**](https://github.com/VictoriaMetrics/VictoriaMetrics) | 17.7k | Go | VictoriaMetrics: fast, cost-effective monitoring solution and time series database |
 | [**camel-ai/camel**](https://github.com/camel-ai/camel) | 17.7k | Python | 🐫 CAMEL: The first and the best multi-agent framework. Finding the Scaling Law of Agents. https://w… |
 | [**aio-libs/aiohttp**](https://github.com/aio-libs/aiohttp) | 16.5k | Python | Asynchronous HTTP client/server framework for asyncio and Python |
 | [**FlareSolverr/FlareSolverr**](https://github.com/FlareSolverr/FlareSolverr) | 15.6k | Python | Proxy server to bypass Cloudflare protection |
-| [**oauth2-proxy/oauth2-proxy**](https://github.com/oauth2-proxy/oauth2-proxy) | 14.9k | Go | A reverse proxy that provides authentication with Google, Azure, OpenID Connect and many more ident… |
+| [**oauth2-proxy/oauth2-proxy**](https://github.com/oauth2-proxy/oauth2-proxy) | 15.0k | Go | A reverse proxy that provides authentication with Google, Azure, OpenID Connect and many more ident… |
 | [**prowler-cloud/prowler**](https://github.com/prowler-cloud/prowler) | 14.8k | Python | Prowler is the world’s most widely used open-source cloud security platform that automates security… |
 | [**casdoor/casdoor**](https://github.com/casdoor/casdoor) | 14.4k | Go | An open-source Agent-first Identity and Access Management (IAM) /LLM MCP & agent gateway and auth s… |
 | [**Lightning-AI/litgpt**](https://github.com/Lightning-AI/litgpt) | 13.7k | Python | 20+ high-performance LLMs with recipes to pretrain, finetune and deploy at scale. |
