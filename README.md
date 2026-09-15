@@ -77,7 +77,7 @@
 
 <!-- CONTRIBUTIONS:START -->
 <p align="center">
-  <img src="/metrics.plugin.contributions.svg?v=1789356409" alt="Top Contributed Repos" />
+  <img src="/metrics.plugin.contributions.svg?v=1789442842" alt="Top Contributed Repos" />
 </p>
 
 <details>
@@ -94,7 +94,7 @@
 | [**microsoft/graphrag**](https://github.com/microsoft/graphrag) | 36.0k | Python | A modular graph-based Retrieval-Augmented Generation (RAG) system |
 | [**OpenBMB/ChatDev**](https://github.com/OpenBMB/ChatDev) | 34.3k | Python | ChatDev 2.0: Dev All through LLM-powered Multi-Agent Collaboration |
 | [**assafelovic/gpt-researcher**](https://github.com/assafelovic/gpt-researcher) | 29.4k | Python | An autonomous agent that conducts deep research on any data using any LLM providers |
-| [**authelia/authelia**](https://github.com/authelia/authelia) | 28.9k | Go | The Single Sign-On Multi-Factor portal for web apps. OpenID Certified™ and Post-Quantum Cryptograph… |
+| [**authelia/authelia**](https://github.com/authelia/authelia) | 29.0k | Go | The Single Sign-On Multi-Factor portal for web apps. OpenID Certified™ and Post-Quantum Cryptograph… |
 | [**celery/celery**](https://github.com/celery/celery) | 28.9k | Python | Distributed Task Queue (development branch) |
 | [**pydantic/pydantic**](https://github.com/pydantic/pydantic) | 28.8k | Python | Data validation using Python type hints |
 | [**QwenLM/qwen-code**](https://github.com/QwenLM/qwen-code) | 27.8k | TypeScript | An open-source AI coding agent that lives in your terminal. |
@@ -106,8 +106,8 @@
 | [**onnx/onnx**](https://github.com/onnx/onnx) | 21.5k | Python | Open standard for machine learning interoperability |
 | [**conventional-changelog/commitlint**](https://github.com/conventional-changelog/commitlint) | 18.7k | TypeScript | 📓 Lint commit messages |
 | [**confident-ai/deepeval**](https://github.com/confident-ai/deepeval) | 18.3k | Python | The LLM Evaluation Framework |
-| [**VictoriaMetrics/VictoriaMetrics**](https://github.com/VictoriaMetrics/VictoriaMetrics) | 17.7k | Go | VictoriaMetrics: fast, cost-effective monitoring solution and time series database |
 | [**camel-ai/camel**](https://github.com/camel-ai/camel) | 17.7k | Python | 🐫 CAMEL: The first and the best multi-agent framework. Finding the Scaling Law of Agents. https://w… |
+| [**VictoriaMetrics/VictoriaMetrics**](https://github.com/VictoriaMetrics/VictoriaMetrics) | 17.7k | Go | VictoriaMetrics: fast, cost-effective monitoring solution and time series database |
 | [**aio-libs/aiohttp**](https://github.com/aio-libs/aiohttp) | 16.5k | Python | Asynchronous HTTP client/server framework for asyncio and Python |
 | [**FlareSolverr/FlareSolverr**](https://github.com/FlareSolverr/FlareSolverr) | 15.6k | Python | Proxy server to bypass Cloudflare protection |
 | [**oauth2-proxy/oauth2-proxy**](https://github.com/oauth2-proxy/oauth2-proxy) | 15.0k | Go | A reverse proxy that provides authentication with Google, Azure, OpenID Connect and many more ident… |
@@ -117,10 +117,10 @@
 | [**redis/redis-py**](https://github.com/redis/redis-py) | 13.6k | Python | Redis Python client |
 | [**pypa/pipx**](https://github.com/pypa/pipx) | 13.0k | Python | Install and Run Python Applications in Isolated Environments |
 | [**plankanban/planka**](https://github.com/plankanban/planka) | 12.5k | JavaScript | Elegant open source project tracking. Self-hosted Kanban for teams — free Community edition, with P… |
-| [**Chainlit/chainlit**](https://github.com/Chainlit/chainlit) | 12.4k | Python | Build Conversational AI in minutes ⚡️ |
+| [**Chainlit/chainlit**](https://github.com/Chainlit/chainlit) | 12.5k | Python | Build Conversational AI in minutes ⚡️ |
 | [**grafana/pyroscope**](https://github.com/grafana/pyroscope) | 11.7k | Go | Continuous Profiling Platform. Debug performance issues down to a single line of code |
 | [**pwndbg/pwndbg**](https://github.com/pwndbg/pwndbg) | 10.9k | Python | Exploit Development and Reverse Engineering with GDB & LLDB Made Easy |
-| [**data-privacy-stack/presidio**](https://github.com/data-privacy-stack/presidio) | 10.8k | Python | An open-source framework for detecting, redacting, masking, and anonymizing sensitive data (PII) ac… |
+| [**data-privacy-stack/presidio**](https://github.com/data-privacy-stack/presidio) | 10.9k | Python | An open-source framework for detecting, redacting, masking, and anonymizing sensitive data (PII) ac… |
 | [**ThreeDotsLabs/watermill**](https://github.com/ThreeDotsLabs/watermill) | 9.9k | Go | Building event-driven applications the easy way in Go. |
 | [**cadence-workflow/cadence**](https://github.com/cadence-workflow/cadence) | 9.4k | Go | Cadence is a distributed, scalable, durable, and highly available orchestration engine to execute a… |
 | [**pwr-Solaar/Solaar**](https://github.com/pwr-Solaar/Solaar) | 9.4k | Python | Linux device manager for Logitech devices |
