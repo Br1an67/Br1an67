@@ -77,7 +77,7 @@
 
 <!-- CONTRIBUTIONS:START -->
 <p align="center">
-  <img src="/metrics.plugin.contributions.svg?v=1789529001" alt="Top Contributed Repos" />
+  <img src="/metrics.plugin.contributions.svg?v=1789615741" alt="Top Contributed Repos" />
 </p>
 
 <details>
@@ -101,13 +101,13 @@
 | [**Kilo-Org/kilocode**](https://github.com/Kilo-Org/kilocode) | 27.3k | TypeScript | Kilo is the all-in-one agentic engineering platform. Build, ship, and iterate faster with the most… |
 | [**Fosowl/agenticSeek**](https://github.com/Fosowl/agenticSeek) | 27.2k | Python | Fully Local Manus AI. No APIs, No $200 monthly bills. Enjoy an autonomous agent that thinks, browse… |
 | [**deepset-ai/haystack**](https://github.com/deepset-ai/haystack) | 26.5k | Python | Open-source AI orchestration framework for building context-engineered, production-ready LLM applic… |
-| [**PrefectHQ/prefect**](https://github.com/PrefectHQ/prefect) | 23.8k | Python | Prefect is a workflow orchestration framework for building resilient data pipelines in Python. |
+| [**PrefectHQ/prefect**](https://github.com/PrefectHQ/prefect) | 23.9k | Python | Prefect is a workflow orchestration framework for building resilient data pipelines in Python. |
 | [**super-productivity/super-productivity**](https://github.com/super-productivity/super-productivity) | 22.1k | TypeScript | Super Productivity is an advanced todo list app with integrated Timeboxing and time tracking capabi… |
 | [**onnx/onnx**](https://github.com/onnx/onnx) | 21.5k | Python | Open standard for machine learning interoperability |
 | [**conventional-changelog/commitlint**](https://github.com/conventional-changelog/commitlint) | 18.7k | TypeScript | 📓 Lint commit messages |
 | [**confident-ai/deepeval**](https://github.com/confident-ai/deepeval) | 18.3k | Python | The LLM Evaluation Framework |
-| [**camel-ai/camel**](https://github.com/camel-ai/camel) | 17.7k | Python | 🐫 CAMEL: The first and the best multi-agent framework. Finding the Scaling Law of Agents. https://w… |
 | [**VictoriaMetrics/VictoriaMetrics**](https://github.com/VictoriaMetrics/VictoriaMetrics) | 17.7k | Go | VictoriaMetrics: fast, cost-effective monitoring solution and time series database |
+| [**camel-ai/camel**](https://github.com/camel-ai/camel) | 17.7k | Python | 🐫 CAMEL: The first and the best multi-agent framework. Finding the Scaling Law of Agents. https://w… |
 | [**aio-libs/aiohttp**](https://github.com/aio-libs/aiohttp) | 16.5k | Python | Asynchronous HTTP client/server framework for asyncio and Python |
 | [**FlareSolverr/FlareSolverr**](https://github.com/FlareSolverr/FlareSolverr) | 15.6k | Python | Proxy server to bypass Cloudflare protection |
 | [**oauth2-proxy/oauth2-proxy**](https://github.com/oauth2-proxy/oauth2-proxy) | 15.0k | Go | A reverse proxy that provides authentication with Google, Azure, OpenID Connect and many more ident… |
