@@ -77,7 +77,7 @@
 
 <!-- CONTRIBUTIONS:START -->
 <p align="center">
-  <img src="/metrics.plugin.contributions.svg?v=1790219544" alt="Top Contributed Repos" />
+  <img src="/metrics.plugin.contributions.svg?v=1790306981" alt="Top Contributed Repos" />
 </p>
 
 <details>
@@ -85,7 +85,7 @@
 
 | Repository | Stars | Language | Description |
 |:---|:---:|:---:|:---|
-| [**mem0ai/mem0**](https://github.com/mem0ai/mem0) | 65.9k | Python | The Memory Layer for AI Agents - Drop-in memory infrastructure for AI agents and apps. Context that… |
+| [**mem0ai/mem0**](https://github.com/mem0ai/mem0) | 66.0k | Python | The Memory Layer for AI Agents - Drop-in memory infrastructure for AI agents and apps. Context that… |
 | [**run-llama/llama_index**](https://github.com/run-llama/llama_index) | 52.3k | Python | LlamaIndex is the document processing platform for AI |
 | [**agno-agi/agno**](https://github.com/agno-agi/agno) | 42.3k | Python | Build, run, and manage agent platforms. |
 | [**HKUDS/LightRAG**](https://github.com/HKUDS/LightRAG) | 39.8k | Python | [EMNLP2025] LightRAG: Simple and Fast Retrieval-Augmented Generation |
@@ -120,9 +120,9 @@
 | [**Chainlit/chainlit**](https://github.com/Chainlit/chainlit) | 12.5k | Python | Build Conversational AI in minutes ⚡️ |
 | [**grafana/pyroscope**](https://github.com/grafana/pyroscope) | 11.7k | Go | Continuous Profiling Platform. Debug performance issues down to a single line of code |
 | [**data-privacy-stack/presidio**](https://github.com/data-privacy-stack/presidio) | 11.0k | Python | An open-source framework for detecting, redacting, masking, and anonymizing sensitive data (PII) ac… |
-| [**pwndbg/pwndbg**](https://github.com/pwndbg/pwndbg) | 10.9k | Python | Exploit Development and Reverse Engineering with GDB & LLDB Made Easy |
+| [**pwndbg/pwndbg**](https://github.com/pwndbg/pwndbg) | 11.0k | Python | Exploit Development and Reverse Engineering with GDB & LLDB Made Easy |
 | [**ThreeDotsLabs/watermill**](https://github.com/ThreeDotsLabs/watermill) | 9.9k | Go | Building event-driven applications the easy way in Go. |
-| [**cadence-workflow/cadence**](https://github.com/cadence-workflow/cadence) | 9.4k | Go | Cadence is a distributed, scalable, durable, and highly available orchestration engine to execute a… |
+| [**cadence-workflow/cadence**](https://github.com/cadence-workflow/cadence) | 9.5k | Go | Cadence is a distributed, scalable, durable, and highly available orchestration engine to execute a… |
 | [**pwr-Solaar/Solaar**](https://github.com/pwr-Solaar/Solaar) | 9.4k | Python | Linux device manager for Logitech devices |
 | [**pdm-project/pdm**](https://github.com/pdm-project/pdm) | 8.7k | Python | A modern Python package and dependency manager supporting the latest PEP standards |
 | [**litestar-org/litestar**](https://github.com/litestar-org/litestar) | 8.5k | Python | Light, flexible and extensible ASGI framework | Built to scale |
@@ -134,7 +134,7 @@
 | [**ag2ai/faststream**](https://github.com/ag2ai/faststream) | 5.3k | Python | Asynchronous Python framework for event-driven services. A thin client for Kafka, RabbitMQ, NATS, R… |
 | [**strawberry-graphql/strawberry**](https://github.com/strawberry-graphql/strawberry) | 4.7k | Python | A GraphQL library for Python that leverages type annotations 🍓 |
 | [**anc95/ChatGPT-CodeReview**](https://github.com/anc95/ChatGPT-CodeReview) | 4.5k | JavaScript | 🐥 A code review bot powered by ChatGPT |
-| [**langfuse/langfuse-python**](https://github.com/langfuse/langfuse-python) | 473 | Python | 🪢 Langfuse Python SDK (v4, OpenTelemetry). Tracing: get_client() / start_as_current_observation — n… |
+| [**langfuse/langfuse-python**](https://github.com/langfuse/langfuse-python) | 490 | Python | 🪢 Langfuse Python SDK (v4, OpenTelemetry). Tracing: get_client() / start_as_current_observation — n… |
 | [**deepset-ai/haystack-core-integrations**](https://github.com/deepset-ai/haystack-core-integrations) | 206 | Python | Additional packages (components, document stores and the likes) to extend the capabilities of Hayst… |
 
 </details>
