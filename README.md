@@ -77,7 +77,7 @@
 
 <!-- CONTRIBUTIONS:START -->
 <p align="center">
-  <img src="/metrics.plugin.contributions.svg?v=1791173235" alt="Top Contributed Repos" />
+  <img src="/metrics.plugin.contributions.svg?v=1791262563" alt="Top Contributed Repos" />
 </p>
 
 <details>
@@ -92,7 +92,7 @@
 | [**mattermost/mattermost**](https://github.com/mattermost/mattermost) | 39.3k | TypeScript | Mattermost is an open source platform for secure collaboration across the entire software developme… |
 | [**bytedance/UI-TARS-desktop**](https://github.com/bytedance/UI-TARS-desktop) | 39.2k | TypeScript | The Open-Source Multimodal AI Agent Stack: Connecting Cutting-Edge AI Models and Agent Infra |
 | [**microsoft/graphrag**](https://github.com/microsoft/graphrag) | 36.2k | Python | A modular graph-based Retrieval-Augmented Generation (RAG) system |
-| [**OpenBMB/ChatDev**](https://github.com/OpenBMB/ChatDev) | 34.5k | Python | ChatDev 2.0: Dev All through LLM-powered Multi-Agent Collaboration |
+| [**OpenBMB/ChatDev**](https://github.com/OpenBMB/ChatDev) | 34.4k | Python | ChatDev 2.0: Dev All through LLM-powered Multi-Agent Collaboration |
 | [**assafelovic/gpt-researcher**](https://github.com/assafelovic/gpt-researcher) | 29.9k | Python | An autonomous agent that conducts deep research on any data using any LLM providers |
 | [**authelia/authelia**](https://github.com/authelia/authelia) | 29.2k | Go | The Single Sign-On Multi-Factor portal for web apps. OpenID Certified™ and Post-Quantum Cryptograph… |
 | [**pydantic/pydantic**](https://github.com/pydantic/pydantic) | 28.9k | Python | Data validation using Python type hints |
@@ -100,9 +100,9 @@
 | [**QwenLM/qwen-code**](https://github.com/QwenLM/qwen-code) | 28.3k | TypeScript | An open-source AI coding agent that lives in your terminal. |
 | [**Kilo-Org/kilocode**](https://github.com/Kilo-Org/kilocode) | 27.5k | TypeScript | Kilo is the all-in-one agentic engineering platform. Build, ship, and iterate faster with the most… |
 | [**Fosowl/agenticSeek**](https://github.com/Fosowl/agenticSeek) | 27.4k | Python | Fully Local Manus AI. No APIs, No $200 monthly bills. Enjoy an autonomous agent that thinks, browse… |
-| [**deepset-ai/haystack**](https://github.com/deepset-ai/haystack) | 26.6k | Python | Open-source AI orchestration framework for building context-engineered, production-ready LLM applic… |
+| [**deepset-ai/haystack**](https://github.com/deepset-ai/haystack) | 26.7k | Python | Open-source AI orchestration framework for building context-engineered, production-ready LLM applic… |
 | [**PrefectHQ/prefect**](https://github.com/PrefectHQ/prefect) | 24.0k | Python | Prefect is a workflow orchestration framework for building resilient data pipelines in Python. |
-| [**super-productivity/super-productivity**](https://github.com/super-productivity/super-productivity) | 22.5k | TypeScript | Super Productivity is an advanced todo list app with integrated Timeboxing and time tracking capabi… |
+| [**super-productivity/super-productivity**](https://github.com/super-productivity/super-productivity) | 22.6k | TypeScript | Super Productivity is an advanced todo list app with integrated Timeboxing and time tracking capabi… |
 | [**onnx/onnx**](https://github.com/onnx/onnx) | 21.6k | Python | Open standard for machine learning interoperability |
 | [**conventional-changelog/commitlint**](https://github.com/conventional-changelog/commitlint) | 18.8k | TypeScript | 📓 Lint commit messages |
 | [**confident-ai/deepeval**](https://github.com/confident-ai/deepeval) | 18.6k | Python | The LLM Evaluation Framework |
@@ -111,7 +111,7 @@
 | [**aio-libs/aiohttp**](https://github.com/aio-libs/aiohttp) | 16.6k | Python | Asynchronous HTTP client/server framework for asyncio and Python |
 | [**FlareSolverr/FlareSolverr**](https://github.com/FlareSolverr/FlareSolverr) | 15.8k | Python | Proxy server to bypass Cloudflare protection |
 | [**oauth2-proxy/oauth2-proxy**](https://github.com/oauth2-proxy/oauth2-proxy) | 15.0k | Go | A reverse proxy that provides authentication with Google, Azure, OpenID Connect and many more ident… |
-| [**prowler-cloud/prowler**](https://github.com/prowler-cloud/prowler) | 14.9k | Python | Prowler is the world’s most widely used open-source cloud security platform that automates security… |
+| [**prowler-cloud/prowler**](https://github.com/prowler-cloud/prowler) | 15.0k | Python | Prowler is the world’s most widely used open-source cloud security platform that automates security… |
 | [**casdoor/casdoor**](https://github.com/casdoor/casdoor) | 14.5k | Go | An open-source Agent-first Identity and Access Management (IAM) /LLM MCP & agent gateway and auth s… |
 | [**Lightning-AI/litgpt**](https://github.com/Lightning-AI/litgpt) | 13.7k | Python | 20+ high-performance LLMs with recipes to pretrain, finetune and deploy at scale. |
 | [**redis/redis-py**](https://github.com/redis/redis-py) | 13.6k | Python | Redis Python client |
@@ -123,7 +123,7 @@
 | [**pwndbg/pwndbg**](https://github.com/pwndbg/pwndbg) | 11.0k | Python | Exploit Development and Reverse Engineering with GDB & LLDB Made Easy |
 | [**ThreeDotsLabs/watermill**](https://github.com/ThreeDotsLabs/watermill) | 9.9k | Go | Building event-driven applications the easy way in Go. |
 | [**cadence-workflow/cadence**](https://github.com/cadence-workflow/cadence) | 9.5k | Go | Cadence is a distributed, scalable, durable, and highly available orchestration engine to execute a… |
-| [**pwr-Solaar/Solaar**](https://github.com/pwr-Solaar/Solaar) | 9.4k | Python | Linux device manager for Logitech devices |
+| [**pwr-Solaar/Solaar**](https://github.com/pwr-Solaar/Solaar) | 9.5k | Python | Linux device manager for Logitech devices |
 | [**pdm-project/pdm**](https://github.com/pdm-project/pdm) | 8.7k | Python | A modern Python package and dependency manager supporting the latest PEP standards |
 | [**litestar-org/litestar**](https://github.com/litestar-org/litestar) | 8.5k | Python | Light, flexible and extensible ASGI framework | Built to scale |
 | [**feast-dev/feast**](https://github.com/feast-dev/feast) | 7.3k | Python | The Open Source Feature Store for AI/ML |
