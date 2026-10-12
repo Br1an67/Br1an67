@@ -77,7 +77,7 @@
 
 <!-- CONTRIBUTIONS:START -->
 <p align="center">
-  <img src="/metrics.plugin.contributions.svg?v=1791691458" alt="Top Contributed Repos" />
+  <img src="/metrics.plugin.contributions.svg?v=1791779014" alt="Top Contributed Repos" />
 </p>
 
 <details>
@@ -110,7 +110,7 @@
 | [**VictoriaMetrics/VictoriaMetrics**](https://github.com/VictoriaMetrics/VictoriaMetrics) | 17.8k | Go | VictoriaMetrics: fast, cost-effective monitoring solution and time series database |
 | [**aio-libs/aiohttp**](https://github.com/aio-libs/aiohttp) | 16.6k | Python | Asynchronous HTTP client/server framework for asyncio and Python |
 | [**FlareSolverr/FlareSolverr**](https://github.com/FlareSolverr/FlareSolverr) | 15.9k | Python | Proxy server to bypass Cloudflare protection |
-| [**oauth2-proxy/oauth2-proxy**](https://github.com/oauth2-proxy/oauth2-proxy) | 15.1k | Go | A reverse proxy that provides authentication with Google, Azure, OpenID Connect and many more ident… |
+| [**oauth2-proxy/oauth2-proxy**](https://github.com/oauth2-proxy/oauth2-proxy) | 15.2k | Go | A reverse proxy that provides authentication with Google, Azure, OpenID Connect and many more ident… |
 | [**prowler-cloud/prowler**](https://github.com/prowler-cloud/prowler) | 15.0k | Python | Prowler is the world’s most widely used open-source cloud security platform that automates security… |
 | [**casdoor/casdoor**](https://github.com/casdoor/casdoor) | 14.5k | Go | An open-source Agent-first Identity and Access Management (IAM) /LLM MCP & agent gateway and auth s… |
 | [**Lightning-AI/litgpt**](https://github.com/Lightning-AI/litgpt) | 13.7k | Python | 20+ high-performance LLMs with recipes to pretrain, finetune and deploy at scale. |
