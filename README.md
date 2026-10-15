@@ -77,7 +77,7 @@
 
 <!-- CONTRIBUTIONS:START -->
 <p align="center">
-  <img src="/metrics.plugin.contributions.svg?v=1791948894" alt="Top Contributed Repos" />
+  <img src="/metrics.plugin.contributions.svg?v=1792034101" alt="Top Contributed Repos" />
 </p>
 
 <details>
@@ -85,7 +85,7 @@
 
 | Repository | Stars | Language | Description |
 |:---|:---:|:---:|:---|
-| [**mem0ai/mem0**](https://github.com/mem0ai/mem0) | 67.1k | Python | The Memory Layer for AI Agents - Drop-in memory infrastructure for AI agents and apps. Context that… |
+| [**mem0ai/mem0**](https://github.com/mem0ai/mem0) | 67.2k | Python | The Memory Layer for AI Agents - Drop-in memory infrastructure for AI agents and apps. Context that… |
 | [**run-llama/llama_index**](https://github.com/run-llama/llama_index) | 52.5k | Python | LlamaIndex is the document processing platform for AI |
 | [**agno-agi/agno**](https://github.com/agno-agi/agno) | 42.7k | Python | Build, run, and manage agent platforms. |
 | [**HKUDS/LightRAG**](https://github.com/HKUDS/LightRAG) | 40.1k | Python | [EMNLP2025] LightRAG: Simple and Fast Retrieval-Augmented Generation |
@@ -104,7 +104,7 @@
 | [**PrefectHQ/prefect**](https://github.com/PrefectHQ/prefect) | 24.0k | Python | Prefect is a workflow orchestration framework for building resilient data pipelines in Python. |
 | [**super-productivity/super-productivity**](https://github.com/super-productivity/super-productivity) | 22.8k | TypeScript | Super Productivity is an advanced todo list app with integrated Timeboxing and time tracking capabi… |
 | [**onnx/onnx**](https://github.com/onnx/onnx) | 21.6k | Python | Open standard for machine learning interoperability |
-| [**confident-ai/deepeval**](https://github.com/confident-ai/deepeval) | 18.8k | Python | The LLM Evaluation Framework |
+| [**confident-ai/deepeval**](https://github.com/confident-ai/deepeval) | 18.9k | Python | The LLM Evaluation Framework |
 | [**conventional-changelog/commitlint**](https://github.com/conventional-changelog/commitlint) | 18.8k | TypeScript | 📓 Lint commit messages |
 | [**camel-ai/camel**](https://github.com/camel-ai/camel) | 17.9k | Python | 🐫 CAMEL: The first and the best multi-agent framework. Finding the Scaling Law of Agents. https://w… |
 | [**VictoriaMetrics/VictoriaMetrics**](https://github.com/VictoriaMetrics/VictoriaMetrics) | 17.9k | Go | VictoriaMetrics: fast, cost-effective monitoring solution and time series database |
@@ -120,7 +120,7 @@
 | [**Chainlit/chainlit**](https://github.com/Chainlit/chainlit) | 12.5k | Python | Build Conversational AI in minutes ⚡️ |
 | [**grafana/pyroscope**](https://github.com/grafana/pyroscope) | 11.7k | Go | Continuous Profiling Platform. Debug performance issues down to a single line of code |
 | [**data-privacy-stack/presidio**](https://github.com/data-privacy-stack/presidio) | 11.3k | Python | An open-source framework for detecting, redacting, masking, and anonymizing sensitive data (PII) ac… |
-| [**pwndbg/pwndbg**](https://github.com/pwndbg/pwndbg) | 11.0k | Python | Exploit Development and Reverse Engineering with GDB & LLDB Made Easy |
+| [**pwndbg/pwndbg**](https://github.com/pwndbg/pwndbg) | 11.1k | Python | Exploit Development and Reverse Engineering with GDB & LLDB Made Easy |
 | [**ThreeDotsLabs/watermill**](https://github.com/ThreeDotsLabs/watermill) | 9.9k | Go | Building event-driven applications the easy way in Go. |
 | [**cadence-workflow/cadence**](https://github.com/cadence-workflow/cadence) | 9.5k | Go | Cadence is a distributed, scalable, durable, and highly available orchestration engine to execute a… |
 | [**pwr-Solaar/Solaar**](https://github.com/pwr-Solaar/Solaar) | 9.5k | Python | Linux device manager for Logitech devices |
@@ -134,7 +134,7 @@
 | [**ag2ai/faststream**](https://github.com/ag2ai/faststream) | 5.4k | Python | Asynchronous Python framework for event-driven services. A thin client for Kafka, RabbitMQ, NATS, R… |
 | [**strawberry-graphql/strawberry**](https://github.com/strawberry-graphql/strawberry) | 4.7k | Python | A GraphQL library for Python that leverages type annotations 🍓 |
 | [**anc95/ChatGPT-CodeReview**](https://github.com/anc95/ChatGPT-CodeReview) | 4.5k | JavaScript | 🐥 A code review bot powered by ChatGPT |
-| [**langfuse/langfuse-python**](https://github.com/langfuse/langfuse-python) | 502 | Python | 🪢 Langfuse Python SDK |
+| [**langfuse/langfuse-python**](https://github.com/langfuse/langfuse-python) | 500 | Python | 🪢 Langfuse Python SDK |
 | [**deepset-ai/haystack-core-integrations**](https://github.com/deepset-ai/haystack-core-integrations) | 209 | Python | Additional packages (components, document stores and the likes) to extend the capabilities of Hayst… |
 
 </details>
