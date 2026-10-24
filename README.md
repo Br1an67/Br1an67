@@ -77,7 +77,7 @@
 
 <!-- CONTRIBUTIONS:START -->
 <p align="center">
-  <img src="/metrics.plugin.contributions.svg?v=1792725934" alt="Top Contributed Repos" />
+  <img src="/metrics.plugin.contributions.svg?v=1792812002" alt="Top Contributed Repos" />
 </p>
 
 <details>
@@ -93,9 +93,9 @@
 | [**bytedance/UI-TARS-desktop**](https://github.com/bytedance/UI-TARS-desktop) | 39.4k | TypeScript | The Open-Source Multimodal AI Agent Stack: Connecting Cutting-Edge AI Models and Agent Infra |
 | [**microsoft/graphrag**](https://github.com/microsoft/graphrag) | 36.4k | Python | A modular graph-based Retrieval-Augmented Generation (RAG) system |
 | [**OpenBMB/ChatDev**](https://github.com/OpenBMB/ChatDev) | 34.6k | Python | ChatDev 2.0: Dev All through LLM-powered Multi-Agent Collaboration |
-| [**assafelovic/gpt-researcher**](https://github.com/assafelovic/gpt-researcher) | 30.2k | Python | An autonomous agent that conducts deep research on any data using any LLM providers |
+| [**assafelovic/gpt-researcher**](https://github.com/assafelovic/gpt-researcher) | 30.3k | Python | An autonomous agent that conducts deep research on any data using any LLM providers |
 | [**authelia/authelia**](https://github.com/authelia/authelia) | 29.4k | Go | The Single Sign-On Multi-Factor portal for web apps. OpenID Certified™ and Post-Quantum Cryptograph… |
-| [**pydantic/pydantic**](https://github.com/pydantic/pydantic) | 29.1k | Python | Data validation using Python type hints |
+| [**pydantic/pydantic**](https://github.com/pydantic/pydantic) | 29.2k | Python | Data validation using Python type hints |
 | [**celery/celery**](https://github.com/celery/celery) | 29.0k | Python | Distributed Task Queue (development branch) |
 | [**QwenLM/qwen-code**](https://github.com/QwenLM/qwen-code) | 28.7k | TypeScript | An open-source AI coding agent that lives in your terminal. |
 | [**Kilo-Org/kilocode**](https://github.com/Kilo-Org/kilocode) | 27.7k | TypeScript | Kilo is the all-in-one agentic engineering platform. Build, ship, and iterate faster with the most… |
@@ -104,13 +104,13 @@
 | [**PrefectHQ/prefect**](https://github.com/PrefectHQ/prefect) | 24.1k | Python | Prefect is a workflow orchestration framework for building resilient data pipelines in Python. |
 | [**super-productivity/super-productivity**](https://github.com/super-productivity/super-productivity) | 23.1k | TypeScript | Super Productivity is an advanced todo list app with integrated Timeboxing and time tracking capabi… |
 | [**onnx/onnx**](https://github.com/onnx/onnx) | 21.6k | Python | Open standard for machine learning interoperability |
-| [**confident-ai/deepeval**](https://github.com/confident-ai/deepeval) | 19.0k | Python | The LLM Evaluation Framework |
+| [**confident-ai/deepeval**](https://github.com/confident-ai/deepeval) | 19.1k | Python | The LLM Evaluation Framework |
 | [**conventional-changelog/commitlint**](https://github.com/conventional-changelog/commitlint) | 18.8k | TypeScript | 📓 Lint commit messages |
 | [**camel-ai/camel**](https://github.com/camel-ai/camel) | 18.0k | Python | 🐫 CAMEL: The first and the best multi-agent framework. Finding the Scaling Law of Agents. https://w… |
 | [**VictoriaMetrics/VictoriaMetrics**](https://github.com/VictoriaMetrics/VictoriaMetrics) | 17.9k | Go | VictoriaMetrics: fast, cost-effective monitoring solution and time series database |
 | [**aio-libs/aiohttp**](https://github.com/aio-libs/aiohttp) | 16.6k | Python | Asynchronous HTTP client/server framework for asyncio and Python |
 | [**FlareSolverr/FlareSolverr**](https://github.com/FlareSolverr/FlareSolverr) | 16.0k | Python | Proxy server to bypass Cloudflare protection |
-| [**oauth2-proxy/oauth2-proxy**](https://github.com/oauth2-proxy/oauth2-proxy) | 15.2k | Go | A reverse proxy that provides authentication with Google, Azure, OpenID Connect and many more ident… |
+| [**oauth2-proxy/oauth2-proxy**](https://github.com/oauth2-proxy/oauth2-proxy) | 15.3k | Go | A reverse proxy that provides authentication with Google, Azure, OpenID Connect and many more ident… |
 | [**prowler-cloud/prowler**](https://github.com/prowler-cloud/prowler) | 15.1k | Python | This repo hosts Prowler OSS (CLI and Local Server). Prowler is the world’s most widely used open-so… |
 | [**casdoor/casdoor**](https://github.com/casdoor/casdoor) | 14.6k | Go | An open-source Agent-first Identity and Access Management (IAM) /LLM MCP & agent gateway and auth s… |
 | [**Lightning-AI/litgpt**](https://github.com/Lightning-AI/litgpt) | 13.7k | Python | 20+ high-performance LLMs with recipes to pretrain, finetune and deploy at scale. |
@@ -122,8 +122,8 @@
 | [**data-privacy-stack/presidio**](https://github.com/data-privacy-stack/presidio) | 11.5k | Python | An open-source framework for detecting, redacting, masking, and anonymizing sensitive data (PII) ac… |
 | [**pwndbg/pwndbg**](https://github.com/pwndbg/pwndbg) | 11.1k | Python | Exploit Development and Reverse Engineering with GDB & LLDB Made Easy |
 | [**ThreeDotsLabs/watermill**](https://github.com/ThreeDotsLabs/watermill) | 9.9k | Go | Building event-driven applications the easy way in Go. |
-| [**cadence-workflow/cadence**](https://github.com/cadence-workflow/cadence) | 9.5k | Go | Cadence is a distributed, scalable, durable, and highly available orchestration engine to execute a… |
 | [**pwr-Solaar/Solaar**](https://github.com/pwr-Solaar/Solaar) | 9.5k | Python | Linux device manager for Logitech devices |
+| [**cadence-workflow/cadence**](https://github.com/cadence-workflow/cadence) | 9.5k | Go | Cadence is a distributed, scalable, durable, and highly available orchestration engine to execute a… |
 | [**pdm-project/pdm**](https://github.com/pdm-project/pdm) | 8.7k | Python | A modern Python package and dependency manager supporting the latest PEP standards |
 | [**litestar-org/litestar**](https://github.com/litestar-org/litestar) | 8.5k | Python | Light, flexible and extensible ASGI framework | Built to scale |
 | [**feast-dev/feast**](https://github.com/feast-dev/feast) | 7.3k | Python | The Open Source Feature Store for AI/ML |
