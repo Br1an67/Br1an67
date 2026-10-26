@@ -77,7 +77,7 @@
 
 <!-- CONTRIBUTIONS:START -->
 <p align="center">
-  <img src="/metrics.plugin.contributions.svg?v=1792898113" alt="Top Contributed Repos" />
+  <img src="/metrics.plugin.contributions.svg?v=1792984601" alt="Top Contributed Repos" />
 </p>
 
 <details>
@@ -86,8 +86,8 @@
 | Repository | Stars | Language | Description |
 |:---|:---:|:---:|:---|
 | [**mem0ai/mem0**](https://github.com/mem0ai/mem0) | 67.8k | Python | The Memory Layer for AI Agents - Drop-in memory infrastructure for AI agents and apps. Context that… |
-| [**run-llama/llama_index**](https://github.com/run-llama/llama_index) | 52.6k | Python | LlamaIndex is the document processing platform for AI |
-| [**agno-agi/agno**](https://github.com/agno-agi/agno) | 42.9k | Python | Build, run, and manage agent platforms. |
+| [**run-llama/llama_index**](https://github.com/run-llama/llama_index) | 52.7k | Python | LlamaIndex is the document processing platform for AI |
+| [**agno-agi/agno**](https://github.com/agno-agi/agno) | 42.9k | Python | The self-improving platform for agents |
 | [**HKUDS/LightRAG**](https://github.com/HKUDS/LightRAG) | 40.3k | Python | [EMNLP2025] LightRAG: Simple and Fast Retrieval-Augmented Generation |
 | [**mattermost/mattermost**](https://github.com/mattermost/mattermost) | 39.4k | TypeScript | Mattermost is an open source platform for secure collaboration across the entire software developme… |
 | [**bytedance/UI-TARS-desktop**](https://github.com/bytedance/UI-TARS-desktop) | 39.4k | TypeScript | The Open-Source Multimodal AI Agent Stack: Connecting Cutting-Edge AI Models and Agent Infra |
@@ -98,7 +98,7 @@
 | [**pydantic/pydantic**](https://github.com/pydantic/pydantic) | 29.2k | Python | Data validation using Python type hints |
 | [**celery/celery**](https://github.com/celery/celery) | 29.1k | Python | Distributed Task Queue (development branch) |
 | [**QwenLM/qwen-code**](https://github.com/QwenLM/qwen-code) | 28.7k | TypeScript | An open-source AI coding agent that lives in your terminal. |
-| [**Kilo-Org/kilocode**](https://github.com/Kilo-Org/kilocode) | 27.7k | TypeScript | Kilo is the all-in-one agentic engineering platform. Build, ship, and iterate faster with the most… |
+| [**Kilo-Org/kilocode**](https://github.com/Kilo-Org/kilocode) | 27.8k | TypeScript | Kilo is the all-in-one agentic engineering platform. Build, ship, and iterate faster with the most… |
 | [**Fosowl/agenticSeek**](https://github.com/Fosowl/agenticSeek) | 27.5k | Python | Fully Local Manus AI. No APIs, No $200 monthly bills. Enjoy an autonomous agent that thinks, browse… |
 | [**deepset-ai/haystack**](https://github.com/deepset-ai/haystack) | 26.8k | Python | Open-source AI orchestration framework for building context-engineered, production-ready LLM applic… |
 | [**PrefectHQ/prefect**](https://github.com/PrefectHQ/prefect) | 24.1k | Python | Prefect is a workflow orchestration framework for building resilient data pipelines in Python. |
