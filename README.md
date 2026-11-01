@@ -77,7 +77,7 @@
 
 <!-- CONTRIBUTIONS:START -->
 <p align="center">
-  <img src="/metrics.plugin.contributions.svg?v=1793419582" alt="Top Contributed Repos" />
+  <img src="/metrics.plugin.contributions.svg?v=1793507289" alt="Top Contributed Repos" />
 </p>
 
 <details>
@@ -85,19 +85,19 @@
 
 | Repository | Stars | Language | Description |
 |:---|:---:|:---:|:---|
-| [**mem0ai/mem0**](https://github.com/mem0ai/mem0) | 68.1k | Python | The Memory Layer for AI Agents - Drop-in memory infrastructure for AI agents and apps. Context that… |
+| [**mem0ai/mem0**](https://github.com/mem0ai/mem0) | 68.2k | Python | The Memory Layer for AI Agents - Drop-in memory infrastructure for AI agents and apps. Context that… |
 | [**run-llama/llama_index**](https://github.com/run-llama/llama_index) | 52.8k | Python | LlamaIndex is the document processing platform for AI |
 | [**agno-agi/agno**](https://github.com/agno-agi/agno) | 43.0k | Python | The self-driving agent platform |
-| [**HKUDS/LightRAG**](https://github.com/HKUDS/LightRAG) | 40.4k | Python | [EMNLP2025] LightRAG: Simple and Fast Retrieval-Augmented Generation |
-| [**mattermost/mattermost**](https://github.com/mattermost/mattermost) | 39.5k | TypeScript | Mattermost is an open source platform for secure collaboration across the entire software developme… |
+| [**HKUDS/LightRAG**](https://github.com/HKUDS/LightRAG) | 40.5k | Python | [EMNLP2025] LightRAG: Simple and Fast Retrieval-Augmented Generation |
 | [**bytedance/UI-TARS-desktop**](https://github.com/bytedance/UI-TARS-desktop) | 39.5k | TypeScript | The Open-Source Multimodal AI Agent Stack: Connecting Cutting-Edge AI Models and Agent Infra |
+| [**mattermost/mattermost**](https://github.com/mattermost/mattermost) | 39.5k | TypeScript | Mattermost is an open source platform for secure collaboration across the entire software developme… |
 | [**microsoft/graphrag**](https://github.com/microsoft/graphrag) | 36.5k | Python | A modular graph-based Retrieval-Augmented Generation (RAG) system |
 | [**OpenBMB/ChatDev**](https://github.com/OpenBMB/ChatDev) | 34.6k | Python | ChatDev 2.0: Dev All through LLM-powered Multi-Agent Collaboration |
 | [**assafelovic/gpt-researcher**](https://github.com/assafelovic/gpt-researcher) | 30.4k | Python | An autonomous agent that conducts deep research on any data using any LLM providers |
 | [**authelia/authelia**](https://github.com/authelia/authelia) | 29.5k | Go | The Single Sign-On Multi-Factor portal for web apps. OpenID Certified™ and Post-Quantum Cryptograph… |
-| [**pydantic/pydantic**](https://github.com/pydantic/pydantic) | 29.2k | Python | Data validation using Python type hints |
+| [**pydantic/pydantic**](https://github.com/pydantic/pydantic) | 29.3k | Python | Data validation using Python type hints |
 | [**celery/celery**](https://github.com/celery/celery) | 29.1k | Python | Distributed Task Queue (development branch) |
-| [**QwenLM/qwen-code**](https://github.com/QwenLM/qwen-code) | 28.8k | TypeScript | An open-source AI coding agent that lives in your terminal. |
+| [**QwenLM/qwen-code**](https://github.com/QwenLM/qwen-code) | 28.9k | TypeScript | An open-source AI coding agent that lives in your terminal. |
 | [**Kilo-Org/kilocode**](https://github.com/Kilo-Org/kilocode) | 27.8k | TypeScript | Kilo is the all-in-one agentic engineering platform. Build, ship, and iterate faster with the most… |
 | [**Fosowl/agenticSeek**](https://github.com/Fosowl/agenticSeek) | 27.6k | Python | Fully Local Manus AI. No APIs, No $200 monthly bills. Enjoy an autonomous agent that thinks, browse… |
 | [**deepset-ai/haystack**](https://github.com/deepset-ai/haystack) | 26.9k | Python | Open-source AI orchestration framework for building context-engineered, production-ready LLM applic… |
@@ -122,8 +122,8 @@
 | [**data-privacy-stack/presidio**](https://github.com/data-privacy-stack/presidio) | 11.6k | Python | An open-source framework for detecting, redacting, masking, and anonymizing sensitive data (PII) ac… |
 | [**pwndbg/pwndbg**](https://github.com/pwndbg/pwndbg) | 11.1k | Python | Exploit Development and Reverse Engineering with GDB & LLDB Made Easy |
 | [**ThreeDotsLabs/watermill**](https://github.com/ThreeDotsLabs/watermill) | 9.9k | Go | Building event-driven applications the easy way in Go. |
-| [**pwr-Solaar/Solaar**](https://github.com/pwr-Solaar/Solaar) | 9.5k | Python | Linux device manager for Logitech devices |
 | [**cadence-workflow/cadence**](https://github.com/cadence-workflow/cadence) | 9.5k | Go | Cadence is a distributed, scalable, durable, and highly available orchestration engine to execute a… |
+| [**pwr-Solaar/Solaar**](https://github.com/pwr-Solaar/Solaar) | 9.5k | Python | Linux device manager for Logitech devices |
 | [**pdm-project/pdm**](https://github.com/pdm-project/pdm) | 8.7k | Python | A modern Python package and dependency manager supporting the latest PEP standards |
 | [**litestar-org/litestar**](https://github.com/litestar-org/litestar) | 8.5k | Python | Light, flexible and extensible ASGI framework | Built to scale |
 | [**feast-dev/feast**](https://github.com/feast-dev/feast) | 7.4k | Python | The Open Source Feature Store for AI/ML |
