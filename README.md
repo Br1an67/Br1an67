@@ -77,7 +77,7 @@
 
 <!-- CONTRIBUTIONS:START -->
 <p align="center">
-  <img src="/metrics.plugin.contributions.svg?v=1793855415" alt="Top Contributed Repos" />
+  <img src="/metrics.plugin.contributions.svg?v=1793941802" alt="Top Contributed Repos" />
 </p>
 
 <details>
@@ -85,16 +85,16 @@
 
 | Repository | Stars | Language | Description |
 |:---|:---:|:---:|:---|
-| [**mem0ai/mem0**](https://github.com/mem0ai/mem0) | 68.4k | Python | The Memory Layer for AI Agents - Drop-in memory infrastructure for AI agents and apps. Context that… |
+| [**mem0ai/mem0**](https://github.com/mem0ai/mem0) | 68.5k | Python | The Memory Layer for AI Agents - Drop-in memory infrastructure for AI agents and apps. Context that… |
 | [**run-llama/llama_index**](https://github.com/run-llama/llama_index) | 52.8k | Python | LlamaIndex is the document processing platform for AI |
 | [**agno-agi/agno**](https://github.com/agno-agi/agno) | 43.1k | Python | The self-driving agent platform |
-| [**HKUDS/LightRAG**](https://github.com/HKUDS/LightRAG) | 40.5k | Python | [EMNLP2025] LightRAG: Simple and Fast Retrieval-Augmented Generation |
-| [**bytedance/UI-TARS-desktop**](https://github.com/bytedance/UI-TARS-desktop) | 39.5k | TypeScript | The Open-Source Multimodal AI Agent Stack: Connecting Cutting-Edge AI Models and Agent Infra |
+| [**HKUDS/LightRAG**](https://github.com/HKUDS/LightRAG) | 40.6k | Python | [EMNLP2025] LightRAG: Simple and Fast Retrieval-Augmented Generation |
+| [**bytedance/UI-TARS-desktop**](https://github.com/bytedance/UI-TARS-desktop) | 39.6k | TypeScript | The Open-Source Multimodal AI Agent Stack: Connecting Cutting-Edge AI Models and Agent Infra |
 | [**mattermost/mattermost**](https://github.com/mattermost/mattermost) | 39.5k | TypeScript | Mattermost is an open source platform for secure collaboration across the entire software developme… |
 | [**microsoft/graphrag**](https://github.com/microsoft/graphrag) | 36.6k | Python | A modular graph-based Retrieval-Augmented Generation (RAG) system |
 | [**OpenBMB/ChatDev**](https://github.com/OpenBMB/ChatDev) | 34.7k | Python | ChatDev 2.0: Dev All through LLM-powered Multi-Agent Collaboration |
 | [**assafelovic/gpt-researcher**](https://github.com/assafelovic/gpt-researcher) | 30.5k | Python | An autonomous agent that conducts deep research on any data using any LLM providers |
-| [**authelia/authelia**](https://github.com/authelia/authelia) | 29.5k | Go | The Single Sign-On Multi-Factor portal for web apps. OpenID Certified™ and Post-Quantum Cryptograph… |
+| [**authelia/authelia**](https://github.com/authelia/authelia) | 29.6k | Go | The Single Sign-On Multi-Factor portal for web apps. OpenID Certified™ and Post-Quantum Cryptograph… |
 | [**pydantic/pydantic**](https://github.com/pydantic/pydantic) | 29.3k | Python | Data validation using Python type hints |
 | [**celery/celery**](https://github.com/celery/celery) | 29.1k | Python | Distributed Task Queue (development branch) |
 | [**QwenLM/qwen-code**](https://github.com/QwenLM/qwen-code) | 29.0k | TypeScript | An open-source AI coding agent that lives in your terminal. |
@@ -109,11 +109,11 @@
 | [**VictoriaMetrics/VictoriaMetrics**](https://github.com/VictoriaMetrics/VictoriaMetrics) | 18.0k | Go | VictoriaMetrics: fast, cost-effective monitoring solution and time series database |
 | [**camel-ai/camel**](https://github.com/camel-ai/camel) | 18.0k | Python | 🐫 CAMEL: The first and the best multi-agent framework. Finding the Scaling Law of Agents. https://w… |
 | [**aio-libs/aiohttp**](https://github.com/aio-libs/aiohttp) | 16.6k | Python | Asynchronous HTTP client/server framework for asyncio and Python |
-| [**FlareSolverr/FlareSolverr**](https://github.com/FlareSolverr/FlareSolverr) | 16.1k | Python | Proxy server to bypass Cloudflare protection |
+| [**FlareSolverr/FlareSolverr**](https://github.com/FlareSolverr/FlareSolverr) | 16.2k | Python | Proxy server to bypass Cloudflare protection |
 | [**oauth2-proxy/oauth2-proxy**](https://github.com/oauth2-proxy/oauth2-proxy) | 15.3k | Go | A reverse proxy that provides authentication with Google, Azure, OpenID Connect and many more ident… |
 | [**prowler-cloud/prowler**](https://github.com/prowler-cloud/prowler) | 15.2k | Python | This repo hosts Prowler OSS (CLI and Local Server). Prowler is the world’s most widely used open-so… |
 | [**casdoor/casdoor**](https://github.com/casdoor/casdoor) | 14.8k | Go | An open-source Agent-first Identity and Access Management (IAM) /LLM MCP & agent gateway and auth s… |
-| [**Lightning-AI/litgpt**](https://github.com/Lightning-AI/litgpt) | 13.7k | Python | 20+ high-performance LLMs with recipes to pretrain, finetune and deploy at scale. |
+| [**Lightning-AI/litgpt**](https://github.com/Lightning-AI/litgpt) | 13.8k | Python | 20+ high-performance LLMs with recipes to pretrain, finetune and deploy at scale. |
 | [**redis/redis-py**](https://github.com/redis/redis-py) | 13.7k | Python | Redis Python client |
 | [**pypa/pipx**](https://github.com/pypa/pipx) | 13.0k | Python | Install and Run Python Applications in Isolated Environments |
 | [**plankanban/planka**](https://github.com/plankanban/planka) | 12.7k | JavaScript | Elegant open source project tracking. Self-hosted Kanban for teams — free Community edition, with P… |
@@ -122,7 +122,7 @@
 | [**grafana/pyroscope**](https://github.com/grafana/pyroscope) | 11.7k | Go | Continuous Profiling Platform. Debug performance issues down to a single line of code |
 | [**pwndbg/pwndbg**](https://github.com/pwndbg/pwndbg) | 11.2k | Python | Exploit Development and Reverse Engineering with GDB & LLDB Made Easy |
 | [**ThreeDotsLabs/watermill**](https://github.com/ThreeDotsLabs/watermill) | 9.9k | Go | Building event-driven applications the easy way in Go. |
-| [**pwr-Solaar/Solaar**](https://github.com/pwr-Solaar/Solaar) | 9.6k | Python | Linux device manager for Logitech devices |
+| [**pwr-Solaar/Solaar**](https://github.com/pwr-Solaar/Solaar) | 9.5k | Python | Linux device manager for Logitech devices |
 | [**cadence-workflow/cadence**](https://github.com/cadence-workflow/cadence) | 9.5k | Go | Cadence is a distributed, scalable, durable, and highly available orchestration engine to execute a… |
 | [**pdm-project/pdm**](https://github.com/pdm-project/pdm) | 8.7k | Python | A modern Python package and dependency manager supporting the latest PEP standards |
 | [**litestar-org/litestar**](https://github.com/litestar-org/litestar) | 8.5k | Python | Light, flexible and extensible ASGI framework | Built to scale |
@@ -134,8 +134,8 @@
 | [**ag2ai/faststream**](https://github.com/ag2ai/faststream) | 5.4k | Python | Asynchronous Python framework for event-driven services. A thin client for Kafka, RabbitMQ, NATS, R… |
 | [**strawberry-graphql/strawberry**](https://github.com/strawberry-graphql/strawberry) | 4.7k | Python | A GraphQL library for Python that leverages type annotations 🍓 |
 | [**anc95/ChatGPT-CodeReview**](https://github.com/anc95/ChatGPT-CodeReview) | 4.5k | JavaScript | 🐥 A code review bot powered by ChatGPT |
-| [**langfuse/langfuse-python**](https://github.com/langfuse/langfuse-python) | 507 | Python | 🪢 Langfuse Python SDK |
-| [**deepset-ai/haystack-core-integrations**](https://github.com/deepset-ai/haystack-core-integrations) | 211 | Python | Additional packages (components, document stores and the likes) to extend the capabilities of Hayst… |
+| [**langfuse/langfuse-python**](https://github.com/langfuse/langfuse-python) | 508 | Python | 🪢 Langfuse Python SDK |
+| [**deepset-ai/haystack-core-integrations**](https://github.com/deepset-ai/haystack-core-integrations) | 212 | Python | Additional packages (components, document stores and the likes) to extend the capabilities of Hayst… |
 
 </details>
 <!-- CONTRIBUTIONS:END -->
