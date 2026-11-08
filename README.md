@@ -77,7 +77,7 @@
 
 <!-- CONTRIBUTIONS:START -->
 <p align="center">
-  <img src="/metrics.plugin.contributions.svg?v=1794026521" alt="Top Contributed Repos" />
+  <img src="/metrics.plugin.contributions.svg?v=1794112207" alt="Top Contributed Repos" />
 </p>
 
 <details>
@@ -85,12 +85,12 @@
 
 | Repository | Stars | Language | Description |
 |:---|:---:|:---:|:---|
-| [**mem0ai/mem0**](https://github.com/mem0ai/mem0) | 68.5k | Python | The Memory Layer for AI Agents - Drop-in memory infrastructure for AI agents and apps. Context that… |
+| [**mem0ai/mem0**](https://github.com/mem0ai/mem0) | 68.6k | Python | The Memory Layer for AI Agents - Drop-in memory infrastructure for AI agents and apps. Context that… |
 | [**run-llama/llama_index**](https://github.com/run-llama/llama_index) | 52.8k | Python | LlamaIndex is the document processing platform for AI |
 | [**agno-agi/agno**](https://github.com/agno-agi/agno) | 43.1k | Python | The self-driving agent platform |
 | [**HKUDS/LightRAG**](https://github.com/HKUDS/LightRAG) | 40.6k | Python | [EMNLP2025] LightRAG: Simple and Fast Retrieval-Augmented Generation |
 | [**bytedance/UI-TARS-desktop**](https://github.com/bytedance/UI-TARS-desktop) | 39.6k | TypeScript | The Open-Source Multimodal AI Agent Stack: Connecting Cutting-Edge AI Models and Agent Infra |
-| [**mattermost/mattermost**](https://github.com/mattermost/mattermost) | 39.5k | TypeScript | Mattermost is an open source platform for secure collaboration across the entire software developme… |
+| [**mattermost/mattermost**](https://github.com/mattermost/mattermost) | 39.6k | TypeScript | Mattermost is an open source platform for secure collaboration across the entire software developme… |
 | [**microsoft/graphrag**](https://github.com/microsoft/graphrag) | 36.6k | Python | A modular graph-based Retrieval-Augmented Generation (RAG) system |
 | [**OpenBMB/ChatDev**](https://github.com/OpenBMB/ChatDev) | 34.7k | Python | ChatDev 2.0: Dev All through LLM-powered Multi-Agent Collaboration |
 | [**assafelovic/gpt-researcher**](https://github.com/assafelovic/gpt-researcher) | 30.5k | Python | An autonomous agent that conducts deep research on any data using any LLM providers |
@@ -104,7 +104,7 @@
 | [**PrefectHQ/prefect**](https://github.com/PrefectHQ/prefect) | 24.1k | Python | Prefect is a workflow orchestration framework for building resilient data pipelines in Python. |
 | [**super-productivity/super-productivity**](https://github.com/super-productivity/super-productivity) | 23.5k | TypeScript | Super Productivity is an advanced todo list app with integrated Timeboxing and time tracking capabi… |
 | [**onnx/onnx**](https://github.com/onnx/onnx) | 21.7k | Python | Open standard for machine learning interoperability |
-| [**confident-ai/deepeval**](https://github.com/confident-ai/deepeval) | 19.3k | Python | The LLM Evaluation Framework |
+| [**confident-ai/deepeval**](https://github.com/confident-ai/deepeval) | 19.4k | Python | The LLM Evaluation Framework |
 | [**conventional-changelog/commitlint**](https://github.com/conventional-changelog/commitlint) | 18.8k | TypeScript | 📓 Lint commit messages |
 | [**VictoriaMetrics/VictoriaMetrics**](https://github.com/VictoriaMetrics/VictoriaMetrics) | 18.0k | Go | VictoriaMetrics: fast, cost-effective monitoring solution and time series database |
 | [**camel-ai/camel**](https://github.com/camel-ai/camel) | 18.0k | Python | 🐫 CAMEL: The first and the best multi-agent framework. Finding the Scaling Law of Agents. https://w… |
@@ -113,7 +113,7 @@
 | [**oauth2-proxy/oauth2-proxy**](https://github.com/oauth2-proxy/oauth2-proxy) | 15.3k | Go | A reverse proxy that provides authentication with Google, Azure, OpenID Connect and many more ident… |
 | [**prowler-cloud/prowler**](https://github.com/prowler-cloud/prowler) | 15.2k | Python | This repo hosts Prowler OSS (CLI and Local Server). Prowler is the world’s most widely used open-so… |
 | [**casdoor/casdoor**](https://github.com/casdoor/casdoor) | 14.8k | Go | An open-source Agent-first Identity and Access Management (IAM) /LLM MCP & agent gateway and auth s… |
-| [**Lightning-AI/litgpt**](https://github.com/Lightning-AI/litgpt) | 13.8k | Python | 20+ high-performance LLMs with recipes to pretrain, finetune and deploy at scale. |
+| [**Lightning-AI/litgpt**](https://github.com/Lightning-AI/litgpt) | 13.7k | Python | 20+ high-performance LLMs with recipes to pretrain, finetune and deploy at scale. |
 | [**redis/redis-py**](https://github.com/redis/redis-py) | 13.7k | Python | Redis Python client |
 | [**pypa/pipx**](https://github.com/pypa/pipx) | 13.0k | Python | Install and Run Python Applications in Isolated Environments |
 | [**plankanban/planka**](https://github.com/plankanban/planka) | 12.7k | JavaScript | Elegant open source project tracking. Self-hosted Kanban for teams — free Community edition, with P… |
