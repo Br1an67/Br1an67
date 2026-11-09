@@ -77,7 +77,7 @@
 
 <!-- CONTRIBUTIONS:START -->
 <p align="center">
-  <img src="/metrics.plugin.contributions.svg?v=1794112207" alt="Top Contributed Repos" />
+  <img src="/metrics.plugin.contributions.svg?v=1794199363" alt="Top Contributed Repos" />
 </p>
 
 <details>
@@ -85,18 +85,18 @@
 
 | Repository | Stars | Language | Description |
 |:---|:---:|:---:|:---|
-| [**mem0ai/mem0**](https://github.com/mem0ai/mem0) | 68.6k | Python | The Memory Layer for AI Agents - Drop-in memory infrastructure for AI agents and apps. Context that… |
-| [**run-llama/llama_index**](https://github.com/run-llama/llama_index) | 52.8k | Python | LlamaIndex is the document processing platform for AI |
+| [**mem0ai/mem0**](https://github.com/mem0ai/mem0) | 68.7k | Python | The Memory Layer for AI Agents - Drop-in memory infrastructure for AI agents and apps. Context that… |
+| [**run-llama/llama_index**](https://github.com/run-llama/llama_index) | 52.9k | Python | LlamaIndex is the document processing platform for AI |
 | [**agno-agi/agno**](https://github.com/agno-agi/agno) | 43.1k | Python | The self-driving agent platform |
 | [**HKUDS/LightRAG**](https://github.com/HKUDS/LightRAG) | 40.6k | Python | [EMNLP2025] LightRAG: Simple and Fast Retrieval-Augmented Generation |
 | [**bytedance/UI-TARS-desktop**](https://github.com/bytedance/UI-TARS-desktop) | 39.6k | TypeScript | The Open-Source Multimodal AI Agent Stack: Connecting Cutting-Edge AI Models and Agent Infra |
 | [**mattermost/mattermost**](https://github.com/mattermost/mattermost) | 39.6k | TypeScript | Mattermost is an open source platform for secure collaboration across the entire software developme… |
 | [**microsoft/graphrag**](https://github.com/microsoft/graphrag) | 36.6k | Python | A modular graph-based Retrieval-Augmented Generation (RAG) system |
 | [**OpenBMB/ChatDev**](https://github.com/OpenBMB/ChatDev) | 34.7k | Python | ChatDev 2.0: Dev All through LLM-powered Multi-Agent Collaboration |
-| [**assafelovic/gpt-researcher**](https://github.com/assafelovic/gpt-researcher) | 30.5k | Python | An autonomous agent that conducts deep research on any data using any LLM providers |
+| [**assafelovic/gpt-researcher**](https://github.com/assafelovic/gpt-researcher) | 30.6k | Python | An autonomous agent that conducts deep research on any data using any LLM providers |
 | [**authelia/authelia**](https://github.com/authelia/authelia) | 29.6k | Go | The Single Sign-On Multi-Factor portal for web apps. OpenID Certified™ and Post-Quantum Cryptograph… |
 | [**pydantic/pydantic**](https://github.com/pydantic/pydantic) | 29.4k | Python | Data validation using Python type hints |
-| [**celery/celery**](https://github.com/celery/celery) | 29.1k | Python | Distributed Task Queue (development branch) |
+| [**celery/celery**](https://github.com/celery/celery) | 29.2k | Python | Distributed Task Queue (development branch) |
 | [**QwenLM/qwen-code**](https://github.com/QwenLM/qwen-code) | 29.1k | TypeScript | An open-source AI coding agent that lives in your terminal. |
 | [**Kilo-Org/kilocode**](https://github.com/Kilo-Org/kilocode) | 27.9k | TypeScript | Kilo is the all-in-one agentic engineering platform. Build, ship, and iterate faster with the most… |
 | [**Fosowl/agenticSeek**](https://github.com/Fosowl/agenticSeek) | 27.6k | Python | Fully Local Manus AI. No APIs, No $200 monthly bills. Enjoy an autonomous agent that thinks, browse… |
@@ -106,7 +106,7 @@
 | [**onnx/onnx**](https://github.com/onnx/onnx) | 21.7k | Python | Open standard for machine learning interoperability |
 | [**confident-ai/deepeval**](https://github.com/confident-ai/deepeval) | 19.4k | Python | The LLM Evaluation Framework |
 | [**conventional-changelog/commitlint**](https://github.com/conventional-changelog/commitlint) | 18.8k | TypeScript | 📓 Lint commit messages |
-| [**VictoriaMetrics/VictoriaMetrics**](https://github.com/VictoriaMetrics/VictoriaMetrics) | 18.0k | Go | VictoriaMetrics: fast, cost-effective monitoring solution and time series database |
+| [**VictoriaMetrics/VictoriaMetrics**](https://github.com/VictoriaMetrics/VictoriaMetrics) | 18.1k | Go | VictoriaMetrics: fast, cost-effective monitoring solution and time series database |
 | [**camel-ai/camel**](https://github.com/camel-ai/camel) | 18.0k | Python | 🐫 CAMEL: The first and the best multi-agent framework. Finding the Scaling Law of Agents. https://w… |
 | [**aio-libs/aiohttp**](https://github.com/aio-libs/aiohttp) | 16.6k | Python | Asynchronous HTTP client/server framework for asyncio and Python |
 | [**FlareSolverr/FlareSolverr**](https://github.com/FlareSolverr/FlareSolverr) | 16.2k | Python | Proxy server to bypass Cloudflare protection |
