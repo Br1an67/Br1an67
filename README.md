@@ -77,7 +77,7 @@
 
 <!-- CONTRIBUTIONS:START -->
 <p align="center">
-  <img src="/metrics.plugin.contributions.svg?v=1794290289" alt="Top Contributed Repos" />
+  <img src="/metrics.plugin.contributions.svg?v=1794372325" alt="Top Contributed Repos" />
 </p>
 
 <details>
@@ -85,7 +85,7 @@
 
 | Repository | Stars | Language | Description |
 |:---|:---:|:---:|:---|
-| [**mem0ai/mem0**](https://github.com/mem0ai/mem0) | 68.7k | Python | The Memory Layer for AI Agents - Drop-in memory infrastructure for AI agents and apps. Context that… |
+| [**mem0ai/mem0**](https://github.com/mem0ai/mem0) | 68.8k | Python | The Memory Layer for AI Agents - Drop-in memory infrastructure for AI agents and apps. Context that… |
 | [**run-llama/llama_index**](https://github.com/run-llama/llama_index) | 52.9k | Python | LlamaIndex is the document processing platform for AI |
 | [**agno-agi/agno**](https://github.com/agno-agi/agno) | 43.1k | Python | The self-driving agent platform |
 | [**HKUDS/LightRAG**](https://github.com/HKUDS/LightRAG) | 40.6k | Python | [EMNLP2025] LightRAG: Simple and Fast Retrieval-Augmented Generation |
@@ -96,10 +96,10 @@
 | [**assafelovic/gpt-researcher**](https://github.com/assafelovic/gpt-researcher) | 30.6k | Python | An autonomous agent that conducts deep research on any data using any LLM providers |
 | [**authelia/authelia**](https://github.com/authelia/authelia) | 29.6k | Go | The Single Sign-On Multi-Factor portal for web apps. OpenID Certified™ and Post-Quantum Cryptograph… |
 | [**pydantic/pydantic**](https://github.com/pydantic/pydantic) | 29.4k | Python | Data validation using Python type hints |
+| [**QwenLM/qwen-code**](https://github.com/QwenLM/qwen-code) | 29.2k | TypeScript | An open-source AI coding agent that lives in your terminal. |
 | [**celery/celery**](https://github.com/celery/celery) | 29.2k | Python | Distributed Task Queue (development branch) |
-| [**QwenLM/qwen-code**](https://github.com/QwenLM/qwen-code) | 29.1k | TypeScript | An open-source AI coding agent that lives in your terminal. |
 | [**Kilo-Org/kilocode**](https://github.com/Kilo-Org/kilocode) | 27.9k | TypeScript | Kilo is the all-in-one agentic engineering platform. Build, ship, and iterate faster with the most… |
-| [**Fosowl/agenticSeek**](https://github.com/Fosowl/agenticSeek) | 27.6k | Python | Fully Local Manus AI. No APIs, No $200 monthly bills. Enjoy an autonomous agent that thinks, browse… |
+| [**Fosowl/agenticSeek**](https://github.com/Fosowl/agenticSeek) | 27.7k | Python | Fully Local Manus AI. No APIs, No $200 monthly bills. Enjoy an autonomous agent that thinks, browse… |
 | [**deepset-ai/haystack**](https://github.com/deepset-ai/haystack) | 27.0k | Python | Open-source AI orchestration framework for building context-engineered, production-ready LLM applic… |
 | [**PrefectHQ/prefect**](https://github.com/PrefectHQ/prefect) | 24.1k | Python | Prefect is a workflow orchestration framework for building resilient data pipelines in Python. |
 | [**super-productivity/super-productivity**](https://github.com/super-productivity/super-productivity) | 23.6k | TypeScript | Super Productivity is an advanced todo list app with integrated Timeboxing and time tracking capabi… |
@@ -110,7 +110,7 @@
 | [**camel-ai/camel**](https://github.com/camel-ai/camel) | 18.0k | Python | 🐫 CAMEL: The first and the best multi-agent framework. Finding the Scaling Law of Agents. https://w… |
 | [**aio-libs/aiohttp**](https://github.com/aio-libs/aiohttp) | 16.6k | Python | Asynchronous HTTP client/server framework for asyncio and Python |
 | [**FlareSolverr/FlareSolverr**](https://github.com/FlareSolverr/FlareSolverr) | 16.2k | Python | Proxy server to bypass Cloudflare protection |
-| [**oauth2-proxy/oauth2-proxy**](https://github.com/oauth2-proxy/oauth2-proxy) | 15.3k | Go | A reverse proxy that provides authentication with Google, Azure, OpenID Connect and many more ident… |
+| [**oauth2-proxy/oauth2-proxy**](https://github.com/oauth2-proxy/oauth2-proxy) | 15.4k | Go | A reverse proxy that provides authentication with Google, Azure, OpenID Connect and many more ident… |
 | [**prowler-cloud/prowler**](https://github.com/prowler-cloud/prowler) | 15.2k | Python | This repo hosts Prowler OSS (CLI and Local Server). Prowler is the world’s most widely used open-so… |
 | [**casdoor/casdoor**](https://github.com/casdoor/casdoor) | 14.8k | Go | An open-source Agent-first Identity and Access Management (IAM) /LLM MCP & agent gateway and auth s… |
 | [**Lightning-AI/litgpt**](https://github.com/Lightning-AI/litgpt) | 13.7k | Python | 20+ high-performance LLMs with recipes to pretrain, finetune and deploy at scale. |
@@ -134,7 +134,7 @@
 | [**ag2ai/faststream**](https://github.com/ag2ai/faststream) | 5.4k | Python | Asynchronous Python framework for event-driven services. A thin client for Kafka, RabbitMQ, NATS, R… |
 | [**strawberry-graphql/strawberry**](https://github.com/strawberry-graphql/strawberry) | 4.7k | Python | A GraphQL library for Python that leverages type annotations 🍓 |
 | [**anc95/ChatGPT-CodeReview**](https://github.com/anc95/ChatGPT-CodeReview) | 4.5k | JavaScript | 🐥 A code review bot powered by ChatGPT |
-| [**langfuse/langfuse-python**](https://github.com/langfuse/langfuse-python) | 509 | Python | 🪢 Langfuse Python SDK |
+| [**langfuse/langfuse-python**](https://github.com/langfuse/langfuse-python) | 511 | Python | 🪢 Langfuse Python SDK |
 | [**deepset-ai/haystack-core-integrations**](https://github.com/deepset-ai/haystack-core-integrations) | 212 | Python | Additional packages (components, document stores and the likes) to extend the capabilities of Hayst… |
 
 </details>
