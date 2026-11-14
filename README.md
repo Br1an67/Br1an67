@@ -77,7 +77,7 @@
 
 <!-- CONTRIBUTIONS:START -->
 <p align="center">
-  <img src="/metrics.plugin.contributions.svg?v=1794546450" alt="Top Contributed Repos" />
+  <img src="/metrics.plugin.contributions.svg?v=1794632284" alt="Top Contributed Repos" />
 </p>
 
 <details>
@@ -94,15 +94,15 @@
 | [**microsoft/graphrag**](https://github.com/microsoft/graphrag) | 36.6k | Python | A modular graph-based Retrieval-Augmented Generation (RAG) system |
 | [**OpenBMB/ChatDev**](https://github.com/OpenBMB/ChatDev) | 34.7k | Python | ChatDev 2.0: Dev All through LLM-powered Multi-Agent Collaboration |
 | [**assafelovic/gpt-researcher**](https://github.com/assafelovic/gpt-researcher) | 30.7k | Python | An autonomous agent that conducts deep research on any data using any LLM providers |
-| [**QwenLM/qwen-code**](https://github.com/QwenLM/qwen-code) | 29.9k | TypeScript | An open-source AI coding agent that lives in your terminal. |
-| [**authelia/authelia**](https://github.com/authelia/authelia) | 29.6k | Go | The Single Sign-On Multi-Factor portal for web apps. OpenID Certified™ and Post-Quantum Cryptograph… |
+| [**QwenLM/qwen-code**](https://github.com/QwenLM/qwen-code) | 30.1k | TypeScript | An open-source AI coding agent that lives in your terminal. |
+| [**authelia/authelia**](https://github.com/authelia/authelia) | 29.7k | Go | The Single Sign-On Multi-Factor portal for web apps. OpenID Certified™ and Post-Quantum Cryptograph… |
 | [**pydantic/pydantic**](https://github.com/pydantic/pydantic) | 29.5k | Python | Data validation using Python type hints |
 | [**celery/celery**](https://github.com/celery/celery) | 29.2k | Python | Distributed Task Queue (development branch) |
 | [**Kilo-Org/kilocode**](https://github.com/Kilo-Org/kilocode) | 28.0k | TypeScript | Kilo is the all-in-one agentic engineering platform. Build, ship, and iterate faster with the most… |
 | [**Fosowl/agenticSeek**](https://github.com/Fosowl/agenticSeek) | 27.7k | Python | Fully Local Manus AI. No APIs, No $200 monthly bills. Enjoy an autonomous agent that thinks, browse… |
 | [**deepset-ai/haystack**](https://github.com/deepset-ai/haystack) | 27.0k | Python | Open-source AI orchestration framework for building context-engineered, production-ready LLM applic… |
 | [**PrefectHQ/prefect**](https://github.com/PrefectHQ/prefect) | 24.2k | Python | Prefect is a workflow orchestration framework for building resilient data pipelines in Python. |
-| [**super-productivity/super-productivity**](https://github.com/super-productivity/super-productivity) | 23.6k | TypeScript | Super Productivity is an advanced todo list app with integrated Timeboxing and time tracking capabi… |
+| [**super-productivity/super-productivity**](https://github.com/super-productivity/super-productivity) | 23.7k | TypeScript | Super Productivity is an advanced todo list app with integrated Timeboxing and time tracking capabi… |
 | [**onnx/onnx**](https://github.com/onnx/onnx) | 21.7k | Python | Open standard for machine learning interoperability |
 | [**confident-ai/deepeval**](https://github.com/confident-ai/deepeval) | 19.5k | Python | The LLM Evaluation Framework |
 | [**conventional-changelog/commitlint**](https://github.com/conventional-changelog/commitlint) | 18.8k | TypeScript | 📓 Lint commit messages |
@@ -134,7 +134,7 @@
 | [**ag2ai/faststream**](https://github.com/ag2ai/faststream) | 5.4k | Python | Asynchronous Python framework for event-driven services. A thin client for Kafka, RabbitMQ, NATS, R… |
 | [**strawberry-graphql/strawberry**](https://github.com/strawberry-graphql/strawberry) | 4.7k | Python | A GraphQL library for Python that leverages type annotations 🍓 |
 | [**anc95/ChatGPT-CodeReview**](https://github.com/anc95/ChatGPT-CodeReview) | 4.5k | JavaScript | 🐥 A code review bot powered by ChatGPT |
-| [**langfuse/langfuse-python**](https://github.com/langfuse/langfuse-python) | 515 | Python | 🪢 Langfuse Python SDK |
+| [**langfuse/langfuse-python**](https://github.com/langfuse/langfuse-python) | 514 | Python | 🪢 Langfuse Python SDK |
 | [**deepset-ai/haystack-core-integrations**](https://github.com/deepset-ai/haystack-core-integrations) | 212 | Python | Additional packages (components, document stores and the likes) to extend the capabilities of Hayst… |
 
 </details>
