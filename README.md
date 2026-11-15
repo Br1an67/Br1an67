@@ -77,7 +77,7 @@
 
 <!-- CONTRIBUTIONS:START -->
 <p align="center">
-  <img src="/metrics.plugin.contributions.svg?v=1794632284" alt="Top Contributed Repos" />
+  <img src="/metrics.plugin.contributions.svg?v=1794718313" alt="Top Contributed Repos" />
 </p>
 
 <details>
@@ -85,7 +85,7 @@
 
 | Repository | Stars | Language | Description |
 |:---|:---:|:---:|:---|
-| [**mem0ai/mem0**](https://github.com/mem0ai/mem0) | 68.9k | Python | The Memory Layer for AI Agents - Drop-in memory infrastructure for AI agents and apps. Context that… |
+| [**mem0ai/mem0**](https://github.com/mem0ai/mem0) | 69.0k | Python | The Memory Layer for AI Agents - Drop-in memory infrastructure for AI agents and apps. Context that… |
 | [**run-llama/llama_index**](https://github.com/run-llama/llama_index) | 52.9k | Python | LlamaIndex is the document processing platform for AI |
 | [**agno-agi/agno**](https://github.com/agno-agi/agno) | 43.2k | Python | The self-managing agent platform |
 | [**HKUDS/LightRAG**](https://github.com/HKUDS/LightRAG) | 40.7k | Python | [EMNLP2025] LightRAG: Simple and Fast Retrieval-Augmented Generation |
@@ -94,7 +94,7 @@
 | [**microsoft/graphrag**](https://github.com/microsoft/graphrag) | 36.6k | Python | A modular graph-based Retrieval-Augmented Generation (RAG) system |
 | [**OpenBMB/ChatDev**](https://github.com/OpenBMB/ChatDev) | 34.7k | Python | ChatDev 2.0: Dev All through LLM-powered Multi-Agent Collaboration |
 | [**assafelovic/gpt-researcher**](https://github.com/assafelovic/gpt-researcher) | 30.7k | Python | An autonomous agent that conducts deep research on any data using any LLM providers |
-| [**QwenLM/qwen-code**](https://github.com/QwenLM/qwen-code) | 30.1k | TypeScript | An open-source AI coding agent that lives in your terminal. |
+| [**QwenLM/qwen-code**](https://github.com/QwenLM/qwen-code) | 30.4k | TypeScript | An open-source AI coding agent that lives in your terminal. |
 | [**authelia/authelia**](https://github.com/authelia/authelia) | 29.7k | Go | The Single Sign-On Multi-Factor portal for web apps. OpenID Certified™ and Post-Quantum Cryptograph… |
 | [**pydantic/pydantic**](https://github.com/pydantic/pydantic) | 29.5k | Python | Data validation using Python type hints |
 | [**celery/celery**](https://github.com/celery/celery) | 29.2k | Python | Distributed Task Queue (development branch) |
@@ -112,7 +112,7 @@
 | [**FlareSolverr/FlareSolverr**](https://github.com/FlareSolverr/FlareSolverr) | 16.2k | Python | Proxy server to bypass Cloudflare protection |
 | [**oauth2-proxy/oauth2-proxy**](https://github.com/oauth2-proxy/oauth2-proxy) | 15.4k | Go | A reverse proxy that provides authentication with Google, Azure, OpenID Connect and many more ident… |
 | [**prowler-cloud/prowler**](https://github.com/prowler-cloud/prowler) | 15.2k | Python | This repo hosts Prowler OSS (CLI and Local Server). Prowler is the world’s most widely used open-so… |
-| [**casdoor/casdoor**](https://github.com/casdoor/casdoor) | 14.8k | Go | An open-source Agent-first Identity and Access Management (IAM) /LLM MCP & agent gateway and auth s… |
+| [**casdoor/casdoor**](https://github.com/casdoor/casdoor) | 14.9k | Go | An open-source Agent-first Identity and Access Management (IAM) /LLM MCP & agent gateway and auth s… |
 | [**Lightning-AI/litgpt**](https://github.com/Lightning-AI/litgpt) | 13.7k | Python | 20+ high-performance LLMs with recipes to pretrain, finetune and deploy at scale. |
 | [**redis/redis-py**](https://github.com/redis/redis-py) | 13.7k | Python | Redis Python client |
 | [**pypa/pipx**](https://github.com/pypa/pipx) | 13.0k | Python | Install and Run Python Applications in Isolated Environments |
