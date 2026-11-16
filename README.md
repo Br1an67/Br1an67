@@ -77,7 +77,7 @@
 
 <!-- CONTRIBUTIONS:START -->
 <p align="center">
-  <img src="/metrics.plugin.contributions.svg?v=1794718313" alt="Top Contributed Repos" />
+  <img src="/metrics.plugin.contributions.svg?v=1794804477" alt="Top Contributed Repos" />
 </p>
 
 <details>
@@ -92,9 +92,9 @@
 | [**mattermost/mattermost**](https://github.com/mattermost/mattermost) | 39.6k | TypeScript | Mattermost is an open source platform for secure collaboration across the entire software developme… |
 | [**bytedance/UI-TARS-desktop**](https://github.com/bytedance/UI-TARS-desktop) | 39.6k | TypeScript | The Open-Source Multimodal AI Agent Stack: Connecting Cutting-Edge AI Models and Agent Infra |
 | [**microsoft/graphrag**](https://github.com/microsoft/graphrag) | 36.6k | Python | A modular graph-based Retrieval-Augmented Generation (RAG) system |
-| [**OpenBMB/ChatDev**](https://github.com/OpenBMB/ChatDev) | 34.7k | Python | ChatDev 2.0: Dev All through LLM-powered Multi-Agent Collaboration |
+| [**OpenBMB/ChatDev**](https://github.com/OpenBMB/ChatDev) | 34.8k | Python | ChatDev 2.0: Dev All through LLM-powered Multi-Agent Collaboration |
 | [**assafelovic/gpt-researcher**](https://github.com/assafelovic/gpt-researcher) | 30.7k | Python | An autonomous agent that conducts deep research on any data using any LLM providers |
-| [**QwenLM/qwen-code**](https://github.com/QwenLM/qwen-code) | 30.4k | TypeScript | An open-source AI coding agent that lives in your terminal. |
+| [**QwenLM/qwen-code**](https://github.com/QwenLM/qwen-code) | 30.6k | TypeScript | An open-source AI coding agent that lives in your terminal. |
 | [**authelia/authelia**](https://github.com/authelia/authelia) | 29.7k | Go | The Single Sign-On Multi-Factor portal for web apps. OpenID Certified™ and Post-Quantum Cryptograph… |
 | [**pydantic/pydantic**](https://github.com/pydantic/pydantic) | 29.5k | Python | Data validation using Python type hints |
 | [**celery/celery**](https://github.com/celery/celery) | 29.2k | Python | Distributed Task Queue (development branch) |
@@ -113,7 +113,7 @@
 | [**oauth2-proxy/oauth2-proxy**](https://github.com/oauth2-proxy/oauth2-proxy) | 15.4k | Go | A reverse proxy that provides authentication with Google, Azure, OpenID Connect and many more ident… |
 | [**prowler-cloud/prowler**](https://github.com/prowler-cloud/prowler) | 15.2k | Python | This repo hosts Prowler OSS (CLI and Local Server). Prowler is the world’s most widely used open-so… |
 | [**casdoor/casdoor**](https://github.com/casdoor/casdoor) | 14.9k | Go | An open-source Agent-first Identity and Access Management (IAM) /LLM MCP & agent gateway and auth s… |
-| [**Lightning-AI/litgpt**](https://github.com/Lightning-AI/litgpt) | 13.7k | Python | 20+ high-performance LLMs with recipes to pretrain, finetune and deploy at scale. |
+| [**Lightning-AI/litgpt**](https://github.com/Lightning-AI/litgpt) | 13.8k | Python | 20+ high-performance LLMs with recipes to pretrain, finetune and deploy at scale. |
 | [**redis/redis-py**](https://github.com/redis/redis-py) | 13.7k | Python | Redis Python client |
 | [**pypa/pipx**](https://github.com/pypa/pipx) | 13.0k | Python | Install and Run Python Applications in Isolated Environments |
 | [**plankanban/planka**](https://github.com/plankanban/planka) | 12.7k | JavaScript | Elegant open source project tracking. Self-hosted Kanban for teams — free Community edition, with P… |
@@ -127,14 +127,14 @@
 | [**pdm-project/pdm**](https://github.com/pdm-project/pdm) | 8.7k | Python | A modern Python package and dependency manager supporting the latest PEP standards |
 | [**litestar-org/litestar**](https://github.com/litestar-org/litestar) | 8.6k | Python | Light, flexible and extensible ASGI framework | Built to scale |
 | [**feast-dev/feast**](https://github.com/feast-dev/feast) | 7.4k | Python | The Open Source Feature Store for AI/ML |
-| [**external-secrets/external-secrets**](https://github.com/external-secrets/external-secrets) | 6.9k | Go | External Secrets Operator reads information from a third-party service like AWS Secrets Manager and… |
+| [**external-secrets/external-secrets**](https://github.com/external-secrets/external-secrets) | 7.0k | Go | External Secrets Operator reads information from a third-party service like AWS Secrets Manager and… |
 | [**nteract/papermill**](https://github.com/nteract/papermill) | 6.5k | Python | 📚 Parameterize, execute, and analyze notebooks |
 | [**kubernetes/kube-state-metrics**](https://github.com/kubernetes/kube-state-metrics) | 6.2k | Go | Add-on agent to generate and expose cluster-level metrics. |
 | [**tortoise/tortoise-orm**](https://github.com/tortoise/tortoise-orm) | 5.6k | Python | Familiar asyncio ORM for python, built with relations in mind |
 | [**ag2ai/faststream**](https://github.com/ag2ai/faststream) | 5.4k | Python | Asynchronous Python framework for event-driven services. A thin client for Kafka, RabbitMQ, NATS, R… |
 | [**strawberry-graphql/strawberry**](https://github.com/strawberry-graphql/strawberry) | 4.7k | Python | A GraphQL library for Python that leverages type annotations 🍓 |
 | [**anc95/ChatGPT-CodeReview**](https://github.com/anc95/ChatGPT-CodeReview) | 4.5k | JavaScript | 🐥 A code review bot powered by ChatGPT |
-| [**langfuse/langfuse-python**](https://github.com/langfuse/langfuse-python) | 514 | Python | 🪢 Langfuse Python SDK |
+| [**langfuse/langfuse-python**](https://github.com/langfuse/langfuse-python) | 515 | Python | 🪢 Langfuse Python SDK |
 | [**deepset-ai/haystack-core-integrations**](https://github.com/deepset-ai/haystack-core-integrations) | 212 | Python | Additional packages (components, document stores and the likes) to extend the capabilities of Hayst… |
 
 </details>
