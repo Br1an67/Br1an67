@@ -77,7 +77,7 @@
 
 <!-- CONTRIBUTIONS:START -->
 <p align="center">
-  <img src="/metrics.plugin.contributions.svg?v=1795153522" alt="Top Contributed Repos" />
+  <img src="/metrics.plugin.contributions.svg?v=1795239639" alt="Top Contributed Repos" />
 </p>
 
 <details>
@@ -97,17 +97,17 @@
 | [**assafelovic/gpt-researcher**](https://github.com/assafelovic/gpt-researcher) | 30.8k | Python | An autonomous agent that conducts deep research on any data using any LLM providers |
 | [**authelia/authelia**](https://github.com/authelia/authelia) | 29.7k | Go | The Single Sign-On Multi-Factor portal for web apps. OpenID Certified™ and Post-Quantum Cryptograph… |
 | [**pydantic/pydantic**](https://github.com/pydantic/pydantic) | 29.6k | Python | Data validation using Python type hints |
-| [**celery/celery**](https://github.com/celery/celery) | 29.2k | Python | Distributed Task Queue (development branch) |
+| [**celery/celery**](https://github.com/celery/celery) | 29.3k | Python | Distributed Task Queue (development branch) |
 | [**Kilo-Org/kilocode**](https://github.com/Kilo-Org/kilocode) | 28.1k | TypeScript | Kilo is the all-in-one agentic engineering platform. Build, ship, and iterate faster with the most… |
 | [**Fosowl/agenticSeek**](https://github.com/Fosowl/agenticSeek) | 27.7k | Python | Fully Local Manus AI. No APIs, No $200 monthly bills. Enjoy an autonomous agent that thinks, browse… |
 | [**deepset-ai/haystack**](https://github.com/deepset-ai/haystack) | 27.1k | Python | Open-source AI orchestration framework for building context-engineered, production-ready LLM applic… |
 | [**PrefectHQ/prefect**](https://github.com/PrefectHQ/prefect) | 24.2k | Python | Prefect is a workflow orchestration framework for building resilient data pipelines in Python. |
-| [**super-productivity/super-productivity**](https://github.com/super-productivity/super-productivity) | 23.9k | TypeScript | Super Productivity is an advanced todo list app with integrated Timeboxing and time tracking capabi… |
+| [**super-productivity/super-productivity**](https://github.com/super-productivity/super-productivity) | 23.9k | TypeScript | A to-do list, time tracker and daily planner for focused personal work. Private, offline-first and… |
 | [**onnx/onnx**](https://github.com/onnx/onnx) | 21.7k | Python | Open standard for machine learning interoperability |
 | [**confident-ai/deepeval**](https://github.com/confident-ai/deepeval) | 19.6k | Python | The LLM Evaluation Framework |
 | [**conventional-changelog/commitlint**](https://github.com/conventional-changelog/commitlint) | 18.8k | TypeScript | 📓 Lint commit messages |
-| [**VictoriaMetrics/VictoriaMetrics**](https://github.com/VictoriaMetrics/VictoriaMetrics) | 18.1k | Go | VictoriaMetrics: fast, cost-effective monitoring solution and time series database |
-| [**camel-ai/camel**](https://github.com/camel-ai/camel) | 18.0k | Python | 🐫 CAMEL: The first and the best multi-agent framework. Finding the Scaling Law of Agents. https://w… |
+| [**VictoriaMetrics/VictoriaMetrics**](https://github.com/VictoriaMetrics/VictoriaMetrics) | 18.2k | Go | VictoriaMetrics: fast, cost-effective monitoring solution and time series database |
+| [**camel-ai/camel**](https://github.com/camel-ai/camel) | 18.1k | Python | 🐫 CAMEL: The first and the best multi-agent framework. Finding the Scaling Law of Agents. https://w… |
 | [**aio-libs/aiohttp**](https://github.com/aio-libs/aiohttp) | 16.6k | Python | Asynchronous HTTP client/server framework for asyncio and Python |
 | [**FlareSolverr/FlareSolverr**](https://github.com/FlareSolverr/FlareSolverr) | 16.3k | Python | Proxy server to bypass Cloudflare protection |
 | [**oauth2-proxy/oauth2-proxy**](https://github.com/oauth2-proxy/oauth2-proxy) | 15.4k | Go | A reverse proxy that provides authentication with Google, Azure, OpenID Connect and many more ident… |
