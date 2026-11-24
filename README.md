@@ -77,7 +77,7 @@
 
 <!-- CONTRIBUTIONS:START -->
 <p align="center">
-  <img src="/metrics.plugin.contributions.svg?v=1795412964" alt="Top Contributed Repos" />
+  <img src="/metrics.plugin.contributions.svg?v=1795508856" alt="Top Contributed Repos" />
 </p>
 
 <details>
@@ -92,7 +92,7 @@
 | [**mattermost/mattermost**](https://github.com/mattermost/mattermost) | 39.7k | TypeScript | Mattermost is an open source platform for secure collaboration across the entire software developme… |
 | [**bytedance/UI-TARS-desktop**](https://github.com/bytedance/UI-TARS-desktop) | 39.6k | TypeScript | The Open-Source Multimodal AI Agent Stack: Connecting Cutting-Edge AI Models and Agent Infra |
 | [**microsoft/graphrag**](https://github.com/microsoft/graphrag) | 36.7k | Python | A modular graph-based Retrieval-Augmented Generation (RAG) system |
-| [**OpenBMB/ChatDev**](https://github.com/OpenBMB/ChatDev) | 34.8k | Python | ChatDev 2.0: Dev All through LLM-powered Multi-Agent Collaboration |
+| [**OpenBMB/ChatDev**](https://github.com/OpenBMB/ChatDev) | 34.9k | Python | ChatDev 2.0: Dev All through LLM-powered Multi-Agent Collaboration |
 | [**QwenLM/qwen-code**](https://github.com/QwenLM/qwen-code) | 30.9k | TypeScript | An open-source AI coding agent that lives in your terminal. |
 | [**assafelovic/gpt-researcher**](https://github.com/assafelovic/gpt-researcher) | 30.9k | Python | An autonomous agent that conducts deep research on any data using any LLM providers |
 | [**authelia/authelia**](https://github.com/authelia/authelia) | 29.7k | Go | The Single Sign-On Multi-Factor portal for web apps. OpenID Certified™ and Post-Quantum Cryptograph… |
@@ -134,7 +134,7 @@
 | [**ag2ai/faststream**](https://github.com/ag2ai/faststream) | 5.4k | Python | Asynchronous Python framework for event-driven services. A thin client for Kafka, RabbitMQ, NATS, R… |
 | [**strawberry-graphql/strawberry**](https://github.com/strawberry-graphql/strawberry) | 4.7k | Python | A GraphQL library for Python that leverages type annotations 🍓 |
 | [**anc95/ChatGPT-CodeReview**](https://github.com/anc95/ChatGPT-CodeReview) | 4.5k | JavaScript | 🐥 A code review bot powered by ChatGPT |
-| [**langfuse/langfuse-python**](https://github.com/langfuse/langfuse-python) | 516 | Python | 🪢 Langfuse Python SDK |
+| [**langfuse/langfuse-python**](https://github.com/langfuse/langfuse-python) | 517 | Python | 🪢 Langfuse Python SDK |
 | [**deepset-ai/haystack-core-integrations**](https://github.com/deepset-ai/haystack-core-integrations) | 212 | Python | Additional packages (components, document stores and the likes) to extend the capabilities of Hayst… |
 
 </details>
