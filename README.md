@@ -77,7 +77,7 @@
 
 <!-- CONTRIBUTIONS:START -->
 <p align="center">
-  <img src="/metrics.plugin.contributions.svg?v=1795676059" alt="Top Contributed Repos" />
+  <img src="/metrics.plugin.contributions.svg?v=1795762014" alt="Top Contributed Repos" />
 </p>
 
 <details>
@@ -93,7 +93,7 @@
 | [**bytedance/UI-TARS-desktop**](https://github.com/bytedance/UI-TARS-desktop) | 39.6k | TypeScript | The Open-Source Multimodal AI Agent Stack: Connecting Cutting-Edge AI Models and Agent Infra |
 | [**microsoft/graphrag**](https://github.com/microsoft/graphrag) | 36.8k | Python | A modular graph-based Retrieval-Augmented Generation (RAG) system |
 | [**OpenBMB/ChatDev**](https://github.com/OpenBMB/ChatDev) | 34.9k | Python | ChatDev 2.0: Dev All through LLM-powered Multi-Agent Collaboration |
-| [**QwenLM/qwen-code**](https://github.com/QwenLM/qwen-code) | 30.9k | TypeScript | An open-source AI coding agent that lives in your terminal. |
+| [**QwenLM/qwen-code**](https://github.com/QwenLM/qwen-code) | 31.0k | TypeScript | An open-source AI coding agent that lives in your terminal. |
 | [**assafelovic/gpt-researcher**](https://github.com/assafelovic/gpt-researcher) | 30.9k | Python | An autonomous agent that conducts deep research on any data using any LLM providers |
 | [**authelia/authelia**](https://github.com/authelia/authelia) | 29.7k | Go | The Single Sign-On Multi-Factor portal for web apps. OpenID Certified™ and Post-Quantum Cryptograph… |
 | [**pydantic/pydantic**](https://github.com/pydantic/pydantic) | 29.7k | Python | Data validation using Python type hints |
@@ -111,7 +111,7 @@
 | [**aio-libs/aiohttp**](https://github.com/aio-libs/aiohttp) | 16.6k | Python | Asynchronous HTTP client/server framework for asyncio and Python |
 | [**FlareSolverr/FlareSolverr**](https://github.com/FlareSolverr/FlareSolverr) | 16.3k | Python | Proxy server to bypass Cloudflare protection |
 | [**oauth2-proxy/oauth2-proxy**](https://github.com/oauth2-proxy/oauth2-proxy) | 15.4k | Go | A reverse proxy that provides authentication with Google, Azure, OpenID Connect and many more ident… |
-| [**prowler-cloud/prowler**](https://github.com/prowler-cloud/prowler) | 15.3k | Python | This repo hosts Prowler OSS (CLI and Local Server). Prowler is the world’s most widely used open-so… |
+| [**prowler-cloud/prowler**](https://github.com/prowler-cloud/prowler) | 15.3k | Python | Prowler is the world’s most widely used open-source cloud security platform that automates security… |
 | [**casdoor/casdoor**](https://github.com/casdoor/casdoor) | 15.0k | Go | An open-source Agent-first Identity and Access Management (IAM) /LLM MCP & agent gateway and auth s… |
 | [**Lightning-AI/litgpt**](https://github.com/Lightning-AI/litgpt) | 13.8k | Python | 20+ high-performance LLMs with recipes to pretrain, finetune and deploy at scale. |
 | [**redis/redis-py**](https://github.com/redis/redis-py) | 13.7k | Python | Redis Python client |
@@ -120,7 +120,7 @@
 | [**Chainlit/chainlit**](https://github.com/Chainlit/chainlit) | 12.5k | Python | Build Conversational AI in minutes ⚡️ |
 | [**data-privacy-stack/presidio**](https://github.com/data-privacy-stack/presidio) | 12.1k | Python | An open-source framework for detecting, redacting, masking, and anonymizing sensitive data (PII) ac… |
 | [**grafana/pyroscope**](https://github.com/grafana/pyroscope) | 11.7k | Go | Continuous Profiling Platform. Debug performance issues down to a single line of code |
-| [**pwndbg/pwndbg**](https://github.com/pwndbg/pwndbg) | 11.2k | Python | Exploit Development and Reverse Engineering with GDB & LLDB Made Easy |
+| [**pwndbg/pwndbg**](https://github.com/pwndbg/pwndbg) | 11.3k | Python | Exploit Development and Reverse Engineering with GDB & LLDB Made Easy |
 | [**ThreeDotsLabs/watermill**](https://github.com/ThreeDotsLabs/watermill) | 10.0k | Go | Building event-driven applications the easy way in Go. |
 | [**pwr-Solaar/Solaar**](https://github.com/pwr-Solaar/Solaar) | 9.6k | Python | Linux device manager for Logitech devices |
 | [**cadence-workflow/cadence**](https://github.com/cadence-workflow/cadence) | 9.6k | Go | Cadence is a distributed, scalable, durable, and highly available orchestration engine to execute a… |
@@ -134,7 +134,7 @@
 | [**ag2ai/faststream**](https://github.com/ag2ai/faststream) | 5.4k | Python | Asynchronous Python framework for event-driven services. A thin client for Kafka, RabbitMQ, NATS, R… |
 | [**strawberry-graphql/strawberry**](https://github.com/strawberry-graphql/strawberry) | 4.7k | Python | A GraphQL library for Python that leverages type annotations 🍓 |
 | [**anc95/ChatGPT-CodeReview**](https://github.com/anc95/ChatGPT-CodeReview) | 4.5k | JavaScript | 🐥 A code review bot powered by ChatGPT |
-| [**langfuse/langfuse-python**](https://github.com/langfuse/langfuse-python) | 519 | Python | 🪢 Langfuse Python SDK |
+| [**langfuse/langfuse-python**](https://github.com/langfuse/langfuse-python) | 520 | Python | 🪢 Langfuse Python SDK |
 | [**deepset-ai/haystack-core-integrations**](https://github.com/deepset-ai/haystack-core-integrations) | 212 | Python | Additional packages (components, document stores and the likes) to extend the capabilities of Hayst… |
 
 </details>
